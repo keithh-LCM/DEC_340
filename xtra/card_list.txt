@@ -1,0 +1,50 @@
+Card List
+
+Processor Card
+     Inputs:
+          Host computer.  Connector unknown.
+     Outputs:
+          8 bit data bus.
+          Register strobes.
+               X_MSB
+               Y_MSB
+               X_LSB
+               Y_LSB
+
+Configuration Register
+     Inputs:
+          8 bit data bus.
+
+
+
+X,Y Registers
+     Power
+              GND
+           +5 volts
+          -10 volts
+     Inputs
+          8 bit data bus.
+          Register strobes.
+               X_MSB
+               Y_MSB
+               X_LSB
+               Y_LSB
+     Outputs:
+          X_Position
+          Y_position
+
+
+contra 1575 X Follow Hold Gate
+contra 1575 Y Follow Hold Gate
+
+contra 1579 X Feed Forward Pulse
+contra 1579 Y Feed Forward Pulse
+
+contra X Mixer
+contra Y Mixer
+
+contra 1567 X Amplifier
+contra 1567 Y Amplifier
+
+contra 4688 Intensifier
+contra 1705 bias
