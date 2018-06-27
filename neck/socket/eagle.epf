@@ -394,7 +394,7 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/zilog.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="2095 29 2732 895"
-State=0
+State=2
 Number=0
 
 [Desktop]

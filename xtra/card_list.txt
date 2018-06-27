@@ -14,8 +14,14 @@ Processor Card
 Configuration Register
      Inputs:
           8 bit data bus.
-
-
+          Register strobes.
+          
+     Outputs:
+     Feed forward pulses.
+          HORIZ_F
+          HORIZ_U
+          VERT_F
+          VERT_U
 
 X,Y Registers
      Power
