@@ -13,44 +13,70 @@ Processor Card
 
 Configuration Register
      Inputs:
-          8 bit data bus.
-          Register strobes.
-          
+          8 bit data bus
+          Register strobes
+
      Outputs:
-     Feed forward pulses.
+     Feed forward pulses
           HORIZ_F
           HORIZ_U
           VERT_F
           VERT_U
 
-X,Y Registers
-     Power
-              GND
-           +5 volts
-          -10 volts
-     Inputs
-          8 bit data bus.
-          Register strobes.
-               X_MSB
-               Y_MSB
-               X_LSB
-               Y_LSB
-     Outputs:
-          X_Position
-          Y_position
+contra 1568 X,Y Registers
+Power
+  +15 volts
+  +10 volts
+   +5 volts
+      GND
+  -15 volts
+Inputs
+      8 bit data bus
+      D0 -> D*
+Strobes
+      X_MSB
+      Y_MSB
+      X_LSB
+      Y_LSB
+Outputs
+      X_POS
+      Y_POS
+
+contra 1575 X,Y Follow Hold Gate
+Power
+      +15 volts
+      GND
+      -15 volts
+Inputs
+     V_in
+Outputs
+     V_out
+
+contra 1579 X,Y Feed Forward Pulse
+Power
+  +5 volts
+  GND
+  -10 volts
+  -15 volts
+Inputs
+  V_in
+Outputs
+  V_out
+
+contra X,Y Mixer
+Inputs
+  FH_in
+  FF_in
+Outputs
+  V_out
+
+contra 1567 X,Y Amplifier
+Power
+  +50 volts
+      GND
+  -10 volts
 
 
-contra 1575 X Follow Hold Gate
-contra 1575 Y Follow Hold Gate
-
-contra 1579 X Feed Forward Pulse
-contra 1579 Y Feed Forward Pulse
-
-contra X Mixer
-contra Y Mixer
-
-contra 1567 X Amplifier
-contra 1567 Y Amplifier
 
 contra 4688 Intensifier
 contra 1705 bias
