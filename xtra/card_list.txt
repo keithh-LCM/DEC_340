@@ -23,7 +23,7 @@ Configuration Register
           VERT_F
           VERT_U
 
-contra 1568 X,Y Registers
+mimic 1568 X,Y Registers
 Power
   +15 volts
   +10 volts
@@ -42,7 +42,7 @@ Outputs
       X_POS
       Y_POS
 
-contra 1575 X,Y Follow Hold Gate
+mimic 1575 X,Y Follow Hold Gate
 Power
       +15 volts
       GND
@@ -52,7 +52,7 @@ Inputs
 Outputs
      V_out
 
-contra 1579 X,Y Feed Forward Pulse
+mimic 1579 X,Y Feed Forward Pulse
 Power
   +5 volts
   GND
@@ -63,20 +63,22 @@ Inputs
 Outputs
   V_out
 
-contra X,Y Mixer
+mimic X,Y Mixer
 Inputs
   FH_in
   FF_in
 Outputs
   V_out
 
-contra 1567 X,Y Amplifier
+mimic 1567 X,Y Amplifier
 Power
   +50 volts
       GND
   -10 volts
+Inputs
+  W_in
+  Z_in
 
 
-
-contra 4688 Intensifier
-contra 1705 bias
+mimic 4688 Intensifier
+mimic 1705 bias
