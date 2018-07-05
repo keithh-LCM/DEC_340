@@ -78,7 +78,8 @@ Power
 Inputs
   W_in
   Z_in
-
+  Outputs
+    Coil
 
 mimic 4688 Intensifier
 mimic 1705 bias

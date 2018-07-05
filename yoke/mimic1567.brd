@@ -783,7 +783,7 @@ design rules under a new name.</description>
 <element name="J2" library="keiths" package="AWG18" value="RESISTOR_2" x="-71.12" y="91.44"/>
 <element name="J3" library="keiths" package="AWG18" value="GND" x="-120.65" y="91.44"/>
 <element name="J4" library="keiths" package="AWG18" value="GND" x="-128.27" y="91.44"/>
-<element name="J6" library="keiths" package="AWG18" value="COIL 1" x="-113.03" y="91.44"/>
+<element name="J6" library="keiths" package="AWG18" value="COIL 1" x="-163.83" y="-101.6"/>
 <element name="J7" library="keiths" package="AWG18" value="RESISTOR_1" x="-90.17" y="91.44"/>
 <element name="P1" library="keiths" package="3006P" value="25 K" x="-82.55" y="78.74">
 <attribute name="PN" value="3006P-1-253LF" x="-82.55" y="78.74" size="1.778" layer="27" display="off"/>
@@ -807,8 +807,8 @@ design rules under a new name.</description>
 <element name="Q10" library="keiths" package="TO18" value="2N2907" x="-104.14" y="140.97">
 <attribute name="PN" value="2N2907A" x="-104.14" y="140.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q11" library="keiths" package="TO3" value="MJ10007" x="105.41" y="-54.61" rot="R90">
-<attribute name="PN" value="MJ10007" x="105.41" y="-54.61" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="Q11" library="keiths" package="TO3" value="MJ10007" x="-170.18" y="-140.97" rot="R90">
+<attribute name="PN" value="MJ10007" x="-170.18" y="-140.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q12" library="keiths" package="TO92" value="2N3906" x="-71.12" y="123.19">
 <attribute name="PN" value="2N3906" x="-71.12" y="123.19" size="1.778" layer="27" display="off"/>
@@ -870,8 +870,8 @@ design rules under a new name.</description>
 <element name="R19" library="keiths" package="R_QUARTERWATT" value="1 K 1%" x="-72.39" y="113.03">
 <attribute name="PN" value="MFR-25FRF52-1K" x="-72.39" y="113.03" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="keiths" package="R_TWOWATT" value="3.3K 5%" x="31.75" y="-102.87">
-<attribute name="PN" value="RR02J3K3TB" x="31.75" y="-102.87" size="1.778" layer="27" display="off"/>
+<element name="R2" library="keiths" package="R_TWOWATT" value="3.3K 5%" x="-91.44" y="-36.83">
+<attribute name="PN" value="RR02J3K3TB" x="-91.44" y="-36.83" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R20" library="keiths" package="R_QUARTERWATT" value="137 1%" x="-85.09" y="113.03">
 <attribute name="PN" value="CMF55137R00FHEB" x="-85.09" y="113.03" size="1.778" layer="27" display="off"/>
@@ -901,9 +901,9 @@ design rules under a new name.</description>
 <attribute name="PN" value="MFS1/2DCT52R6811F" x="-76.2" y="102.87" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J5" library="keiths" package="AWG18" value="OUT_1" x="-132.08" y="-118.11"/>
-<element name="J8" library="keiths" package="AWG18" value="OUT_1" x="-132.08" y="-129.54"/>
+<element name="J8" library="keiths" package="AWG18" value="OUT_1" x="-60.96" y="-3.81"/>
 <element name="J9" library="keiths" package="AWG18" value="RESISTOR_1" x="-132.08" y="-140.97"/>
-<element name="J10" library="keiths" package="AWG18" value="OUT_2" x="-132.08" y="-152.4"/>
+<element name="J10" library="keiths" package="AWG18" value="OUT_2" x="-8.89" y="-91.44"/>
 <element name="Q14" library="keiths" package="TO3" value="MJ10007" x="-114.3" y="-182.88">
 <attribute name="PN" value="MJ10007" x="-114.3" y="-182.88" size="1.778" layer="27" display="off"/>
 </element>
@@ -928,8 +928,8 @@ design rules under a new name.</description>
 <contactref element="Q8" pad="1"/>
 <contactref element="J10" pad="P$1"/>
 <wire x1="-83.185" y1="140.97" x2="-59.69" y2="140.97" width="0" layer="19" extent="1-1"/>
-<wire x1="40.5" y1="-102.87" x2="-59.69" y2="140.97" width="0" layer="19" extent="1-1"/>
-<wire x1="-132.08" y1="-152.4" x2="40.5" y2="-102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.69" y1="-36.83" x2="-59.69" y2="140.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.89" y1="-91.44" x2="-82.69" y2="-36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R4" pad="1"/>
@@ -1059,8 +1059,8 @@ design rules under a new name.</description>
 <contactref element="J6" pad="P$1"/>
 <contactref element="Q11" pad="C"/>
 <contactref element="Q11" pad="C/"/>
-<wire x1="105.41" y1="-69.723" x2="105.41" y2="-39.497" width="0" layer="19" extent="1-1"/>
-<wire x1="-113.03" y1="91.44" x2="105.41" y2="-39.497" width="0" layer="19" extent="1-1"/>
+<wire x1="-170.18" y1="-156.083" x2="-170.18" y2="-125.857" width="0" layer="19" extent="1-1"/>
+<wire x1="-163.83" y1="-101.6" x2="-170.18" y2="-125.857" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="J7" pad="P$1"/>
@@ -1078,8 +1078,8 @@ design rules under a new name.</description>
 <contactref element="Q10" pad="1"/>
 <contactref element="J8" pad="P$1"/>
 <wire x1="-130.81" y1="121.92" x2="-102.235" y2="140.97" width="0" layer="19" extent="1-1"/>
-<wire x1="-132.08" y1="-129.54" x2="-130.81" y2="121.92" width="0" layer="19" extent="1-1"/>
-<wire x1="98.92" y1="-106.68" x2="-132.08" y2="-129.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="-3.81" x2="-130.81" y2="121.92" width="0" layer="19" extent="1-1"/>
+<wire x1="98.92" y1="-106.68" x2="-60.96" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="R16" pad="1"/>
@@ -1253,8 +1253,8 @@ design rules under a new name.</description>
 <contactref element="R6" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="81.42" y1="-106.68" x2="23" y2="-102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-94.3356" y1="50.546" x2="23" y2="-102.87" width="0" layer="19" extent="16-16"/>
+<wire x1="81.42" y1="-106.68" x2="-100.19" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-94.3356" y1="50.546" x2="-100.19" y2="-36.83" width="0" layer="19" extent="16-16"/>
 <wire x1="-82.05" y1="102.87" x2="-94.3356" y2="50.546" width="0" layer="19" extent="16-16"/>
 <wire x1="-65.54" y1="102.87" x2="-82.05" y2="102.87" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1275,12 +1275,12 @@ design rules under a new name.</description>
 <signal name="N$24">
 <contactref element="Q11" pad="B"/>
 <contactref element="J5" pad="P$1"/>
-<wire x1="99.949" y1="-56.388" x2="-132.08" y2="-118.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-175.641" y1="-142.748" x2="-132.08" y2="-118.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="Q11" pad="E"/>
 <contactref element="J9" pad="P$1"/>
-<wire x1="-132.08" y1="-140.97" x2="110.871" y2="-56.388" width="0" layer="19" extent="1-1"/>
+<wire x1="-132.08" y1="-140.97" x2="-164.719" y2="-142.748" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="J12" pad="P$1"/>
