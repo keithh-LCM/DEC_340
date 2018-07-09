@@ -453,6 +453,45 @@ rotated 45 deg.</description>
 <text x="-1.905" y="-1.27" size="1.27" layer="51" ratio="10">3</text>
 <text x="4.572" y="-2.159" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="5MM_TH">
+<pad name="1" x="-2.5" y="0" drill="0.7" diameter="2.54"/>
+<pad name="2" x="2.5" y="0" drill="0.7" diameter="2.54"/>
+<text x="0" y="3.048" size="1.9304" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
+<text x="0" y="-5.08" size="1.9304" layer="27" font="vector" ratio="10" rot="R180" align="top-center">&gt;Value</text>
+<wire x1="2.54" y1="2.032" x2="2.54" y2="-2.032" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-2.032" x2="-2.54" y2="2.032" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="2.032" x2="2.54" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-2.032" x2="2.54" y2="-2.032" width="0.1524" layer="21"/>
+</package>
+<package name="DO35-7">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2 mm, horizontal, grid 7.62 mm</description>
+<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="0.8128" diameter="2.1844"/>
+<pad name="A" x="3.81" y="0" drill="0.8128" diameter="2.1844"/>
+<text x="-2.921" y="1.905" size="1.9304" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.921" y="-3.302" size="1.27" layer="27" ratio="10"></text>
+<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
+<text x="-2.921" y="-3.175" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN">
@@ -574,6 +613,19 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <pin name="X" x="10.16" y="-22.86" visible="pin" length="middle" direction="pas" rot="R180"/>
 <pin name="Y" x="10.16" y="-25.4" visible="pin" length="middle" direction="pas" rot="R180"/>
 <pin name="Z" x="10.16" y="-27.94" visible="pin" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ZD">
+<wire x1="1.27" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.778" y2="2.032" width="0.254" layer="94"/>
+<text x="2.54" y="2.54" size="1.9304" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<pin name="A" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="-1.778" y1="3.048" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -763,6 +815,44 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAP0.1UF100V" prefix="C">
+<description>0.1µF ±10% 100V Ceramic X8R TH</description>
+<gates>
+<gate name="G$1" symbol="C-NPOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="FA26X8R2A104KNU06" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N754A" prefix="ZD" uservalue="yes">
+<description>Zener diode
+500mW, 5% TOLERANCE</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO35-7">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -831,6 +921,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <part name="Q1" library="keiths" deviceset="2N3904" device="">
 <attribute name="PN" value="2N3904"/>
 </part>
+<part name="C1" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.001uF"/>
+<part name="R1" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="470"/>
+<part name="Q2" library="keiths" deviceset="2N3904" device="">
+<attribute name="PN" value="2N3904"/>
+</part>
+<part name="R2" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="560"/>
+<part name="ZD1" library="keiths" deviceset="1N754A" device=""/>
+<part name="R4" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="560"/>
 </parts>
 <sheets>
 <sheet>
@@ -937,9 +1035,9 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="229.616" y="187.452" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="229.108" y="182.372" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R12" gate="G$1" x="226.06" y="254" smashed="yes" rot="R180">
-<attribute name="NAME" x="229.616" y="256.032" size="1.9304" layer="95" font="vector" ratio="10"/>
-<attribute name="VALUE" x="229.108" y="250.952" size="1.9304" layer="96" font="vector" ratio="10"/>
+<instance part="R12" gate="G$1" x="226.06" y="256.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="229.616" y="258.572" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="229.108" y="253.492" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="R14" gate="G$1" x="226.06" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="229.616" y="156.972" size="1.9304" layer="95" font="vector" ratio="10"/>
@@ -949,6 +1047,28 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="162.56" y="298.45" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="162.56" y="289.56" size="1.9304" layer="96" font="vector" ratio="10"/>
 <attribute name="PN" x="154.94" y="294.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="256.54" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="251.46" y="179.451" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="259.08" y="179.578" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="R1" gate="G$1" x="241.3" y="177.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="237.236" y="179.832" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="244.348" y="179.832" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="Q2" gate="G1" x="274.32" y="177.8" smashed="yes">
+<attribute name="NAME" x="279.4" y="179.07" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="279.4" y="175.26" size="1.9304" layer="96" font="vector" ratio="10"/>
+<attribute name="PN" x="274.32" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="276.86" y="259.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="280.416" y="261.112" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="279.908" y="256.032" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="ZD1" gate="G$1" x="266.7" y="203.2"/>
+<instance part="R4" gate="G$1" x="294.64" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="288.036" y="192.532" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="297.688" y="192.532" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 </instances>
 <busses>
@@ -1006,6 +1126,10 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <pinref part="R3" gate="G$1" pin="P$1"/>
 <wire x1="205.74" y1="149.86" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
 <junction x="205.74" y="144.78"/>
+<pinref part="Q2" gate="G1" pin="E"/>
+<wire x1="226.06" y1="144.78" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="144.78" x2="276.86" y2="172.72" width="0.1524" layer="91"/>
+<junction x="226.06" y="144.78"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -1033,11 +1157,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <pinref part="R12" gate="G$1" pin="P$2"/>
 <wire x1="170.18" y1="269.24" x2="205.74" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="269.24" x2="226.06" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="269.24" x2="226.06" y2="259.08" width="0.1524" layer="91"/>
 <junction x="170.18" y="269.24"/>
 <pinref part="R5" gate="G$1" pin="P$2"/>
+<wire x1="226.06" y1="269.24" x2="226.06" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="261.62" x2="205.74" y2="269.24" width="0.1524" layer="91"/>
 <junction x="205.74" y="269.24"/>
+<pinref part="R2" gate="G$1" pin="P$2"/>
+<wire x1="276.86" y1="264.16" x2="276.86" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="269.24" x2="226.06" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+50V" class="0">
@@ -1160,7 +1287,11 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <segment>
 <pinref part="Q6" gate="G1" pin="C"/>
 <pinref part="R11" gate="G$1" pin="P$1"/>
-<wire x1="226.06" y1="175.26" x2="226.06" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="175.26" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="P$2"/>
+<wire x1="226.06" y1="177.8" x2="226.06" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="177.8" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
+<junction x="226.06" y="177.8"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -1174,7 +1305,7 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <segment>
 <pinref part="Q20" gate="G1" pin="C"/>
 <pinref part="R12" gate="G$1" pin="P$1"/>
-<wire x1="226.06" y1="248.92" x2="226.06" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="251.46" x2="226.06" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -1191,6 +1322,40 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="187.96" y1="200.66" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="182.88" x2="58.42" y2="182.88" width="0.1524" layer="91"/>
 <label x="58.42" y="182.88" size="1.9304" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="P$1"/>
+<wire x1="246.38" y1="177.8" x2="251.46" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="Q2" gate="G1" pin="B"/>
+<wire x1="271.78" y1="177.8" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="177.8" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
+<junction x="266.7" y="177.8"/>
+<pinref part="ZD1" gate="G$1" pin="A"/>
+<wire x1="266.7" y1="190.5" x2="266.7" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="190.5" x2="289.56" y2="190.5" width="0.1524" layer="91"/>
+<junction x="266.7" y="190.5"/>
+<pinref part="R4" gate="G$1" pin="P$1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="ZD1" gate="G$1" pin="C"/>
+<wire x1="266.7" y1="208.28" x2="266.7" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G1" pin="C"/>
+<pinref part="R2" gate="G$1" pin="P$1"/>
+<wire x1="276.86" y1="182.88" x2="276.86" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="220.98" x2="276.86" y2="254" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="220.98" x2="276.86" y2="220.98" width="0.1524" layer="91"/>
+<junction x="276.86" y="220.98"/>
 </segment>
 </net>
 </nets>
