@@ -1183,7 +1183,7 @@ rotated 45 deg.</description>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0"/>
-<instance part="P1" gate="G$1" x="93.98" y="187.96"/>
+<instance part="P1" gate="G$1" x="96.52" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -1200,9 +1200,9 @@ rotated 45 deg.</description>
 <junction x="203.2" y="365.76"/>
 </segment>
 <segment>
-<label x="111.76" y="200.66" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="114.3" y="228.6" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="F"/>
-<wire x1="104.14" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="228.6" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1244,8 +1244,8 @@ rotated 45 deg.</description>
 </segment>
 <segment>
 <pinref part="P1" gate="G$1" pin="D"/>
-<wire x1="104.14" y1="205.74" x2="111.76" y2="205.74" width="0.1524" layer="91"/>
-<label x="111.76" y="205.74" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="106.68" y1="233.68" x2="114.3" y2="233.68" width="0.1524" layer="91"/>
+<label x="114.3" y="233.68" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="VREF" class="0">
@@ -1435,8 +1435,8 @@ rotated 45 deg.</description>
 <label x="464.82" y="261.62" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="182.88" x2="132.08" y2="182.88" width="0.1524" layer="91"/>
-<label x="132.08" y="182.88" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="106.68" y1="210.82" x2="134.62" y2="210.82" width="0.1524" layer="91"/>
+<label x="134.62" y="210.82" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="P"/>
 </segment>
 </net>
@@ -1448,9 +1448,9 @@ rotated 45 deg.</description>
 <label x="467.36" y="350.52" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<label x="132.08" y="198.12" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="134.62" y="226.06" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="H"/>
-<wire x1="104.14" y1="198.12" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="226.06" x2="134.62" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-10V" class="0">
@@ -1464,9 +1464,9 @@ rotated 45 deg.</description>
 <junction x="248.92" y="309.88"/>
 </segment>
 <segment>
-<label x="132.08" y="203.2" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
+<label x="134.62" y="231.14" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="E"/>
-<wire x1="104.14" y1="203.2" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="231.14" x2="134.62" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="J_IN" class="0">
@@ -1481,8 +1481,8 @@ rotated 45 deg.</description>
 <junction x="203.2" y="190.5"/>
 </segment>
 <segment>
-<label x="111.76" y="195.58" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<wire x1="111.76" y1="195.58" x2="104.14" y2="195.58" width="0.1524" layer="91"/>
+<label x="114.3" y="223.52" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
+<wire x1="114.3" y1="223.52" x2="106.68" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="J"/>
 </segment>
 </net>
@@ -1498,8 +1498,8 @@ rotated 45 deg.</description>
 <junction x="203.2" y="99.06"/>
 </segment>
 <segment>
-<label x="111.76" y="190.5" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<wire x1="111.76" y1="190.5" x2="104.14" y2="190.5" width="0.1524" layer="91"/>
+<label x="114.3" y="218.44" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
+<wire x1="114.3" y1="218.44" x2="106.68" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="L"/>
 </segment>
 </net>
@@ -1515,8 +1515,8 @@ rotated 45 deg.</description>
 <junction x="203.2" y="274.32"/>
 </segment>
 <segment>
-<label x="132.08" y="172.72" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<wire x1="104.14" y1="172.72" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
+<label x="134.62" y="200.66" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
+<wire x1="106.68" y1="200.66" x2="134.62" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="U"/>
 </segment>
 </net>
@@ -1655,8 +1655,8 @@ rotated 45 deg.</description>
 </segment>
 <segment>
 <pinref part="P1" gate="G$1" pin="C"/>
-<wire x1="104.14" y1="208.28" x2="132.08" y2="208.28" width="0.1524" layer="91"/>
-<label x="132.08" y="208.28" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="106.68" y1="236.22" x2="134.62" y2="236.22" width="0.1524" layer="91"/>
+<label x="134.62" y="236.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="VREF3" class="0">
@@ -1878,8 +1878,8 @@ rotated 45 deg.</description>
 <junction x="203.2" y="144.78"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="193.04" x2="104.14" y2="193.04" width="0.1524" layer="91"/>
-<label x="132.08" y="193.04" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
+<wire x1="134.62" y1="220.98" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
+<label x="134.62" y="220.98" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="K"/>
 </segment>
 </net>
@@ -1944,16 +1944,16 @@ rotated 45 deg.</description>
 <label x="198.12" y="231.14" size="1.9304" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="111.76" y="210.82" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="114.3" y="238.76" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="B"/>
-<wire x1="104.14" y1="210.82" x2="111.76" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="238.76" x2="114.3" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+10V" class="0">
 <segment>
 <pinref part="P1" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="213.36" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
-<label x="132.08" y="213.36" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="106.68" y1="241.3" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
+<label x="134.62" y="241.3" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 </nets>

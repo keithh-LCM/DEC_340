@@ -995,6 +995,24 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </device>
 </devices>
 </deviceset>
+<deviceset name="KSP05TA" prefix="Q">
+<description>NPN epitxial transistor.  Low CE saturation.</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply2">
@@ -1064,9 +1082,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R11" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="1500"/>
 <part name="R12" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="470"/>
 <part name="R14" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="27"/>
-<part name="Q1" library="keiths" deviceset="2N3904" device="">
-<attribute name="PN" value="2N3904"/>
-</part>
 <part name="C1" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.001uF">
 <attribute name="MPN" value="1000 pf"/>
 </part>
@@ -1116,9 +1131,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="D2" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="Q12" library="keiths" deviceset="2N3904" device="">
-<attribute name="PN" value="2N3904"/>
-</part>
 <part name="R3" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="680"/>
 <part name="R24" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="680"/>
 <part name="R25" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="27"/>
@@ -1164,6 +1176,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PN" value="BAT43"/>
 </part>
 <part name="Q16" library="keiths" deviceset="2N2222" device="" technology="A"/>
+<part name="Q1" library="keiths" deviceset="KSP05TA" device=""/>
+<part name="Q12" library="keiths" deviceset="KSP05TA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1235,11 +1249,6 @@ Current Amplifier</text>
 <instance part="R14" gate="G$1" x="251.46" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="255.016" y="220.472" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="254.508" y="215.392" size="1.9304" layer="96" font="vector" ratio="10"/>
-</instance>
-<instance part="Q1" gate="G1" x="236.22" y="162.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="238.76" y="166.37" size="1.9304" layer="95" font="vector" ratio="10"/>
-<attribute name="VALUE" x="238.76" y="157.48" size="1.9304" layer="96" font="vector" ratio="10"/>
-<attribute name="PN" x="236.22" y="162.56" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="289.56" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="284.48" y="245.491" size="1.9304" layer="95" font="vector" ratio="10"/>
@@ -1351,11 +1360,6 @@ Current Amplifier</text>
 <attribute name="NAME" x="207.01" y="195.58" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="213.36" y="195.58" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q12" gate="G1" x="210.82" y="162.56" smashed="yes" rot="MR180">
-<attribute name="NAME" x="215.9" y="166.37" size="1.9304" layer="95" font="vector" ratio="10"/>
-<attribute name="VALUE" x="215.9" y="160.02" size="1.9304" layer="96" font="vector" ratio="10"/>
-<attribute name="PN" x="210.82" y="162.56" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="R3" gate="G$1" x="200.66" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="196.596" y="164.592" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="203.708" y="164.592" size="1.9304" layer="96" font="vector" ratio="10"/>
@@ -1453,6 +1457,14 @@ Current Amplifier</text>
 <attribute name="PN" x="396.24" y="233.68" size="1.9304" layer="96" font="vector" display="off"/>
 </instance>
 <instance part="Q16" gate="G$1" x="330.2" y="142.24"/>
+<instance part="Q1" gate="G$1" x="236.22" y="162.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="237.49" y="166.7256" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="237.49" y="159.1056" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="Q12" gate="G$1" x="210.82" y="162.56" smashed="yes" rot="MR180">
+<attribute name="NAME" x="214.63" y="164.1856" size="1.9304" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="214.63" y="159.1056" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1947,10 +1959,8 @@ Current Amplifier</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="Q12" gate="G1" pin="E"/>
 <wire x1="213.36" y1="167.64" x2="213.36" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G1" pin="C"/>
 <wire x1="233.68" y1="172.72" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="Q19" gate="G$1" pin="E"/>
 <wire x1="124.46" y1="251.46" x2="124.46" y2="256.54" width="0.1524" layer="91"/>
@@ -1961,28 +1971,28 @@ Current Amplifier</text>
 <wire x1="213.36" y1="172.72" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
 <junction x="213.36" y="172.72"/>
 <pinref part="Q10" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="Q12" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="Q12" gate="G1" pin="B"/>
 <pinref part="R3" gate="G$1" pin="P$1"/>
-<wire x1="205.74" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="Q12" gate="G$1" pin="B"/>
+<wire x1="208.28" y1="162.56" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="Q1" gate="G1" pin="B"/>
 <wire x1="238.76" y1="162.56" x2="254" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="254" y1="162.56" x2="254" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="P$1"/>
 <wire x1="254" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="Q12" gate="G1" pin="C"/>
-<pinref part="Q1" gate="G1" pin="E"/>
 <wire x1="233.68" y1="157.48" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="152.4" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
@@ -1993,6 +2003,8 @@ Current Amplifier</text>
 <pinref part="Q13" gate="G1" pin="B"/>
 <wire x1="289.56" y1="152.4" x2="271.78" y2="152.4" width="0.1524" layer="91"/>
 <junction x="271.78" y="152.4"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q12" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$16" class="0">

@@ -606,14 +606,8 @@ design rules under a new name.</description>
 <element name="D1" library="keiths" package="DO35-7" value="1N4148" x="-30.48" y="85.09"/>
 <element name="D2" library="keiths" package="DO35-7" value="1N4148" x="-44.45" y="85.09"/>
 <element name="P6" library="keiths" package="44PINEDGE" value="44PINEDGE" x="0" y="52.07" rot="R270"/>
-<element name="Q1" library="keiths" package="TO92" value="2N3904" x="-29.21" y="76.2">
-<attribute name="PN" value="2N3904" x="-29.21" y="76.2" size="1.778" layer="27" display="off"/>
-</element>
 <element name="Q11" library="keiths" package="TO92" value="2N3904" x="-74.93" y="76.2">
 <attribute name="PN" value="2N3904" x="-74.93" y="76.2" size="1.778" layer="27" display="off"/>
-</element>
-<element name="Q12" library="keiths" package="TO92" value="2N3904" x="-82.55" y="76.2">
-<attribute name="PN" value="2N3904" x="-82.55" y="76.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q13" library="keiths" package="TO92" value="2N3904" x="-90.17" y="76.2">
 <attribute name="PN" value="2N3904" x="-90.17" y="76.2" size="1.778" layer="27" display="off"/>
@@ -693,6 +687,8 @@ design rules under a new name.</description>
 <attribute name="PN" value="BAT43" x="-154.94" y="-54.61" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q16" library="keiths" package="TO18" value="2N2222A" x="-157.48" y="-62.23"/>
+<element name="Q1" library="keiths" package="TO92" value="KSP05TA" x="-157.48" y="-93.98"/>
+<element name="Q12" library="keiths" package="TO92" value="KSP05TA" x="-157.48" y="-105.41"/>
 </elements>
 <signals>
 <signal name="E_IN">
@@ -953,32 +949,32 @@ design rules under a new name.</description>
 <wire x1="-34.35" y1="21.59" x2="-94.56" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
-<contactref element="Q12" pad="1"/>
-<contactref element="Q1" pad="3"/>
 <contactref element="Q19" pad="1"/>
 <contactref element="Q10" pad="1"/>
-<wire x1="-81.28" y1="74.93" x2="-140.97" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.505" y1="95.25" x2="-81.28" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.48" y1="77.47" x2="-81.28" y2="74.93" width="0" layer="19" extent="1-1"/>
+<contactref element="Q1" pad="3"/>
+<contactref element="Q12" pad="1"/>
+<wire x1="-156.21" y1="-106.68" x2="-158.75" y2="-92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-140.97" y1="-45.72" x2="-158.75" y2="-92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.505" y1="95.25" x2="-140.97" y2="-45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
-<contactref element="Q12" pad="2"/>
 <contactref element="R3" pad="1"/>
-<wire x1="-81.28" y1="77.47" x2="-80.7" y2="33.02" width="0" layer="19" extent="1-1"/>
+<contactref element="Q12" pad="2"/>
+<wire x1="-156.21" y1="-104.14" x2="-80.7" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
-<contactref element="Q1" pad="2"/>
 <contactref element="R24" pad="1"/>
-<wire x1="-46.41" y1="66.04" x2="-27.94" y2="77.47" width="0" layer="19" extent="1-1"/>
+<contactref element="Q1" pad="2"/>
+<wire x1="-46.41" y1="66.04" x2="-156.21" y2="-92.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
-<contactref element="Q12" pad="3"/>
-<contactref element="Q1" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="Q13" pad="2"/>
-<wire x1="-44.41" y1="34.29" x2="-27.94" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-83.82" y1="77.47" x2="-27.94" y2="74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.9" y1="77.47" x2="-83.82" y2="77.47" width="0" layer="19" extent="1-1"/>
+<contactref element="Q1" pad="1"/>
+<contactref element="Q12" pad="3"/>
+<wire x1="-158.75" y1="-104.14" x2="-156.21" y2="-95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.41" y1="34.29" x2="-156.21" y2="-95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.9" y1="77.47" x2="-44.41" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R25" pad="1"/>
