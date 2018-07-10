@@ -42,33 +42,30 @@ Outputs
       X_POS
       Y_POS
 
-mimic 1575 X,Y Follow Hold Gate
+mimic_1575 Follow Hold Gate X,Y
 Power
-      +15 volts
-      GND
-      -15 volts
-Inputs
-     V_in
-Outputs
-     V_out
+     (A) +10 volts
+     (C) -15 volts
+     (D) GND
+     (E) Input positioning voltage from D_to_A converter. (closed loop input)
+     (H) Input from the mimic_1579 (open loop signal)
+     (K) Input trigger, this signal is also the D/A clock (on the X side)
+     (Z) Output Voltage to Z terminal of mimic_1567
 
-mimic 1579 X,Y Feed Forward Pulse
+mimic 1579  Feed Forward Pulse  X,Y
 Power
-  +5 volts
-  GND
-  -10 volts
-  -15 volts
-Inputs
-  V_in
-Outputs
-  V_out
-
-mimic X,Y Mixer
-Inputs
-  FH_in
-  FF_in
-Outputs
-  V_out
+    (A) +10 volts
+    (B) +5 volts
+    (C) -15 volts
+    (D) GND
+    (E) -10 volts
+    (F) Input
+    (H) Output
+    (J) Input
+    (K) Input
+    (L) Input
+    (P) Output
+    (U) Input
 
 mimic 1567 X,Y Amplifier
 Power
