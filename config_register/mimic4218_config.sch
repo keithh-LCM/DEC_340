@@ -848,20 +848,23 @@ Monostable Multivibrator</description>
 <text x="376.428" y="214.884" size="1.778" layer="91">1 uS</text>
 <text x="373.888" y="143.764" size="1.778" layer="91">500 nS</text>
 <text x="373.888" y="159.004" size="1.778" layer="91">400 nS</text>
-<text x="226.06" y="218.44" size="1.778" layer="91">POSITIVE_EDGE</text>
+<text x="220.98" y="33.02" size="5.08" layer="91" font="vector" ratio="10">* The original DEC 4218 System Design Module 
+was a data latch.  It was used to capture some 
+of the original DEC 340 configuration bits shown 
+on this page.</text>
 <text x="403.86" y="294.64" size="1.9304" layer="91" ratio="10">High levels to direction bits enable current drive.</text>
 <text x="403.86" y="302.26" size="1.9304" layer="91" ratio="10">The J_JUMP, K_JUMP, L_JUMP bits bus to the Contra_1579 cards.  
 Low levels on these lines enable current.</text>
 <text x="403.86" y="320.04" size="1.9304" layer="91" ratio="10">The DELAY_SELECT bit selects the 35 uS delay when high 
 and the 1 uS delay when low.</text>
-<text x="403.86" y="330.2" size="1.9304" layer="91" ratio="10">X_INTEN, U_INTEN, J_INTEN and ITENSIFY the cathode voltage. 
-Low Levels bring the cathode negative. 
-When Intensity is brought high the lectron gun will pulse</text>
+<text x="398.78" y="358.14" size="3.81" layer="91" font="vector" ratio="10">X_INTEN, U_INTEN, J_INTEN control cathode 
+voltage.  Low levels bring the cathode 
+negative.  INTENSITY high enables a pulse.</text>
 <text x="134.62" y="337.82" size="1.778" layer="91">output</text>
-<text x="78.74" y="337.82" size="1.778" layer="91">input</text>
 <text x="134.62" y="337.82" size="1.778" layer="91">output</text>
 <text x="149.86" y="297.18" size="1.778" layer="91">scale</text>
 <text x="149.86" y="274.32" size="1.778" layer="91">scale</text>
+<text x="226.06" y="220.98" size="1.778" layer="91">POSITIVE_EDGE</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="302.26" y="292.1"/>
@@ -1294,8 +1297,6 @@ When Intensity is brought high the lectron gun will pulse</text>
 </net>
 <net name="DELAY_SELECT" class="0">
 <segment>
-<label x="236.22" y="236.22" size="1.9304" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<wire x1="236.22" y1="236.22" x2="254" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="1B"/>
 <wire x1="254" y1="236.22" x2="256.54" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="233.68" x2="254" y2="233.68" width="0.1524" layer="91"/>
@@ -1307,16 +1308,15 @@ When Intensity is brought high the lectron gun will pulse</text>
 <pinref part="U5" gate="G$1" pin="4A"/>
 <wire x1="279.4" y1="233.68" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="1A"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="Q3"/>
-<wire x1="312.42" y1="332.74" x2="363.22" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="332.74" x2="327.66" y2="332.74" width="0.1524" layer="91"/>
 <label x="363.22" y="332.74" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <label x="363.22" y="332.74" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-<segment>
-<label x="96.52" y="330.2" size="1.9304" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-<wire x1="96.52" y1="330.2" x2="104.14" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="332.74" x2="363.22" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="243.84" x2="327.66" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="243.84" x2="327.66" y2="332.74" width="0.1524" layer="91"/>
+<junction x="279.4" y="243.84"/>
+<junction x="327.66" y="332.74"/>
 </segment>
 </net>
 <net name="J_JUMP" class="0">
