@@ -13,59 +13,72 @@ a) Processor Card
 Pinout:
      (B) +5  volts
      (D) GND
-{
-    Outputs:
-      8 bit data bus.
-      Register strobes.
-         X_MSB
-         Y_MSB
-         X_LSB
-         Y_LSB
-         LE1
-         LE2
 
-}
+     (1)  D0
+     (2)  D1
+     (3)  D2
+     (4)  D3
+     (5)  D4
+     (6)  D5
+     (7)  D6
+     (8)  D7
+     (9)  LE1
+     (10) LE2
+     (11) X_MSB
+     (12) X_LSB
+     (13) Y_MSB
+     (14) Y_LSB
+     (15)
+     (16)
+
 
 b) Configuration Register
 Pinout:
      (B) +5  volts
      (D) GND
-{
-     (F right) D0
-     (H right) D1
-     (J right) D2
-     (K right) D3
-     (L right) D4
-     (M right) D5
-     (N right) D6
-     (P right) D7
 
-     (S right) LE1
-     (T right) LE2
+     (7)  D0
+     (8)  D1
+     (9)  D2
+     (10) D3
+     (11) D4
+     (12) D5
+     (13) D6
+     (14) D7
+     (16) LE1
+     (17) LE2
+     (18) LE2
 
      Outputs:
      Feed forward pulses
-          HORIZ_F
-          HORIZ_U
-          VERT_F
-          VERT_U
+     (W) HORIZ_F
+     (X) HORIZ_U
+     (Y) VERT_F
+     (Z) VERT_U
 
 c) mimic_1568,  X and Y D to A conversion
 Pinout:
      (B) +5  volts
+     (C) -15 volts
      (D) GND
-{
-     Inputs
-          8 bit data bus
-          D0 -> D7
-     Strobes
-          X_MSB
-          Y_MSB
-          X_LSB
-          Y_LSB
-     Outputs
-          X_POS
-          Y_POS
+     (E) -15 volts
+
+     (7)  D0
+     (8)  D1
+     (9)  D2
+     (10) D3
+     (11) D4
+     (12) D5
+     (13) D6
+     (14) D7
+
+     (16) X_MSB
+     (17) X_LSB
+     (18) Y_MSB
+     (19) Y_LSB
+
+     (X) X_POS
+     (X) Y_POS
 }
 
 mimic_1575 Follow Hold Gate X,Y
