@@ -852,12 +852,16 @@ Monostable Multivibrator</description>
 <text x="403.86" y="294.64" size="1.9304" layer="91" ratio="10">High levels to direction bits enable current drive.</text>
 <text x="403.86" y="302.26" size="1.9304" layer="91" ratio="10">The J_JUMP, K_JUMP, L_JUMP bits bus to the Contra_1579 cards.  
 Low levels on these lines enable current.</text>
-<text x="403.86" y="312.42" size="1.9304" layer="91" ratio="10">The DELAY_SELECT bit selects the 35 uS delay when high 
+<text x="403.86" y="320.04" size="1.9304" layer="91" ratio="10">The DELAY_SELECT bit selects the 35 uS delay when high 
 and the 1 uS delay when low.</text>
-<text x="403.86" y="322.58" size="1.9304" layer="91" ratio="10">When high INTENSIFY will pulse the electron gun.</text>
-<text x="403.86" y="330.2" size="1.9304" layer="91" ratio="10">X_INTEN, U_INTEN, J_INTEN set the cathode voltage 
-when the electron gun is on.  Logic lows bring the 
-cathode most negative.</text>
+<text x="403.86" y="330.2" size="1.9304" layer="91" ratio="10">X_INTEN, U_INTEN, J_INTEN and ITENSIFY the cathode voltage. 
+Low Levels bring the cathode negative. 
+When Intensity is brought high the lectron gun will pulse</text>
+<text x="134.62" y="337.82" size="1.778" layer="91">output</text>
+<text x="78.74" y="337.82" size="1.778" layer="91">input</text>
+<text x="134.62" y="337.82" size="1.778" layer="91">output</text>
+<text x="149.86" y="297.18" size="1.778" layer="91">scale</text>
+<text x="149.86" y="274.32" size="1.778" layer="91">scale</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="302.26" y="292.1"/>
@@ -874,7 +878,7 @@ cathode most negative.</text>
 <instance part="SUPPLY11" gate="GND" x="314.96" y="271.78"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0"/>
-<instance part="P5" gate="G$1" x="99.06" y="251.46"/>
+<instance part="P5" gate="G$1" x="91.44" y="251.46"/>
 <instance part="U1" gate="G$1" x="330.2" y="220.98"/>
 <instance part="U2" gate="G$1" x="330.2" y="149.86"/>
 <instance part="SUPPLY1" gate="GND" x="317.5" y="200.66"/>
@@ -956,6 +960,10 @@ cathode most negative.</text>
 <wire x1="220.98" y1="304.8" x2="294.64" y2="304.8" width="0.1524" layer="91"/>
 <label x="220.98" y="304.8" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
+<segment>
+<wire x1="81.28" y1="325.12" x2="93.98" y2="325.12" width="0.1524" layer="91"/>
+<label x="81.28" y="325.12" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+</segment>
 </net>
 <net name="D0" class="0">
 <segment>
@@ -967,6 +975,10 @@ cathode most negative.</text>
 <wire x1="294.64" y1="299.72" x2="269.24" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="299.72" x2="269.24" y2="340.36" width="0.1524" layer="91"/>
 <junction x="269.24" y="340.36"/>
+</segment>
+<segment>
+<label x="88.9" y="314.96" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="88.9" y1="314.96" x2="93.98" y2="314.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -980,6 +992,10 @@ cathode most negative.</text>
 <wire x1="266.7" y1="297.18" x2="266.7" y2="337.82" width="0.1524" layer="91"/>
 <junction x="266.7" y="337.82"/>
 </segment>
+<segment>
+<label x="81.28" y="312.42" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="81.28" y1="312.42" x2="93.98" y2="312.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D2" class="0">
 <segment>
@@ -991,6 +1007,10 @@ cathode most negative.</text>
 <wire x1="294.64" y1="294.64" x2="264.16" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="294.64" x2="264.16" y2="335.28" width="0.1524" layer="91"/>
 <junction x="264.16" y="335.28"/>
+</segment>
+<segment>
+<label x="88.9" y="309.88" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="88.9" y1="309.88" x2="93.98" y2="309.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -1004,6 +1024,10 @@ cathode most negative.</text>
 <wire x1="261.62" y1="292.1" x2="261.62" y2="332.74" width="0.1524" layer="91"/>
 <junction x="261.62" y="332.74"/>
 </segment>
+<segment>
+<label x="81.28" y="307.34" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="93.98" y1="307.34" x2="81.28" y2="307.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D4" class="0">
 <segment>
@@ -1015,6 +1039,10 @@ cathode most negative.</text>
 <wire x1="294.64" y1="289.56" x2="259.08" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="289.56" x2="259.08" y2="330.2" width="0.1524" layer="91"/>
 <junction x="259.08" y="330.2"/>
+</segment>
+<segment>
+<label x="88.9" y="304.8" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="93.98" y1="304.8" x2="88.9" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -1028,6 +1056,10 @@ cathode most negative.</text>
 <wire x1="256.54" y1="287.02" x2="256.54" y2="327.66" width="0.1524" layer="91"/>
 <junction x="256.54" y="327.66"/>
 </segment>
+<segment>
+<label x="81.28" y="302.26" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="93.98" y1="302.26" x2="81.28" y2="302.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D6" class="0">
 <segment>
@@ -1039,6 +1071,10 @@ cathode most negative.</text>
 <wire x1="294.64" y1="284.48" x2="254" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="254" y1="284.48" x2="254" y2="325.12" width="0.1524" layer="91"/>
 <junction x="254" y="325.12"/>
+</segment>
+<segment>
+<label x="88.9" y="299.72" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="88.9" y1="299.72" x2="93.98" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -1052,12 +1088,20 @@ cathode most negative.</text>
 <wire x1="251.46" y1="281.94" x2="251.46" y2="322.58" width="0.1524" layer="91"/>
 <junction x="251.46" y="322.58"/>
 </segment>
+<segment>
+<label x="81.28" y="297.18" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="93.98" y1="297.18" x2="81.28" y2="297.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="LE2" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="LE"/>
 <wire x1="294.64" y1="345.44" x2="220.98" y2="345.44" width="0.1524" layer="91"/>
 <label x="220.98" y="345.44" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="320.04" x2="81.28" y2="320.04" width="0.1524" layer="91"/>
+<label x="81.28" y="320.04" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -1222,8 +1266,8 @@ cathode most negative.</text>
 <pinref part="U4" gate="G$1" pin="Q0"/>
 </segment>
 <segment>
-<label x="144.78" y="279.4" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<wire x1="139.7" y1="279.4" x2="144.78" y2="279.4" width="0.1524" layer="91"/>
+<label x="129.54" y="327.66" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="129.54" y1="327.66" x2="124.46" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="U_INTEN" class="0">
@@ -1233,8 +1277,8 @@ cathode most negative.</text>
 <label x="363.22" y="337.82" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="264.16" x2="144.78" y2="264.16" width="0.1524" layer="91"/>
-<label x="144.78" y="264.16" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="129.54" y="317.5" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="317.5" x2="129.54" y2="317.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="J_INTEN" class="0">
@@ -1244,8 +1288,8 @@ cathode most negative.</text>
 <label x="337.82" y="335.28" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="271.78" x2="144.78" y2="271.78" width="0.1524" layer="91"/>
-<label x="144.78" y="271.78" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="129.54" y="322.58" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="322.58" x2="129.54" y2="322.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DELAY_SELECT" class="0">
@@ -1270,6 +1314,10 @@ cathode most negative.</text>
 <label x="363.22" y="332.74" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <label x="363.22" y="332.74" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<label x="96.52" y="330.2" size="1.9304" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="96.52" y1="330.2" x2="104.14" y2="330.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="J_JUMP" class="0">
 <segment>
@@ -1278,8 +1326,8 @@ cathode most negative.</text>
 <label x="363.22" y="327.66" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="256.54" x2="144.78" y2="256.54" width="0.1524" layer="91"/>
-<label x="144.78" y="256.54" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="129.54" y="302.26" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="302.26" x2="129.54" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="K_JUMP" class="0">
@@ -1289,8 +1337,8 @@ cathode most negative.</text>
 <label x="337.82" y="325.12" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="248.92" x2="144.78" y2="248.92" width="0.1524" layer="91"/>
-<label x="144.78" y="248.92" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="297.18" x2="129.54" y2="297.18" width="0.1524" layer="91"/>
+<label x="129.54" y="297.18" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="L_JUMP" class="0">
@@ -1300,8 +1348,8 @@ cathode most negative.</text>
 <label x="363.22" y="322.58" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="241.3" x2="144.78" y2="241.3" width="0.1524" layer="91"/>
-<label x="144.78" y="241.3" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="292.1" x2="129.54" y2="292.1" width="0.1524" layer="91"/>
+<label x="129.54" y="292.1" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="JUMP_UP" class="0">
@@ -1554,8 +1602,8 @@ cathode most negative.</text>
 <label x="411.48" y="101.6" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="210.82" x2="144.78" y2="210.82" width="0.1524" layer="91"/>
-<label x="144.78" y="210.82" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="129.54" y="266.7" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="266.7" x2="129.54" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HORIZ_F" class="0">
@@ -1565,8 +1613,8 @@ cathode most negative.</text>
 <label x="411.48" y="109.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="218.44" x2="144.78" y2="218.44" width="0.1524" layer="91"/>
-<label x="144.78" y="218.44" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="129.54" y="271.78" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="271.78" x2="129.54" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VERT_F" class="0">
@@ -1576,8 +1624,8 @@ cathode most negative.</text>
 <label x="347.98" y="111.76" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="233.68" x2="144.78" y2="233.68" width="0.1524" layer="91"/>
-<label x="144.78" y="233.68" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="129.54" y="281.94" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="124.46" y1="281.94" x2="129.54" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VERT_U" class="0">
@@ -1587,8 +1635,8 @@ cathode most negative.</text>
 <label x="347.98" y="104.14" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="226.06" x2="139.7" y2="226.06" width="0.1524" layer="91"/>
-<label x="144.78" y="226.06" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="129.54" y1="276.86" x2="124.46" y2="276.86" width="0.1524" layer="91"/>
+<label x="129.54" y="276.86" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="INTENSIFY_P" class="0">
@@ -1600,8 +1648,8 @@ cathode most negative.</text>
 <label x="241.3" y="121.92" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="287.02" x2="139.7" y2="287.02" width="0.1524" layer="91"/>
-<label x="144.78" y="287.02" size="1.9304" layer="95" font="vector" xref="yes"/>
+<wire x1="129.54" y1="312.42" x2="124.46" y2="312.42" width="0.1524" layer="91"/>
+<label x="129.54" y="312.42" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 </nets>
