@@ -1215,6 +1215,8 @@ coil drive transistor.</text>
 transistor.</text>
 <text x="76.2" y="281.94" size="5.08" layer="91" font="vector" ratio="10">X Yoke Current</text>
 <text x="76.2" y="129.54" size="5.08" layer="91" font="vector" ratio="10">Y Yoke Current.</text>
+<text x="477.52" y="200.66" size="3.81" layer="91" font="vector" ratio="10">5 x 20 Volts
+Zeners</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

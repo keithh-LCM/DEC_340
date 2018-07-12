@@ -2,15 +2,15 @@ Card List
 
 a) Processor input, 8 bit data bus and register strobes.
 b) Configuration Register, strobes and logic levels to other cards
-c) mimic_1568,  X and Y D to A conversion
-d)
-e)
-f)
-g)
+c) mimic_1568 X and Y D to A conversion
+d) mimic_1575 Follow Hold Gate X,Y
+e) mimic 1579 Feed Forward Pulse  X,Y
+f) mimic_1567 Amplifier X,Y
+g) mimic_4688 Intensifier
+h) mimic_1705 bias
 
 
 a) Processor Card
-Pinout:
      (B) +5  volts
      (D) GND
 
@@ -33,7 +33,6 @@ Pinout:
 
 
 b) Configuration Register
-Pinout:
      (B) +5  volts
      (D) GND
 
@@ -56,8 +55,7 @@ Pinout:
      (Y) VERT_F
      (Z) VERT_U
 
-c) mimic_1568,  X and Y D to A conversion
-Pinout:
+c) mimic_1568 X and Y D to A conversion
      (B) +5  volts
      (C) -15 volts
      (D) GND
@@ -81,7 +79,7 @@ Pinout:
      (X) Y_POS
 }
 
-mimic_1575 Follow Hold Gate X,Y
+d) mimic_1575 Follow Hold Gate X,Y
      (A) +10 volts
      (C) -15 volts
      (D) GND
@@ -90,7 +88,7 @@ mimic_1575 Follow Hold Gate X,Y
      (K) Input trigger, this signal is also the D/A clock (on the X side)
      (Z) Output Voltage to Z terminal of mimic_1567
 
-mimic 1579  Feed Forward Pulse  X,Y
+e) mimic 1579 Feed Forward Pulse  X,Y
     (A) +10 volts
     (B) +5 volts
     (C) -15 volts
@@ -104,7 +102,7 @@ mimic 1579  Feed Forward Pulse  X,Y
     (P) Output to W of mimic_1567
     (U) Input
 
-mimic_1567 Amplifier X,Y
+f) mimic_1567 Amplifier X,Y
     (D) GND
     (E) -10 volts
     (N) +50 volts
@@ -112,7 +110,12 @@ mimic_1567 Amplifier X,Y
     (Z) Input
 
 
-mimic_4688 Intensifier
+g) mimic_4688 Intensifier
+    (A) +10 volts
+    (B) +5 volts
+    (C) -15 volts
+    (D) GND
+    ()
 
-
-mimic_1705 bias
+h) mimic_1705 bias
+    (D) GND
