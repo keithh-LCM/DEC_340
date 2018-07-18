@@ -37,9 +37,6 @@ VIII) mimic_1567 Amplifier X
       (16)
 
 
-
-
-
   II) Configuration Register
       (B) +5  volts
       (D) GND
@@ -62,9 +59,6 @@ VIII) mimic_1567 Amplifier X
       (X) HORIZ_U
       (Y) VERT_F
       (Z) VERT_U
-
-
-
 
   III) mimic_1568 D to A conversions
 
@@ -89,9 +83,6 @@ VIII) mimic_1567 Amplifier X
 
       (X) X_POS
       (X) Y_POS
-
-
-
 
    IV) mimic_1575 Follow Hold Gate X
     V) mimic_1575 Follow Hold Gate Y
@@ -120,9 +111,6 @@ VIII) mimic_1567 Amplifier X
      (P) Output to W of mimic_1567
      (U) Input
 
-
-
-
 VIII) mimic_1567 Amplifier X
   IX) mimic_1567 Amplifier Y
 
@@ -133,32 +121,12 @@ VIII) mimic_1567 Amplifier X
      (Z) Input
 
 
-
-
-
-
-
-
-
-
-
-
    X) mimic_4688 Intensifier
      (A) +10 volts
      (B) +5 volts
      (C) -15 volts
      (D) GND
      ()
-
-
-
-
-
-
-
-
-
-
 
   XI) mimic_1705 bias
      (D) GND
