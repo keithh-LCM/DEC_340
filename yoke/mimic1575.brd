@@ -161,18 +161,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.54" y1="11.684" x2="8.89" y2="11.684" width="0.1524" layer="20"/>
-<wire x1="8.89" y1="11.684" x2="8.89" y2="3.81" width="0.1524" layer="20"/>
-<wire x1="8.89" y1="3.81" x2="12.7" y2="0" width="0.1524" layer="20"/>
-<wire x1="12.7" y1="0" x2="165.1" y2="0" width="0.1524" layer="20"/>
-<wire x1="165.1" y1="0" x2="165.1" y2="114.3" width="0.1524" layer="20"/>
-<wire x1="165.1" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="20"/>
-<wire x1="12.7" y1="114.3" x2="8.89" y2="110.49" width="0.1524" layer="20"/>
-<wire x1="8.89" y1="110.49" x2="8.89" y2="102.616" width="0.1524" layer="20"/>
-<wire x1="8.89" y1="102.616" x2="2.54" y2="102.616" width="0.1524" layer="20"/>
-<wire x1="2.54" y1="102.616" x2="0" y2="100.076" width="0.1524" layer="20"/>
-<wire x1="0" y1="100.076" x2="0" y2="14.224" width="0.1524" layer="20"/>
-<wire x1="0" y1="14.224" x2="2.54" y2="11.684" width="0.1524" layer="20"/>
+<wire x1="2.54" y1="11.684" x2="8.89" y2="11.684" width="0.0254" layer="20"/>
+<wire x1="8.89" y1="11.684" x2="8.89" y2="3.81" width="0.0254" layer="20"/>
+<wire x1="8.89" y1="3.81" x2="12.7" y2="0" width="0.0254" layer="20"/>
+<wire x1="12.7" y1="0" x2="165.1" y2="0" width="0.0254" layer="20"/>
+<wire x1="165.1" y1="0" x2="165.1" y2="114.3" width="0.0254" layer="20"/>
+<wire x1="165.1" y1="114.3" x2="12.7" y2="114.3" width="0.0254" layer="20"/>
+<wire x1="12.7" y1="114.3" x2="8.89" y2="110.49" width="0.0254" layer="20"/>
+<wire x1="8.89" y1="110.49" x2="8.89" y2="102.616" width="0.0254" layer="20"/>
+<wire x1="8.89" y1="102.616" x2="2.54" y2="102.616" width="0.0254" layer="20"/>
+<wire x1="2.54" y1="102.616" x2="0" y2="100.076" width="0.0254" layer="20"/>
+<wire x1="0" y1="100.076" x2="0" y2="14.224" width="0.0254" layer="20"/>
+<wire x1="0" y1="14.224" x2="2.54" y2="11.684" width="0.0254" layer="20"/>
 </plain>
 <libraries>
 <library name="keiths">
@@ -228,15 +228,19 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 </package>
 <package name="44PINEDGE">
 <description>44 Pin Edge Connector for PCB</description>
-<wire x1="-45.466" y1="0" x2="45.466" y2="0" width="0.127" layer="21"/>
-<wire x1="45.466" y1="0" x2="45.466" y2="8.128" width="0.127" layer="21"/>
-<wire x1="-45.466" y1="0" x2="-45.466" y2="8.128" width="0.127" layer="21"/>
+<wire x1="-42.926" y1="0" x2="42.926" y2="0" width="0.127" layer="21"/>
+<wire x1="42.926" y1="0" x2="45.466" y2="2.54" width="0.127" layer="21"/>
+<wire x1="45.466" y1="2.54" x2="45.466" y2="8.128" width="0.127" layer="21"/>
+<wire x1="-42.926" y1="0" x2="-45.466" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-45.466" y1="2.54" x2="-45.466" y2="8.128" width="0.127" layer="21"/>
 <wire x1="-45.466" y1="8.128" x2="-45.72" y2="8.128" width="0.127" layer="25"/>
 <wire x1="45.466" y1="8.128" x2="45.72" y2="8.128" width="0.127" layer="21"/>
 <wire x1="-45.72" y1="8.128" x2="-45.466" y2="8.128" width="0.127" layer="22"/>
-<wire x1="-45.466" y1="8.128" x2="-45.466" y2="0" width="0.127" layer="22"/>
-<wire x1="-45.466" y1="0" x2="45.466" y2="0" width="0.127" layer="22"/>
-<wire x1="45.466" y1="0" x2="45.466" y2="8.128" width="0.127" layer="22"/>
+<wire x1="-45.466" y1="8.128" x2="-45.466" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-45.466" y1="2.54" x2="-42.926" y2="0" width="0.127" layer="22"/>
+<wire x1="-42.926" y1="0" x2="42.926" y2="0" width="0.127" layer="22"/>
+<wire x1="42.926" y1="0" x2="45.466" y2="2.54" width="0.127" layer="22"/>
+<wire x1="45.466" y1="2.54" x2="45.466" y2="8.128" width="0.127" layer="22"/>
 <wire x1="45.466" y1="8.128" x2="45.72" y2="8.128" width="0.127" layer="22"/>
 <smd name="11" x="-1.9812" y="4.826" dx="1.905" dy="8.255" layer="1"/>
 <smd name="10" x="-5.9436" y="4.826" dx="1.905" dy="8.255" layer="1"/>
@@ -333,7 +337,7 @@ rotated 45 deg.</description>
 <wire x1="-2.975" y1="-1.123" x2="-2.721" y2="-1.377" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.721" y1="-1.377" x2="2.975" y2="-1.123" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.721" y1="1.377" x2="2.975" y2="1.123" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.975" y1="-1.123" x2="-2.975" y2="1.123" width="0.1524" layer="51"/>
+<wire x1="-2.975" y1="-1.123" x2="-2.975" y2="1.123" width="0.1524" layer="21"/>
 <wire x1="-2.721" y1="1.377" x2="-2.34" y2="1.377" width="0.1524" layer="21"/>
 <wire x1="-2.213" y1="1.25" x2="-2.34" y2="1.377" width="0.1524" layer="21"/>
 <wire x1="-2.721" y1="-1.377" x2="-2.34" y2="-1.377" width="0.1524" layer="21"/>
@@ -344,13 +348,13 @@ rotated 45 deg.</description>
 <wire x1="2.213" y1="-1.25" x2="-2.213" y2="-1.25" width="0.1524" layer="21"/>
 <wire x1="2.721" y1="1.377" x2="2.34" y2="1.377" width="0.1524" layer="21"/>
 <wire x1="2.721" y1="-1.377" x2="2.34" y2="-1.377" width="0.1524" layer="21"/>
-<wire x1="2.975" y1="-1.123" x2="2.975" y2="1.123" width="0.1524" layer="51"/>
+<wire x1="2.975" y1="-1.123" x2="2.975" y2="1.123" width="0.1524" layer="21"/>
 <pad name="1" x="-4.5" y="0" drill="0.8128" diameter="1.6764"/>
 <pad name="2" x="4.5" y="0" drill="0.8128" diameter="1.6764"/>
 <text x="-4.445" y="2.032" size="1.9304" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-4.826" y="-4.3688" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.229" y1="-0.3048" x2="-2.975" y2="0.3048" layer="51"/>
-<rectangle x1="2.975" y1="-0.3048" x2="3.229" y2="0.3048" layer="51"/>
+<rectangle x1="-3.229" y1="-0.3048" x2="-2.975" y2="0.3048" layer="21"/>
+<rectangle x1="2.975" y1="-0.3048" x2="3.229" y2="0.3048" layer="21"/>
 </package>
 <package name="3006P">
 <pad name="1" x="-6.477" y="1.27" drill="0.8" diameter="2.1844"/>
@@ -392,6 +396,25 @@ rotated 45 deg.</description>
 </package>
 </packages>
 </library>
+<library name="adafruit">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -401,7 +424,7 @@ rotated 45 deg.</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="throughhole">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -586,15 +609,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="120.65" y="38.608" size="1.9304" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="121.285" y="26.035" size="1.6764" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
-<element name="C1" library="keiths" package="CAP-ZERO-PT-ZERO-22UF-250V-FILM" value="0.022 uF" x="40.64" y="83.1596" smashed="yes" rot="R270">
+<element name="C1" library="keiths" package="CAP-ZERO-PT-ZERO-22UF-250V-FILM" value="0.022uF" x="40.64" y="83.1596" smashed="yes" rot="R270">
 <attribute name="PN" value="ECQ-E2223JFB" x="40.64" y="83.1596" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="39.053" y="89.6314" size="1.9304" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="35.386" y="74.5354" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C11" library="keiths" package="5MM_TH" value="56 pF" x="139.7" y="15.24" smashed="yes" rot="R270">
+<element name="C11" library="keiths" package="5MM_TH" value="56pF" x="139.7" y="15.24" smashed="yes" rot="R270">
 <attribute name="MPN" value="68 pF" x="139.7" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="140.208" y="20.701" size="1.9304" layer="25" font="vector" ratio="10" align="bottom-center"/>
-<attribute name="VALUE" x="139.7" y="8.255" size="1.6764" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="139.7" y="8.001" size="1.6764" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C2" library="keiths" package="CAP-ZERO-PT-ZERO-22UF-250V-FILM" value="0.022 uF" x="74.93" y="68.58" smashed="yes" rot="R90">
 <attribute name="PN" value="ECQ-E2223JFB" x="74.93" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
@@ -635,7 +658,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="110.363" y="46.228" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="P1" library="keiths" package="44PINEDGE" value="44PINEDGE" x="0" y="57.15" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="-16.51" y="6.096" size="1.27" layer="25"/>
+<attribute name="NAME" x="12.192" y="57.404" size="1.27" layer="25" display="off"/>
 <attribute name="VALUE" x="-16.51" y="3.556" size="1.6764" layer="27" display="off"/>
 </element>
 <element name="Q14" library="keiths" package="TO92" value="2N3904" x="50.8" y="24.13" smashed="yes" rot="R315">
@@ -671,7 +694,7 @@ design rules under a new name.</description>
 <element name="Q18" library="keiths" package="TO92" value="2N3904" x="107.95" y="10.033" smashed="yes" rot="R315">
 <attribute name="PN" value="2N3904" x="107.95" y="10.033" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="106.32716875" y="13.42635" size="1.9304" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="104.157596875" y="5.2968" size="1.6764" layer="27" font="vector" ratio="10"/>
+<attribute name="VALUE" x="101.617596875" y="5.2968" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="Q19" library="keiths" package="TO92" value="2N3904" x="130.81" y="39.37" smashed="yes" rot="R315">
 <attribute name="PN" value="2N3904" x="130.81" y="39.37" size="1.778" layer="27" rot="R315" display="off"/>
@@ -855,17 +878,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="70.471396875" y="84.345596875" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="Q1" library="keiths" package="TO92" value="2N3906" x="57.15" y="85.09" smashed="yes" rot="R315">
-<attribute name="NAME" x="51.92785" y="85.82936875" size="1.9304" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="52.18185" y="86.33736875" size="1.9304" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="58.513796875" y="87.796" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="Q2" library="keiths" package="TO92" value="2N3906" x="57.15" y="74.93" smashed="yes" rot="R315">
-<attribute name="NAME" x="51.97116875" y="74.25935" size="1.9304" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="54.25716875" y="78.06935" size="1.9304" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="60.469596875" y="74.3848" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="ZD2" library="keiths" package="DO35-7" value="BAT43" x="115.57" y="12.7" smashed="yes" rot="R270">
 <attribute name="PN" value="BAT43" x="115.57" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="113.284" y="18.415" size="1.9304" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="114.681" y="5.715" size="1.6764" layer="27" font="vector" ratio="10"/>
+<attribute name="VALUE" x="112.395" y="5.461" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="Q16" library="keiths" package="TO18" value="2N2222A" x="40.64" y="34.29" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.227" y="37.846" size="1.9304" layer="25" font="vector" ratio="10"/>
@@ -873,12 +896,14 @@ design rules under a new name.</description>
 </element>
 <element name="Q10" library="keiths" package="TO92" value="KSP05TA" x="81.28" y="30.48" smashed="yes" rot="MR315">
 <attribute name="NAME" x="78.45783125" y="33.87335" size="1.9304" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="77.198403125" y="25.7438" size="1.6764" layer="27" font="vector" ratio="10"/>
+<attribute name="VALUE" x="77.198403125" y="25.4898" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="Q7" library="keiths" package="TO92" value="KSP05TA" x="95.25" y="30.48" smashed="yes" rot="MR135">
 <attribute name="NAME" x="94.33283125" y="34.50835" size="1.9304" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="90.914403125" y="25.4898" size="1.6764" layer="27" font="vector" ratio="10"/>
 </element>
+<element name="U$1" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="19.05" y="107.95"/>
+<element name="U$2" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="152.4" y="6.35"/>
 </elements>
 <signals>
 <signal name="E_IN">
@@ -1006,8 +1031,8 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="P1" pad="A"/>
 <wire x1="65.532" y1="65.532" x2="55.88" y2="55.88" width="1.016" layer="16"/>
-<wire x1="4.826" y1="98.7552" x2="13.97" y2="98.7552" width="1.016" layer="16"/>
-<wire x1="13.97" y1="98.7552" x2="21.9752" y2="106.7604" width="1.016" layer="16"/>
+<wire x1="4.826" y1="98.7552" x2="17.526" y2="98.7552" width="1.016" layer="16"/>
+<wire x1="17.526" y1="98.7552" x2="25.5312" y2="106.7604" width="1.016" layer="16"/>
 <wire x1="133.35" y1="106.7604" x2="120.65" y2="106.7604" width="1.016" layer="16"/>
 <wire x1="120.65" y1="106.7604" x2="107.95" y2="106.7604" width="1.016" layer="16"/>
 <wire x1="107.95" y1="106.7604" x2="82.55" y2="106.7604" width="1.016" layer="16"/>
@@ -1015,7 +1040,7 @@ design rules under a new name.</description>
 <wire x1="95.25" y1="106.7604" x2="69.85" y2="106.7604" width="1.016" layer="16"/>
 <wire x1="69.85" y1="106.7604" x2="65.532" y2="106.7604" width="1.016" layer="16"/>
 <wire x1="65.532" y1="106.7604" x2="57.15" y2="106.7604" width="1.016" layer="16"/>
-<wire x1="21.9752" y1="106.7604" x2="57.15" y2="106.7604" width="1.016" layer="16"/>
+<wire x1="25.5312" y1="106.7604" x2="57.15" y2="106.7604" width="1.016" layer="16"/>
 <wire x1="130.81" y1="69.7738" x2="130.81" y2="73.66" width="1.016" layer="1"/>
 <wire x1="130.81" y1="73.66" x2="134.04" y2="76.89" width="1.016" layer="1"/>
 <wire x1="154.94" y1="76.89" x2="134.04" y2="76.89" width="1.016" layer="1"/>
@@ -1501,6 +1526,56 @@ design rules under a new name.</description>
 <approved hash="4,16,fddfdf60537b9fc7"/>
 <approved hash="4,16,89257e2764d61f5a"/>
 <approved hash="4,16,9cdcc36397c8b9a7"/>
+<approved hash="4,1,63bd5016a4449dbf"/>
+<approved hash="4,1,96d8433db7696f68"/>
+<approved hash="4,1,876fbcb846927885"/>
+<approved hash="4,1,4146622b981bbe8a"/>
+<approved hash="4,1,783e6a8990a38614"/>
+<approved hash="4,1,50ab7104894eaef1"/>
+<approved hash="4,1,6f3b5a9ea0ce974f"/>
+<approved hash="4,1,3a9928f2d250c4ab"/>
+<approved hash="4,1,25b41e19e645dbc4"/>
+<approved hash="4,1,6c50b7bb4df99462"/>
+<approved hash="4,1,dc01856a7e682153"/>
+<approved hash="4,1,c4f4fddf050d3a16"/>
+<approved hash="4,1,b06a924f6bbf4fbe"/>
+<approved hash="4,1,d9df89b272e226e3"/>
+<approved hash="4,1,becd9b205f6c401d"/>
+<approved hash="4,1,ade294cd6e375128"/>
+<approved hash="4,1,cbf1eec414300b21"/>
+<approved hash="4,1,8fe7729644d58c6c"/>
+<approved hash="4,1,e7873be0c0db19dc"/>
+<approved hash="4,1,cd7cf5510c9d328c"/>
+<approved hash="4,1,0aa23ff7c307f4f6"/>
+<approved hash="4,1,78790cb4f750b06d"/>
+<approved hash="4,1,98f3897b9f6c6a2e"/>
+<approved hash="4,1,6299dfc4eebdbdbe"/>
+<approved hash="6,1,141e0a5e665e781e"/>
+<approved hash="6,1,4974757245727974"/>
+<approved hash="4,16,96d8433db7696f68"/>
+<approved hash="4,16,63bd5016a4449dbf"/>
+<approved hash="4,16,4146622b981bbe8a"/>
+<approved hash="4,16,876fbcb846927885"/>
+<approved hash="4,16,783e6a8990a38614"/>
+<approved hash="4,16,b06a924f6bbf4fbe"/>
+<approved hash="4,16,6f3b5a9ea0ce974f"/>
+<approved hash="4,16,cd7cf5510c9d328c"/>
+<approved hash="4,16,dc01856a7e682153"/>
+<approved hash="4,16,78790cb4f750b06d"/>
+<approved hash="4,16,25b41e19e645dbc4"/>
+<approved hash="4,16,d9df89b272e226e3"/>
+<approved hash="4,16,50ab7104894eaef1"/>
+<approved hash="4,16,ade294cd6e375128"/>
+<approved hash="4,16,6c50b7bb4df99462"/>
+<approved hash="4,16,becd9b205f6c401d"/>
+<approved hash="4,16,c4f4fddf050d3a16"/>
+<approved hash="4,16,8fe7729644d58c6c"/>
+<approved hash="4,16,cbf1eec414300b21"/>
+<approved hash="4,16,3a9928f2d250c4ab"/>
+<approved hash="4,16,e7873be0c0db19dc"/>
+<approved hash="4,16,0aa23ff7c307f4f6"/>
+<approved hash="4,16,98f3897b9f6c6a2e"/>
+<approved hash="4,16,6299dfc4eebdbdbe"/>
 </errors>
 </board>
 </drawing>

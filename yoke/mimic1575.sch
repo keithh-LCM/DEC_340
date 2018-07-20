@@ -244,7 +244,7 @@ rotated 45 deg.</description>
 <wire x1="-2.975" y1="-1.123" x2="-2.721" y2="-1.377" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.721" y1="-1.377" x2="2.975" y2="-1.123" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.721" y1="1.377" x2="2.975" y2="1.123" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.975" y1="-1.123" x2="-2.975" y2="1.123" width="0.1524" layer="51"/>
+<wire x1="-2.975" y1="-1.123" x2="-2.975" y2="1.123" width="0.1524" layer="21"/>
 <wire x1="-2.721" y1="1.377" x2="-2.34" y2="1.377" width="0.1524" layer="21"/>
 <wire x1="-2.213" y1="1.25" x2="-2.34" y2="1.377" width="0.1524" layer="21"/>
 <wire x1="-2.721" y1="-1.377" x2="-2.34" y2="-1.377" width="0.1524" layer="21"/>
@@ -255,13 +255,13 @@ rotated 45 deg.</description>
 <wire x1="2.213" y1="-1.25" x2="-2.213" y2="-1.25" width="0.1524" layer="21"/>
 <wire x1="2.721" y1="1.377" x2="2.34" y2="1.377" width="0.1524" layer="21"/>
 <wire x1="2.721" y1="-1.377" x2="2.34" y2="-1.377" width="0.1524" layer="21"/>
-<wire x1="2.975" y1="-1.123" x2="2.975" y2="1.123" width="0.1524" layer="51"/>
+<wire x1="2.975" y1="-1.123" x2="2.975" y2="1.123" width="0.1524" layer="21"/>
 <pad name="1" x="-4.5" y="0" drill="0.8128" diameter="1.6764"/>
 <pad name="2" x="4.5" y="0" drill="0.8128" diameter="1.6764"/>
 <text x="-4.445" y="2.032" size="1.9304" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-4.826" y="-4.3688" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.229" y1="-0.3048" x2="-2.975" y2="0.3048" layer="51"/>
-<rectangle x1="2.975" y1="-0.3048" x2="3.229" y2="0.3048" layer="51"/>
+<rectangle x1="-3.229" y1="-0.3048" x2="-2.975" y2="0.3048" layer="21"/>
+<rectangle x1="2.975" y1="-0.3048" x2="3.229" y2="0.3048" layer="21"/>
 </package>
 <package name="R_HALFWATT">
 <wire x1="-4.048" y1="1.27" x2="-3.794" y2="1.524" width="0.1524" layer="21" curve="-90"/>
@@ -371,15 +371,19 @@ rotated 45 deg.</description>
 </package>
 <package name="44PINEDGE">
 <description>44 Pin Edge Connector for PCB</description>
-<wire x1="-45.466" y1="0" x2="45.466" y2="0" width="0.127" layer="21"/>
-<wire x1="45.466" y1="0" x2="45.466" y2="8.128" width="0.127" layer="21"/>
-<wire x1="-45.466" y1="0" x2="-45.466" y2="8.128" width="0.127" layer="21"/>
+<wire x1="-42.926" y1="0" x2="42.926" y2="0" width="0.127" layer="21"/>
+<wire x1="42.926" y1="0" x2="45.466" y2="2.54" width="0.127" layer="21"/>
+<wire x1="45.466" y1="2.54" x2="45.466" y2="8.128" width="0.127" layer="21"/>
+<wire x1="-42.926" y1="0" x2="-45.466" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-45.466" y1="2.54" x2="-45.466" y2="8.128" width="0.127" layer="21"/>
 <wire x1="-45.466" y1="8.128" x2="-45.72" y2="8.128" width="0.127" layer="25"/>
 <wire x1="45.466" y1="8.128" x2="45.72" y2="8.128" width="0.127" layer="21"/>
 <wire x1="-45.72" y1="8.128" x2="-45.466" y2="8.128" width="0.127" layer="22"/>
-<wire x1="-45.466" y1="8.128" x2="-45.466" y2="0" width="0.127" layer="22"/>
-<wire x1="-45.466" y1="0" x2="45.466" y2="0" width="0.127" layer="22"/>
-<wire x1="45.466" y1="0" x2="45.466" y2="8.128" width="0.127" layer="22"/>
+<wire x1="-45.466" y1="8.128" x2="-45.466" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-45.466" y1="2.54" x2="-42.926" y2="0" width="0.127" layer="22"/>
+<wire x1="-42.926" y1="0" x2="42.926" y2="0" width="0.127" layer="22"/>
+<wire x1="42.926" y1="0" x2="45.466" y2="2.54" width="0.127" layer="22"/>
+<wire x1="45.466" y1="2.54" x2="45.466" y2="8.128" width="0.127" layer="22"/>
 <wire x1="45.466" y1="8.128" x2="45.72" y2="8.128" width="0.127" layer="22"/>
 <smd name="11" x="-1.9812" y="4.826" dx="1.905" dy="8.255" layer="1"/>
 <smd name="10" x="-5.9436" y="4.826" dx="1.905" dy="8.255" layer="1"/>
@@ -1047,6 +1051,46 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1062,7 +1106,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R12" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="27"/>
 <part name="R2" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="120"/>
 <part name="R3" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="560"/>
-<part name="C1" library="keiths" deviceset="ECQ-E2223JF" device="" value="0.022 uF">
+<part name="C1" library="keiths" deviceset="ECQ-E2223JF" device="" value="0.022uF">
 <attribute name="PN" value="ECQ-E2223JFB"/>
 </part>
 <part name="R4" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="27"/>
@@ -1092,7 +1136,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="R23" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="120"/>
 <part name="R26" library="keiths" deviceset="AXIALRESISTOR" device="QUARTER_WATT" value="1K"/>
-<part name="C11" library="keiths" deviceset="CAP0.1UF100V" device="" value="56 pF">
+<part name="C11" library="keiths" deviceset="CAP0.1UF100V" device="" value="56pF">
 <attribute name="MPN" value="68 pF"/>
 </part>
 <part name="Q18" library="keiths" deviceset="2N3904" device="">
@@ -1175,6 +1219,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="Q16" library="keiths" deviceset="2N2222" device="" technology="A"/>
 <part name="Q10" library="keiths" deviceset="KSP05TA" device=""/>
 <part name="Q7" library="keiths" deviceset="KSP05TA" device=""/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1465,6 +1511,8 @@ Current Amplifier</text>
 <attribute name="NAME" x="214.63" y="164.1856" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="159.1056" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
+<instance part="U$1" gate="G$1" x="25.4" y="411.48"/>
+<instance part="U$2" gate="G$1" x="40.64" y="411.48"/>
 </instances>
 <busses>
 </busses>
