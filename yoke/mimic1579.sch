@@ -787,92 +787,92 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </class>
 </classes>
 <parts>
-<part name="Q5" library="keiths" deviceset="2N3904" device=""/>
-<part name="R2" library="keiths" deviceset="R-1/4WATT" device="" value="4.7K"/>
-<part name="R4" library="keiths" deviceset="R-1/4WATT" device="" value="18K"/>
-<part name="D4" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R5" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
-<part name="R6" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
-<part name="R7" library="keiths" deviceset="R-1/4WATT" device="" value="1K"/>
-<part name="R8" library="keiths" deviceset="R-1/4WATT" device="" value="1K"/>
-<part name="R9" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
-<part name="R10" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
-<part name="D6" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="D8" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
 <part name="Q1" library="keiths" deviceset="2N3904" device=""/>
-<part name="R12" library="keiths" deviceset="R-1/4WATT" device="" value="4.7K"/>
-<part name="R14" library="keiths" deviceset="R-1/4WATT" device="" value="18K"/>
+<part name="R1" library="keiths" deviceset="R-1/4WATT" device="" value="4.7K"/>
+<part name="R4" library="keiths" deviceset="R-1/4WATT" device="" value="18K"/>
+<part name="D3" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R10" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
+<part name="R3" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
+<part name="R22" library="keiths" deviceset="R-1/4WATT" device="" value="1K"/>
+<part name="R23" library="keiths" deviceset="R-1/4WATT" device="" value="1K"/>
+<part name="R35" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
+<part name="R33" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
 <part name="D12" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R15" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
-<part name="R16" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
+<part name="D19" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="Q2" library="keiths" deviceset="2N3904" device=""/>
+<part name="R2" library="keiths" deviceset="R-1/4WATT" device="" value="4.7K"/>
+<part name="R6" library="keiths" deviceset="R-1/4WATT" device="" value="18K"/>
+<part name="D4" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R11" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
+<part name="R5" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
 <part name="R17" library="keiths" deviceset="R-1/4WATT" device="" value="1K"/>
 <part name="R18" library="keiths" deviceset="R-1/4WATT" device="" value="1K"/>
-<part name="R19" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
-<part name="R20" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
-<part name="D3" library="keiths" deviceset="1N4148" device="" value="BAT48">
+<part name="R25" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
+<part name="R30" library="keiths" deviceset="R-1/4WATT" device="" value="1.5K"/>
+<part name="D2" library="keiths" deviceset="1N4148" device="" value="BAT48">
 <attribute name="PN" value="BAT48RL"/>
 </part>
 <part name="SUPPLY1" library="keiths" deviceset="GND" device=""/>
-<part name="D14" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="D16" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="Q13" library="keiths" deviceset="2N3904" device=""/>
-<part name="Q2" library="keiths" deviceset="2N3906" device=""/>
-<part name="SUPPLY3" library="keiths" deviceset="GND" device=""/>
-<part name="Q14" library="keiths" deviceset="2N3904" device=""/>
-<part name="R3" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
-<part name="D25" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R21" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="R26" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="Q3" library="keiths" deviceset="2N3906" device=""/>
-<part name="SUPPLY2" library="keiths" deviceset="GND" device=""/>
-<part name="R11" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
-<part name="D1" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R27" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="R29" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="Q15" library="keiths" deviceset="2N3906" device=""/>
-<part name="SUPPLY5" library="keiths" deviceset="GND" device=""/>
-<part name="R32" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
-<part name="D10" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R33" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="R34" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="Q8" library="keiths" deviceset="2N3904" device=""/>
-<part name="D11" library="keiths" deviceset="1N4148" device="" value="BAT48">
-<attribute name="PN" value="BAT48RL"/>
-</part>
-<part name="Q16" library="keiths" deviceset="2N3904" device=""/>
-<part name="R35" library="keiths" deviceset="R-1/4WATT" device="" value="18K"/>
-<part name="SUPPLY8" library="keiths" deviceset="GND" device=""/>
-<part name="R25" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
-<part name="Q4" library="keiths" deviceset="2N3906" device=""/>
-<part name="SUPPLY4" library="keiths" deviceset="GND" device=""/>
-<part name="R1" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
-<part name="D2" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R13" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="R22" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="Q6" library="keiths" deviceset="2N3904" device=""/>
-<part name="R23" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
-<part name="Q7" library="keiths" deviceset="2N3906" device=""/>
-<part name="SUPPLY6" library="keiths" deviceset="GND" device=""/>
-<part name="R24" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
-<part name="D13" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="R28" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="R30" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
-<part name="Q9" library="keiths" deviceset="2N3904" device=""/>
-<part name="R31" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
-<part name="D7" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="D17" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="D18" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="D5" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
 <part name="D9" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
 <part name="D15" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="Q13" library="keiths" deviceset="2N3904" device=""/>
+<part name="Q4" library="keiths" deviceset="2N3906" device=""/>
+<part name="SUPPLY3" library="keiths" deviceset="GND" device=""/>
+<part name="Q5" library="keiths" deviceset="2N3904" device=""/>
+<part name="R8" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
+<part name="D1" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R12" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="R9" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="Q12" library="keiths" deviceset="2N3906" device=""/>
+<part name="SUPPLY2" library="keiths" deviceset="GND" device=""/>
+<part name="R31" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
+<part name="D16" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R34" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="R32" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="Q6" library="keiths" deviceset="2N3906" device=""/>
+<part name="SUPPLY5" library="keiths" deviceset="GND" device=""/>
+<part name="R13" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
+<part name="D7" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R16" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="R14" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="Q7" library="keiths" deviceset="2N3904" device=""/>
+<part name="D17" library="keiths" deviceset="1N4148" device="" value="BAT48">
+<attribute name="PN" value="BAT48RL"/>
+</part>
+<part name="Q3" library="keiths" deviceset="2N3904" device=""/>
+<part name="R7" library="keiths" deviceset="R-1/4WATT" device="" value="18K"/>
+<part name="SUPPLY8" library="keiths" deviceset="GND" device=""/>
+<part name="R15" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
+<part name="Q8" library="keiths" deviceset="2N3906" device=""/>
+<part name="SUPPLY4" library="keiths" deviceset="GND" device=""/>
+<part name="R19" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
+<part name="D10" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R24" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="R20" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="Q9" library="keiths" deviceset="2N3904" device=""/>
+<part name="R21" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
+<part name="Q10" library="keiths" deviceset="2N3906" device=""/>
+<part name="SUPPLY6" library="keiths" deviceset="GND" device=""/>
+<part name="R26" library="keiths" deviceset="R-1/4WATT" device="" value="4.75K"/>
+<part name="D13" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="R29" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="R27" library="keiths" deviceset="R-1/4WATT" device="" value="475"/>
+<part name="Q11" library="keiths" deviceset="2N3904" device=""/>
+<part name="R28" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
+<part name="D6" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="D8" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="D14" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="D5" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="D11" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
+<part name="D18" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 <part name="J1" library="keiths" deviceset="44PINEDGE" device=""/>
+<part name="P1" library="keiths" deviceset="POT-3006P" device="" value="2K"/>
 <part name="P2" library="keiths" deviceset="POT-3006P" device="" value="2K"/>
-<part name="P3" library="keiths" deviceset="POT-3006P" device="" value="2K"/>
-<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="C5" library="keiths" deviceset="CAP80PF" device="" value="80pF"/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="C1" library="keiths" deviceset="CAP80PF" device="" value="80pF"/>
+<part name="C5" library="keiths" deviceset="CAP80PF" device="" value="80pF"/>
 <part name="C2" library="keiths" deviceset="CAP80PF" device="" value="80pF"/>
 <part name="C3" library="keiths" deviceset="CAP80PF" device="" value="80pF"/>
 <part name="C4" library="keiths" deviceset="CAP80PF" device="" value="80pF"/>
@@ -882,8 +882,8 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <plain>
 </plain>
 <instances>
-<instance part="Q5" gate="G1" x="330.2" y="332.74"/>
-<instance part="R2" gate="&gt;NAME" x="322.58" y="342.9" smashed="yes" rot="MR90">
+<instance part="Q1" gate="G1" x="330.2" y="332.74"/>
+<instance part="R1" gate="&gt;NAME" x="322.58" y="342.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="326.136" y="344.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="325.882" y="340.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -891,60 +891,60 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="336.296" y="306.578" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="336.042" y="302.26" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D4" gate="G$1" x="345.44" y="317.5" smashed="yes" rot="R270">
+<instance part="D3" gate="G$1" x="345.44" y="317.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="347.218" y="321.31" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="347.218" y="314.96" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R5" gate="&gt;NAME" x="345.44" y="304.8" smashed="yes" rot="MR90">
+<instance part="R10" gate="&gt;NAME" x="345.44" y="304.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="347.218" y="306.578" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="347.218" y="302.26" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R6" gate="&gt;NAME" x="309.88" y="325.12" smashed="yes" rot="MR90">
+<instance part="R3" gate="&gt;NAME" x="309.88" y="325.12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="311.912" y="326.898" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="311.912" y="322.58" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R7" gate="&gt;NAME" x="383.54" y="304.8" smashed="yes" rot="MR90">
+<instance part="R22" gate="&gt;NAME" x="383.54" y="304.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="385.318" y="306.578" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="385.318" y="302.26" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R8" gate="&gt;NAME" x="370.84" y="304.8" smashed="yes" rot="MR90">
+<instance part="R23" gate="&gt;NAME" x="370.84" y="304.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="372.618" y="306.578" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="372.618" y="302.26" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R9" gate="&gt;NAME" x="419.1" y="304.8" smashed="yes" rot="MR90">
+<instance part="R35" gate="&gt;NAME" x="419.1" y="304.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="420.878" y="306.578" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="420.878" y="302.26" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R10" gate="&gt;NAME" x="408.94" y="304.8" smashed="yes" rot="MR90">
+<instance part="R33" gate="&gt;NAME" x="408.94" y="304.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="410.718" y="306.578" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="410.718" y="302.26" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D6" gate="G$1" x="383.54" y="317.5" smashed="yes" rot="R270">
+<instance part="D12" gate="G$1" x="383.54" y="317.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="385.318" y="321.31" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="385.318" y="314.96" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D8" gate="G$1" x="419.1" y="317.5" smashed="yes" rot="R270">
+<instance part="D19" gate="G$1" x="419.1" y="317.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="420.878" y="321.31" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="420.878" y="314.96" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q1" gate="G1" x="330.2" y="243.84"/>
-<instance part="R12" gate="&gt;NAME" x="322.58" y="251.46" smashed="yes" rot="MR90">
+<instance part="Q2" gate="G1" x="330.2" y="243.84"/>
+<instance part="R2" gate="&gt;NAME" x="322.58" y="251.46" smashed="yes" rot="MR90">
 <attribute name="NAME" x="326.136" y="253.238" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="325.882" y="248.92" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R14" gate="&gt;NAME" x="332.74" y="215.9" smashed="yes" rot="MR90">
+<instance part="R6" gate="&gt;NAME" x="332.74" y="215.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="336.296" y="217.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="336.042" y="213.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D12" gate="G$1" x="345.44" y="228.6" smashed="yes" rot="R270">
+<instance part="D4" gate="G$1" x="345.44" y="228.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="347.218" y="232.41" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="347.218" y="229.362" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R15" gate="&gt;NAME" x="345.44" y="215.9" smashed="yes" rot="MR90">
+<instance part="R11" gate="&gt;NAME" x="345.44" y="215.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="347.218" y="217.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="347.218" y="213.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R16" gate="&gt;NAME" x="309.88" y="233.68" smashed="yes" rot="MR90">
+<instance part="R5" gate="&gt;NAME" x="309.88" y="233.68" smashed="yes" rot="MR90">
 <attribute name="NAME" x="311.912" y="235.458" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="311.912" y="231.14" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -956,25 +956,25 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="372.618" y="217.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="372.618" y="213.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R19" gate="&gt;NAME" x="419.1" y="215.9" smashed="yes" rot="MR90">
+<instance part="R25" gate="&gt;NAME" x="419.1" y="215.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="420.878" y="217.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="420.878" y="213.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R20" gate="&gt;NAME" x="408.94" y="215.9" smashed="yes" rot="MR90">
+<instance part="R30" gate="&gt;NAME" x="408.94" y="215.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="410.718" y="217.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="410.718" y="213.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D3" gate="G$1" x="248.92" y="325.12" smashed="yes" rot="R90">
+<instance part="D2" gate="G$1" x="248.92" y="325.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="251.46" y="325.12" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="251.46" y="320.04" size="1.9304" layer="96" font="vector" ratio="10"/>
 <attribute name="PN" x="248.92" y="325.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="208.28" y="213.36" rot="MR0"/>
-<instance part="D14" gate="G$1" x="383.54" y="228.6" smashed="yes" rot="R270">
+<instance part="D9" gate="G$1" x="383.54" y="228.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="385.318" y="232.41" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="385.318" y="229.362" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D16" gate="G$1" x="419.1" y="228.6" smashed="yes" rot="R270">
+<instance part="D15" gate="G$1" x="419.1" y="228.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="420.878" y="232.41" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="420.878" y="229.362" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -982,130 +982,130 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="283.21" y="276.86" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="283.21" y="269.24" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q2" gate="G$1" x="259.08" y="365.76" smashed="yes">
+<instance part="Q4" gate="G$1" x="259.08" y="365.76" smashed="yes">
 <attribute name="NAME" x="264.16" y="368.3" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="264.16" y="360.68" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="261.62" y="375.92" rot="MR180"/>
-<instance part="Q14" gate="G1" x="281.94" y="365.76" smashed="yes" rot="R180">
+<instance part="Q5" gate="G1" x="281.94" y="365.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="283.21" y="368.3" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="283.21" y="360.68" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R3" gate="&gt;NAME" x="213.36" y="335.28" smashed="yes" rot="MR0">
+<instance part="R8" gate="&gt;NAME" x="213.36" y="335.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="208.28" y="337.82" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="337.82" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D25" gate="G$1" x="236.22" y="350.52" smashed="yes" rot="R180">
+<instance part="D1" gate="G$1" x="236.22" y="350.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="234.442" y="352.552" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="234.442" y="346.71" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R21" gate="&gt;NAME" x="226.06" y="358.14" smashed="yes" rot="MR90">
+<instance part="R12" gate="&gt;NAME" x="226.06" y="358.14" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="359.918" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="355.6" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R26" gate="&gt;NAME" x="226.06" y="342.9" smashed="yes" rot="MR90">
+<instance part="R9" gate="&gt;NAME" x="226.06" y="342.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="344.678" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="340.36" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q3" gate="G$1" x="259.08" y="274.32" smashed="yes">
+<instance part="Q12" gate="G$1" x="259.08" y="274.32" smashed="yes">
 <attribute name="NAME" x="264.16" y="276.86" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="264.16" y="269.24" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="261.62" y="284.48" rot="MR180"/>
-<instance part="R11" gate="&gt;NAME" x="213.36" y="243.84" smashed="yes" rot="MR0">
+<instance part="R31" gate="&gt;NAME" x="213.36" y="243.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="208.28" y="246.38" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="246.38" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D1" gate="G$1" x="236.22" y="259.08" smashed="yes" rot="R180">
+<instance part="D16" gate="G$1" x="236.22" y="259.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="234.442" y="261.112" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="234.442" y="255.27" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R27" gate="&gt;NAME" x="226.06" y="266.7" smashed="yes" rot="MR90">
+<instance part="R34" gate="&gt;NAME" x="226.06" y="266.7" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="268.478" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="264.16" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R29" gate="&gt;NAME" x="226.06" y="251.46" smashed="yes" rot="MR90">
+<instance part="R32" gate="&gt;NAME" x="226.06" y="251.46" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="253.238" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="248.92" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q15" gate="G$1" x="246.38" y="190.5" smashed="yes">
+<instance part="Q6" gate="G$1" x="246.38" y="190.5" smashed="yes">
 <attribute name="NAME" x="251.46" y="193.04" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="251.46" y="185.42" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="248.92" y="200.66" rot="MR180"/>
-<instance part="R32" gate="&gt;NAME" x="213.36" y="160.02" smashed="yes" rot="MR0">
+<instance part="R13" gate="&gt;NAME" x="213.36" y="160.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="208.28" y="162.56" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="162.56" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D10" gate="G$1" x="236.22" y="175.26" smashed="yes" rot="R180">
+<instance part="D7" gate="G$1" x="236.22" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="234.442" y="177.292" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="234.442" y="171.45" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R33" gate="&gt;NAME" x="226.06" y="182.88" smashed="yes" rot="MR90">
+<instance part="R16" gate="&gt;NAME" x="226.06" y="182.88" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="184.658" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="180.34" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R34" gate="&gt;NAME" x="226.06" y="167.64" smashed="yes" rot="MR90">
+<instance part="R14" gate="&gt;NAME" x="226.06" y="167.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="169.418" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="165.1" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q8" gate="G1" x="281.94" y="190.5" smashed="yes" rot="R180">
+<instance part="Q7" gate="G1" x="281.94" y="190.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="283.21" y="193.04" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="283.21" y="185.42" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D11" gate="G$1" x="248.92" y="294.64" smashed="yes" rot="R270">
+<instance part="D17" gate="G$1" x="248.92" y="294.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="251.46" y="297.18" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="251.46" y="292.1" size="1.9304" layer="96" font="vector" ratio="10"/>
 <attribute name="PN" x="248.92" y="294.64" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="Q16" gate="G1" x="281.94" y="320.04" smashed="yes" rot="R180">
+<instance part="Q3" gate="G1" x="281.94" y="320.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="283.21" y="322.58" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="283.21" y="314.96" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R35" gate="&gt;NAME" x="279.4" y="302.26" smashed="yes" rot="MR90">
+<instance part="R7" gate="&gt;NAME" x="279.4" y="302.26" smashed="yes" rot="MR90">
 <attribute name="NAME" x="280.924" y="304.038" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="280.924" y="299.72" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="279.4" y="292.1" rot="MR0"/>
-<instance part="R25" gate="&gt;NAME" x="264.16" y="187.96" smashed="yes" rot="MR90">
+<instance part="R15" gate="&gt;NAME" x="264.16" y="187.96" smashed="yes" rot="MR90">
 <attribute name="NAME" x="267.716" y="189.738" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="267.462" y="185.42" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q4" gate="G$1" x="246.38" y="144.78" smashed="yes">
+<instance part="Q8" gate="G$1" x="246.38" y="144.78" smashed="yes">
 <attribute name="NAME" x="251.46" y="147.32" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="251.46" y="139.7" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="248.92" y="154.94" rot="MR180"/>
-<instance part="R1" gate="&gt;NAME" x="213.36" y="114.3" smashed="yes" rot="MR0">
+<instance part="R19" gate="&gt;NAME" x="213.36" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="208.28" y="116.84" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="116.84" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D2" gate="G$1" x="236.22" y="129.54" smashed="yes" rot="R180">
+<instance part="D10" gate="G$1" x="236.22" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="234.442" y="131.572" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="234.442" y="125.73" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R13" gate="&gt;NAME" x="226.06" y="137.16" smashed="yes" rot="MR90">
+<instance part="R24" gate="&gt;NAME" x="226.06" y="137.16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="138.938" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="134.62" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R22" gate="&gt;NAME" x="226.06" y="121.92" smashed="yes" rot="MR90">
+<instance part="R20" gate="&gt;NAME" x="226.06" y="121.92" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="123.698" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="119.38" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q6" gate="G1" x="281.94" y="144.78" smashed="yes" rot="R180">
+<instance part="Q9" gate="G1" x="281.94" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="283.21" y="147.32" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="283.21" y="139.7" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R23" gate="&gt;NAME" x="264.16" y="142.24" smashed="yes" rot="MR90">
+<instance part="R21" gate="&gt;NAME" x="264.16" y="142.24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="267.716" y="144.018" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="267.462" y="139.7" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q7" gate="G$1" x="246.38" y="99.06" smashed="yes">
+<instance part="Q10" gate="G$1" x="246.38" y="99.06" smashed="yes">
 <attribute name="NAME" x="251.46" y="101.6" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="251.46" y="93.98" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY6" gate="GND" x="248.92" y="109.22" rot="MR180"/>
-<instance part="R24" gate="&gt;NAME" x="213.36" y="68.58" smashed="yes" rot="MR0">
+<instance part="R26" gate="&gt;NAME" x="213.36" y="68.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="208.28" y="71.12" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="71.12" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1113,31 +1113,31 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="234.442" y="85.852" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="234.442" y="80.01" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R28" gate="&gt;NAME" x="226.06" y="91.44" smashed="yes" rot="MR90">
+<instance part="R29" gate="&gt;NAME" x="226.06" y="91.44" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="93.218" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="88.9" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R30" gate="&gt;NAME" x="226.06" y="76.2" smashed="yes" rot="MR90">
+<instance part="R27" gate="&gt;NAME" x="226.06" y="76.2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="77.978" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="227.584" y="73.66" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="Q9" gate="G1" x="281.94" y="99.06" smashed="yes" rot="R180">
+<instance part="Q11" gate="G1" x="281.94" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="283.21" y="101.6" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="283.21" y="93.98" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="R31" gate="&gt;NAME" x="264.16" y="96.52" smashed="yes" rot="MR90">
+<instance part="R28" gate="&gt;NAME" x="264.16" y="96.52" smashed="yes" rot="MR90">
 <attribute name="NAME" x="267.716" y="98.298" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="267.462" y="93.98" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D7" gate="G$1" x="353.06" y="223.52" smashed="yes" rot="R180">
+<instance part="D6" gate="G$1" x="353.06" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="351.282" y="225.552" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="351.282" y="219.71" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D17" gate="G$1" x="391.16" y="223.52" smashed="yes" rot="R180">
+<instance part="D8" gate="G$1" x="391.16" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="389.382" y="225.552" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="389.382" y="219.71" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D18" gate="G$1" x="426.72" y="223.52" smashed="yes" rot="R180">
+<instance part="D14" gate="G$1" x="426.72" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="424.942" y="225.552" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="424.942" y="219.71" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1145,32 +1145,32 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="367.538" y="250.19" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="367.538" y="244.602" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D9" gate="G$1" x="403.86" y="248.92" smashed="yes" rot="R90">
+<instance part="D11" gate="G$1" x="403.86" y="248.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="405.638" y="250.19" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="405.638" y="244.602" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="D15" gate="G$1" x="439.42" y="248.92" smashed="yes" rot="R90">
+<instance part="D18" gate="G$1" x="439.42" y="248.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="441.198" y="250.19" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="441.198" y="244.602" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0"/>
 <instance part="J1" gate="G$1" x="93.98" y="215.9"/>
-<instance part="P2" gate="G$1" x="322.58" y="307.34" smashed="yes" rot="MR90">
+<instance part="P1" gate="G$1" x="322.58" y="307.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="324.612" y="311.658" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="324.612" y="301.752" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="P3" gate="G$1" x="322.58" y="218.44" smashed="yes" rot="MR90">
+<instance part="P2" gate="G$1" x="322.58" y="218.44" smashed="yes" rot="MR90">
 <attribute name="NAME" x="324.612" y="222.758" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="324.612" y="212.852" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="U$1" gate="G$1" x="30.48" y="408.94"/>
-<instance part="U$2" gate="G$1" x="48.26" y="408.94"/>
-<instance part="C5" gate="G$1" x="215.9" y="365.76" smashed="yes" rot="R90">
+<instance part="U$2" gate="G$1" x="30.48" y="408.94"/>
+<instance part="U$1" gate="G$1" x="48.26" y="408.94"/>
+<instance part="C1" gate="G$1" x="215.9" y="365.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="209.804" y="368.681" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="217.424" y="368.681" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="C1" gate="G$1" x="215.9" y="274.32" smashed="yes" rot="R90">
+<instance part="C5" gate="G$1" x="215.9" y="274.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="209.804" y="277.241" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="217.424" y="277.241" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1192,14 +1192,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <nets>
 <net name="F_IN" class="0">
 <segment>
-<pinref part="R3" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R8" gate="&gt;NAME" pin="P$1"/>
 <wire x1="208.28" y1="335.28" x2="203.2" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="335.28" x2="203.2" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="365.76" x2="210.82" y2="365.76" width="0.1524" layer="91"/>
 <label x="198.12" y="365.76" size="1.9304" layer="95" rot="R180" xref="yes"/>
 <wire x1="203.2" y1="365.76" x2="198.12" y2="365.76" width="0.1524" layer="91"/>
 <junction x="203.2" y="365.76"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="114.3" y="228.6" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -1215,32 +1215,32 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <label x="198.12" y="220.98" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="E"/>
+<pinref part="Q4" gate="G$1" pin="E"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="261.62" y1="373.38" x2="261.62" y2="370.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="E"/>
+<pinref part="Q12" gate="G$1" pin="E"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="261.62" y1="281.94" x2="261.62" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q15" gate="G$1" pin="E"/>
+<pinref part="Q6" gate="G$1" pin="E"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="248.92" y1="198.12" x2="248.92" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R35" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R7" gate="&gt;NAME" pin="P$2"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <wire x1="279.4" y1="297.18" x2="279.4" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="G$1" pin="E"/>
+<pinref part="Q8" gate="G$1" pin="E"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="248.92" y1="152.4" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="G$1" pin="E"/>
+<pinref part="Q10" gate="G$1" pin="E"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="248.92" y1="106.68" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -1253,15 +1253,15 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <net name="VREF" class="0">
 <segment>
 <wire x1="322.58" y1="347.98" x2="322.58" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="R2" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R6" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R1" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R3" gate="&gt;NAME" pin="P$1"/>
 <wire x1="309.88" y1="350.52" x2="322.58" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="330.2" x2="309.88" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="D25" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="350.52" x2="248.92" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="350.52" x2="248.92" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="261.62" y1="350.52" x2="261.62" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="350.52" x2="261.62" y2="350.52" width="0.1524" layer="91"/>
 <junction x="248.92" y="350.52"/>
@@ -1272,24 +1272,24 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R2" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R1" gate="&gt;NAME" pin="P$2"/>
 <wire x1="322.58" y1="314.96" x2="322.58" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="332.74" x2="322.58" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="332.74" x2="327.66" y2="332.74" width="0.1524" layer="91"/>
 <junction x="322.58" y="332.74"/>
-<pinref part="Q5" gate="G1" pin="B"/>
-<pinref part="P2" gate="G$1" pin="3"/>
+<pinref part="Q1" gate="G1" pin="B"/>
+<pinref part="P1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="Q5" gate="G1" pin="E"/>
+<pinref part="Q1" gate="G1" pin="E"/>
 <pinref part="R4" gate="&gt;NAME" pin="P$1"/>
 <wire x1="332.74" y1="309.88" x2="332.74" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="325.12" x2="332.74" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="325.12" x2="345.44" y2="325.12" width="0.1524" layer="91"/>
 <junction x="332.74" y="325.12"/>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="345.44" y1="322.58" x2="345.44" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="322.58" x2="383.54" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="325.12" x2="383.54" y2="325.12" width="0.1524" layer="91"/>
@@ -1297,14 +1297,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="419.1" y1="322.58" x2="419.1" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="325.12" x2="383.54" y2="325.12" width="0.1524" layer="91"/>
 <junction x="383.54" y="325.12"/>
-<pinref part="D6" gate="G$1" pin="A"/>
-<pinref part="D8" gate="G$1" pin="A"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<pinref part="D19" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="R5" gate="&gt;NAME" pin="P$1"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="R10" gate="&gt;NAME" pin="P$1"/>
 <wire x1="345.44" y1="314.96" x2="345.44" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="312.42" x2="345.44" y2="309.88" width="0.1524" layer="91"/>
 <junction x="345.44" y="312.42"/>
@@ -1315,62 +1315,62 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R7" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R22" gate="&gt;NAME" pin="P$1"/>
 <wire x1="383.54" y1="314.96" x2="383.54" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="312.42" x2="383.54" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="251.46" x2="403.86" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="312.42" x2="383.54" y2="312.42" width="0.1524" layer="91"/>
 <junction x="383.54" y="312.42"/>
-<pinref part="D6" gate="G$1" pin="C"/>
-<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="D12" gate="G$1" pin="C"/>
+<pinref part="D11" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R8" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R23" gate="&gt;NAME" pin="P$1"/>
 <wire x1="370.84" y1="309.88" x2="370.84" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="312.42" x2="378.46" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="312.42" x2="378.46" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="297.18" x2="383.54" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="R7" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R22" gate="&gt;NAME" pin="P$2"/>
 <wire x1="383.54" y1="297.18" x2="383.54" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="439.42" y1="251.46" x2="439.42" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="R9" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R35" gate="&gt;NAME" pin="P$1"/>
 <wire x1="419.1" y1="314.96" x2="419.1" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="R10" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R33" gate="&gt;NAME" pin="P$1"/>
 <wire x1="419.1" y1="312.42" x2="419.1" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="309.88" x2="408.94" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="312.42" x2="419.1" y2="312.42" width="0.1524" layer="91"/>
 <junction x="419.1" y="312.42"/>
 <wire x1="439.42" y1="312.42" x2="419.1" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="C"/>
-<pinref part="D15" gate="G$1" pin="C"/>
+<pinref part="D19" gate="G$1" pin="C"/>
+<pinref part="D18" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R12" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R2" gate="&gt;NAME" pin="P$2"/>
 <wire x1="322.58" y1="226.06" x2="322.58" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="243.84" x2="322.58" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="243.84" x2="327.66" y2="243.84" width="0.1524" layer="91"/>
 <junction x="322.58" y="243.84"/>
-<pinref part="Q1" gate="G1" pin="B"/>
-<pinref part="P3" gate="G$1" pin="3"/>
+<pinref part="Q2" gate="G1" pin="B"/>
+<pinref part="P2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="Q1" gate="G1" pin="E"/>
-<pinref part="R14" gate="&gt;NAME" pin="P$1"/>
+<pinref part="Q2" gate="G1" pin="E"/>
+<pinref part="R6" gate="&gt;NAME" pin="P$1"/>
 <wire x1="332.74" y1="220.98" x2="332.74" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="236.22" x2="332.74" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="236.22" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
 <junction x="332.74" y="236.22"/>
-<pinref part="D12" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="345.44" y1="233.68" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="233.68" x2="383.54" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="236.22" x2="383.54" y2="236.22" width="0.1524" layer="91"/>
@@ -1378,19 +1378,19 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="419.1" y1="233.68" x2="419.1" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="236.22" x2="383.54" y2="236.22" width="0.1524" layer="91"/>
 <junction x="383.54" y="236.22"/>
-<pinref part="D14" gate="G$1" pin="A"/>
-<pinref part="D16" gate="G$1" pin="A"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<pinref part="D15" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="D12" gate="G$1" pin="C"/>
-<pinref part="R15" gate="&gt;NAME" pin="P$1"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="R11" gate="&gt;NAME" pin="P$1"/>
 <wire x1="345.44" y1="226.06" x2="345.44" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="223.52" x2="345.44" y2="220.98" width="0.1524" layer="91"/>
 <junction x="345.44" y="223.52"/>
 <wire x1="350.52" y1="223.52" x2="345.44" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -1400,8 +1400,8 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="383.54" y1="223.52" x2="383.54" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="223.52" x2="383.54" y2="223.52" width="0.1524" layer="91"/>
 <junction x="383.54" y="223.52"/>
-<pinref part="D14" gate="G$1" pin="C"/>
-<pinref part="D17" gate="G$1" pin="C"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="D8" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -1417,21 +1417,21 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R19" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R25" gate="&gt;NAME" pin="P$1"/>
 <wire x1="419.1" y1="226.06" x2="419.1" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="R20" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R30" gate="&gt;NAME" pin="P$1"/>
 <wire x1="419.1" y1="223.52" x2="419.1" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="220.98" x2="408.94" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="223.52" x2="419.1" y2="223.52" width="0.1524" layer="91"/>
 <junction x="419.1" y="223.52"/>
 <wire x1="424.18" y1="223.52" x2="419.1" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="D16" gate="G$1" pin="C"/>
-<pinref part="D18" gate="G$1" pin="C"/>
+<pinref part="D15" gate="G$1" pin="C"/>
+<pinref part="D14" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="P_OUT" class="0">
 <segment>
-<pinref part="Q1" gate="G1" pin="C"/>
+<pinref part="Q2" gate="G1" pin="C"/>
 <wire x1="332.74" y1="248.92" x2="332.74" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="261.62" x2="464.82" y2="261.62" width="0.1524" layer="91"/>
 <label x="464.82" y="261.62" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -1444,7 +1444,7 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="H_OUT" class="0">
 <segment>
-<pinref part="Q5" gate="G1" pin="C"/>
+<pinref part="Q1" gate="G1" pin="C"/>
 <wire x1="332.74" y1="350.52" x2="332.74" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="350.52" x2="332.74" y2="350.52" width="0.1524" layer="91"/>
 <label x="467.36" y="350.52" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -1458,8 +1458,8 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <net name="-10V" class="0">
 <segment>
 <label x="228.6" y="309.88" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D17" gate="G$1" pin="A"/>
 <wire x1="248.92" y1="320.04" x2="248.92" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="309.88" x2="248.92" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="309.88" x2="228.6" y2="309.88" width="0.1524" layer="91"/>
@@ -1474,7 +1474,7 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <net name="J_IN" class="0">
 <segment>
 <label x="198.12" y="190.5" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="R32" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R13" gate="&gt;NAME" pin="P$1"/>
 <wire x1="208.28" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="160.02" x2="203.2" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="190.5" x2="210.82" y2="190.5" width="0.1524" layer="91"/>
@@ -1492,7 +1492,7 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <segment>
 <label x="198.12" y="99.06" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="198.12" y1="99.06" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R24" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R26" gate="&gt;NAME" pin="P$1"/>
 <wire x1="203.2" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="68.58" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
@@ -1507,14 +1507,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="U_IN" class="0">
 <segment>
-<pinref part="R11" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R31" gate="&gt;NAME" pin="P$1"/>
 <wire x1="208.28" y1="243.84" x2="203.2" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="243.84" x2="203.2" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="274.32" x2="210.82" y2="274.32" width="0.1524" layer="91"/>
 <label x="198.12" y="274.32" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="203.2" y1="274.32" x2="198.12" y2="274.32" width="0.1524" layer="91"/>
 <junction x="203.2" y="274.32"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="134.62" y="200.66" size="1.9304" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
@@ -1524,23 +1524,23 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="Q4" gate="G$1" pin="B"/>
 <wire x1="256.54" y1="365.76" x2="226.06" y2="365.76" width="0.1524" layer="91"/>
-<pinref part="R21" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R12" gate="&gt;NAME" pin="P$1"/>
 <wire x1="226.06" y1="365.76" x2="218.44" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="363.22" x2="226.06" y2="365.76" width="0.1524" layer="91"/>
 <junction x="226.06" y="365.76"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R3" gate="&gt;NAME" pin="P$2"/>
-<pinref part="Q14" gate="G1" pin="C"/>
+<pinref part="R8" gate="&gt;NAME" pin="P$2"/>
+<pinref part="Q5" gate="G1" pin="C"/>
 <wire x1="218.44" y1="335.28" x2="226.06" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="335.28" x2="279.4" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="335.28" x2="279.4" y2="360.68" width="0.1524" layer="91"/>
-<pinref part="R26" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R9" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="337.82" x2="226.06" y2="335.28" width="0.1524" layer="91"/>
 <junction x="226.06" y="335.28"/>
 </segment>
@@ -1553,35 +1553,35 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="322.58" y1="294.64" x2="332.74" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="294.64" x2="332.74" y2="299.72" width="0.1524" layer="91"/>
 <junction x="322.58" y="294.64"/>
-<pinref part="R5" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R10" gate="&gt;NAME" pin="P$2"/>
 <wire x1="345.44" y1="299.72" x2="345.44" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="294.64" x2="332.74" y2="294.64" width="0.1524" layer="91"/>
 <junction x="332.74" y="294.64"/>
-<pinref part="R6" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R3" gate="&gt;NAME" pin="P$2"/>
 <wire x1="309.88" y1="320.04" x2="309.88" y2="307.34" width="0.1524" layer="91"/>
 <junction x="345.44" y="294.64"/>
-<pinref part="R8" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R23" gate="&gt;NAME" pin="P$2"/>
 <wire x1="309.88" y1="307.34" x2="309.88" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="294.64" x2="345.44" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="299.72" x2="370.84" y2="294.64" width="0.1524" layer="91"/>
 <junction x="370.84" y="294.64"/>
-<pinref part="R9" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R35" gate="&gt;NAME" pin="P$2"/>
 <wire x1="419.1" y1="299.72" x2="419.1" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="294.64" x2="408.94" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="294.64" x2="419.1" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="R10" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R33" gate="&gt;NAME" pin="P$2"/>
 <wire x1="408.94" y1="299.72" x2="408.94" y2="294.64" width="0.1524" layer="91"/>
 <junction x="408.94" y="294.64"/>
 <wire x1="309.88" y1="205.74" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="210.82" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="R14" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R6" gate="&gt;NAME" pin="P$2"/>
 <wire x1="322.58" y1="205.74" x2="332.74" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="205.74" x2="332.74" y2="210.82" width="0.1524" layer="91"/>
 <junction x="322.58" y="205.74"/>
-<pinref part="R15" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R11" gate="&gt;NAME" pin="P$2"/>
 <wire x1="345.44" y1="210.82" x2="345.44" y2="205.74" width="0.1524" layer="91"/>
 <junction x="332.74" y="205.74"/>
-<pinref part="R16" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R5" gate="&gt;NAME" pin="P$2"/>
 <wire x1="345.44" y1="205.74" x2="332.74" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="228.6" x2="309.88" y2="218.44" width="0.1524" layer="91"/>
 <junction x="309.88" y="205.74"/>
@@ -1591,17 +1591,17 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="370.84" y1="205.74" x2="345.44" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="210.82" x2="370.84" y2="205.74" width="0.1524" layer="91"/>
 <junction x="370.84" y="205.74"/>
-<pinref part="R19" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R25" gate="&gt;NAME" pin="P$2"/>
 <wire x1="419.1" y1="210.82" x2="419.1" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="205.74" x2="408.94" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="R20" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R30" gate="&gt;NAME" pin="P$2"/>
 <wire x1="408.94" y1="205.74" x2="419.1" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="210.82" x2="408.94" y2="205.74" width="0.1524" layer="91"/>
 <junction x="408.94" y="205.74"/>
 <label x="198.12" y="205.74" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="309.88" y1="205.74" x2="294.64" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="205.74" x2="198.12" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="Q14" gate="G1" pin="E"/>
+<pinref part="Q5" gate="G1" pin="E"/>
 <wire x1="279.4" y1="375.92" x2="279.4" y2="370.84" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="375.92" x2="294.64" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="375.92" x2="294.64" y2="330.2" width="0.1524" layer="91"/>
@@ -1616,19 +1616,19 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="294.64" y1="205.74" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="200.66" x2="279.4" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="200.66" x2="279.4" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="G1" pin="E"/>
-<pinref part="Q16" gate="G1" pin="E"/>
+<pinref part="Q7" gate="G1" pin="E"/>
+<pinref part="Q3" gate="G1" pin="E"/>
 <wire x1="279.4" y1="325.12" x2="279.4" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="330.2" x2="294.64" y2="330.2" width="0.1524" layer="91"/>
 <junction x="294.64" y="330.2"/>
-<pinref part="R25" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R15" gate="&gt;NAME" pin="P$1"/>
 <wire x1="264.16" y1="193.04" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="200.66" x2="279.4" y2="200.66" width="0.1524" layer="91"/>
 <junction x="279.4" y="200.66"/>
 <wire x1="279.4" y1="154.94" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="154.94" x2="279.4" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G1" pin="E"/>
-<pinref part="R23" gate="&gt;NAME" pin="P$1"/>
+<pinref part="Q9" gate="G1" pin="E"/>
+<pinref part="R21" gate="&gt;NAME" pin="P$1"/>
 <wire x1="264.16" y1="147.32" x2="264.16" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="154.94" x2="279.4" y2="154.94" width="0.1524" layer="91"/>
 <junction x="279.4" y="154.94"/>
@@ -1636,8 +1636,8 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <junction x="294.64" y="200.66"/>
 <wire x1="279.4" y1="109.22" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="109.22" x2="279.4" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="Q9" gate="G1" pin="E"/>
-<pinref part="R31" gate="&gt;NAME" pin="P$1"/>
+<pinref part="Q11" gate="G1" pin="E"/>
+<pinref part="R28" gate="&gt;NAME" pin="P$1"/>
 <wire x1="264.16" y1="101.6" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="109.22" x2="279.4" y2="109.22" width="0.1524" layer="91"/>
 <junction x="279.4" y="109.22"/>
@@ -1650,10 +1650,10 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="309.88" y1="294.64" x2="294.64" y2="294.64" width="0.1524" layer="91"/>
 <junction x="309.88" y="294.64"/>
 <junction x="294.64" y="294.64"/>
+<pinref part="P1" gate="G$1" pin="1"/>
+<pinref part="P1" gate="G$1" pin="2"/>
 <pinref part="P2" gate="G$1" pin="1"/>
 <pinref part="P2" gate="G$1" pin="2"/>
-<pinref part="P3" gate="G$1" pin="1"/>
-<pinref part="P3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="236.22" x2="134.62" y2="236.22" width="0.1524" layer="91"/>
@@ -1667,26 +1667,26 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="358.14" y1="223.52" x2="365.76" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="223.52" x2="365.76" y2="175.26" width="0.1524" layer="91"/>
 <junction x="365.76" y="223.52"/>
-<pinref part="Q15" gate="G$1" pin="C"/>
+<pinref part="Q6" gate="G$1" pin="C"/>
 <wire x1="248.92" y1="175.26" x2="248.92" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="D10" gate="G$1" pin="A"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
 <junction x="248.92" y="175.26"/>
 <wire x1="365.76" y1="175.26" x2="264.16" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R25" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R15" gate="&gt;NAME" pin="P$2"/>
 <wire x1="264.16" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="182.88" x2="264.16" y2="175.26" width="0.1524" layer="91"/>
 <junction x="264.16" y="175.26"/>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 <pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R26" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R21" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R9" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R12" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="347.98" x2="226.06" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="D25" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="350.52" x2="226.06" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="350.52" x2="226.06" y2="350.52" width="0.1524" layer="91"/>
 <junction x="226.06" y="350.52"/>
@@ -1694,41 +1694,41 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="VREF5" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="C"/>
+<pinref part="Q12" gate="G$1" pin="C"/>
 <wire x1="261.62" y1="259.08" x2="261.62" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D16" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="259.08" x2="248.92" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="259.08" x2="261.62" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="256.54" x2="322.58" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="R12" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R16" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R2" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R5" gate="&gt;NAME" pin="P$1"/>
 <wire x1="309.88" y1="259.08" x2="322.58" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="238.76" x2="309.88" y2="259.08" width="0.1524" layer="91"/>
 <junction x="309.88" y="259.08"/>
 <wire x1="261.62" y1="259.08" x2="309.88" y2="259.08" width="0.1524" layer="91"/>
 <junction x="261.62" y="259.08"/>
 <junction x="309.88" y="259.08"/>
-<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="D17" gate="G$1" pin="C"/>
 <wire x1="248.92" y1="292.1" x2="248.92" y2="259.08" width="0.1524" layer="91"/>
 <junction x="248.92" y="259.08"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="B"/>
+<pinref part="Q12" gate="G$1" pin="B"/>
 <wire x1="256.54" y1="274.32" x2="226.06" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="R27" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R34" gate="&gt;NAME" pin="P$1"/>
 <wire x1="226.06" y1="274.32" x2="218.44" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="271.78" x2="226.06" y2="274.32" width="0.1524" layer="91"/>
 <junction x="226.06" y="274.32"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R11" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R31" gate="&gt;NAME" pin="P$2"/>
 <wire x1="218.44" y1="243.84" x2="226.06" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="R29" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R32" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="246.38" x2="226.06" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="243.84" x2="279.4" y2="243.84" width="0.1524" layer="91"/>
 <junction x="226.06" y="243.84"/>
@@ -1738,10 +1738,10 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="R29" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R27" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R32" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R34" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="256.54" x2="226.06" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D16" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="259.08" x2="226.06" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="259.08" x2="226.06" y2="259.08" width="0.1524" layer="91"/>
 <junction x="226.06" y="259.08"/>
@@ -1749,9 +1749,9 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="Q15" gate="G$1" pin="B"/>
+<pinref part="Q6" gate="G$1" pin="B"/>
 <wire x1="243.84" y1="190.5" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R33" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R16" gate="&gt;NAME" pin="P$1"/>
 <wire x1="226.06" y1="190.5" x2="218.44" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="187.96" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
 <junction x="226.06" y="190.5"/>
@@ -1760,22 +1760,22 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R32" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R13" gate="&gt;NAME" pin="P$2"/>
 <wire x1="218.44" y1="160.02" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R34" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R14" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="160.02" x2="279.4" y2="160.02" width="0.1524" layer="91"/>
 <junction x="226.06" y="160.02"/>
 <wire x1="279.4" y1="160.02" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="G1" pin="C"/>
+<pinref part="Q7" gate="G1" pin="C"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="R34" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R33" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R14" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R16" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="172.72" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="175.26" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="175.26" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
 <junction x="226.06" y="175.26"/>
@@ -1783,14 +1783,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="Q16" gate="G1" pin="C"/>
-<pinref part="R35" gate="&gt;NAME" pin="P$1"/>
+<pinref part="Q3" gate="G1" pin="C"/>
+<pinref part="R7" gate="&gt;NAME" pin="P$1"/>
 <wire x1="279.4" y1="307.34" x2="279.4" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="312.42" x2="279.4" y2="314.96" width="0.1524" layer="91"/>
 <junction x="279.4" y="312.42"/>
 <pinref part="Q13" gate="G1" pin="B"/>
 <wire x1="284.48" y1="274.32" x2="302.26" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="Q14" gate="G1" pin="B"/>
+<pinref part="Q5" gate="G1" pin="B"/>
 <wire x1="302.26" y1="144.78" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="190.5" x2="302.26" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="365.76" x2="302.26" y2="365.76" width="0.1524" layer="91"/>
@@ -1800,14 +1800,14 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="302.26" y1="320.04" x2="302.26" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="190.5" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
 <junction x="302.26" y="190.5"/>
-<pinref part="Q8" gate="G1" pin="B"/>
-<pinref part="Q16" gate="G1" pin="B"/>
+<pinref part="Q7" gate="G1" pin="B"/>
+<pinref part="Q3" gate="G1" pin="B"/>
 <junction x="302.26" y="320.04"/>
 <wire x1="284.48" y1="320.04" x2="302.26" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="144.78" x2="302.26" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G1" pin="B"/>
-<wire x1="284.48" y1="99.06" x2="302.26" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="Q9" gate="G1" pin="B"/>
+<wire x1="284.48" y1="99.06" x2="302.26" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="Q11" gate="G1" pin="B"/>
 <wire x1="302.26" y1="144.78" x2="302.26" y2="99.06" width="0.1524" layer="91"/>
 <junction x="302.26" y="144.78"/>
 <wire x1="279.4" y1="312.42" x2="302.26" y2="312.42" width="0.1524" layer="91"/>
@@ -1816,12 +1816,12 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="VREF1" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="C"/>
+<pinref part="Q8" gate="G$1" pin="C"/>
 <wire x1="248.92" y1="129.54" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
 <junction x="248.92" y="129.54"/>
-<pinref part="R23" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R21" gate="&gt;NAME" pin="P$2"/>
 <wire x1="264.16" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="137.16" x2="264.16" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="223.52" x2="403.86" y2="243.84" width="0.1524" layer="91"/>
@@ -1830,15 +1830,15 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <junction x="403.86" y="223.52"/>
 <wire x1="264.16" y1="129.54" x2="403.86" y2="129.54" width="0.1524" layer="91"/>
 <junction x="264.16" y="129.54"/>
-<pinref part="D17" gate="G$1" pin="A"/>
-<pinref part="D9" gate="G$1" pin="A"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<pinref part="D11" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="B"/>
+<pinref part="Q8" gate="G$1" pin="B"/>
 <wire x1="243.84" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R13" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R24" gate="&gt;NAME" pin="P$1"/>
 <wire x1="226.06" y1="144.78" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="142.24" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
 <junction x="226.06" y="144.78"/>
@@ -1847,22 +1847,22 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R1" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R19" gate="&gt;NAME" pin="P$2"/>
 <wire x1="218.44" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R22" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R20" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="116.84" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
 <junction x="226.06" y="114.3"/>
 <wire x1="279.4" y1="114.3" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G1" pin="C"/>
+<pinref part="Q9" gate="G1" pin="C"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R22" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R13" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R20" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R24" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="127" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="129.54" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
 <junction x="226.06" y="129.54"/>
@@ -1872,7 +1872,7 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <segment>
 <wire x1="198.12" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="198.12" y="144.78" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="R1" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R19" gate="&gt;NAME" pin="P$1"/>
 <wire x1="208.28" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="114.3" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
@@ -1891,13 +1891,13 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <wire x1="431.8" y1="223.52" x2="439.42" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="83.82" x2="439.42" y2="223.52" width="0.1524" layer="91"/>
 <junction x="439.42" y="223.52"/>
+<pinref part="D14" gate="G$1" pin="A"/>
 <pinref part="D18" gate="G$1" pin="A"/>
-<pinref part="D15" gate="G$1" pin="A"/>
-<pinref part="Q7" gate="G$1" pin="C"/>
+<pinref part="Q10" gate="G$1" pin="C"/>
 <pinref part="D13" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="83.82" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R31" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R28" gate="&gt;NAME" pin="P$2"/>
 <wire x1="264.16" y1="91.44" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="83.82" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
 <junction x="248.92" y="83.82"/>
@@ -1907,9 +1907,9 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="Q7" gate="G$1" pin="B"/>
+<pinref part="Q10" gate="G$1" pin="B"/>
 <wire x1="243.84" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R28" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R29" gate="&gt;NAME" pin="P$1"/>
 <wire x1="226.06" y1="99.06" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="96.52" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <junction x="226.06" y="99.06"/>
@@ -1918,20 +1918,20 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R24" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R26" gate="&gt;NAME" pin="P$2"/>
 <wire x1="218.44" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R30" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R27" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="71.12" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 <junction x="226.06" y="68.58"/>
 <wire x1="279.4" y1="68.58" x2="279.4" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="Q9" gate="G1" pin="C"/>
+<pinref part="Q11" gate="G1" pin="C"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R30" gate="&gt;NAME" pin="P$1"/>
-<pinref part="R28" gate="&gt;NAME" pin="P$2"/>
+<pinref part="R27" gate="&gt;NAME" pin="P$1"/>
+<pinref part="R29" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="81.28" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D13" gate="G$1" pin="C"/>
 <wire x1="226.06" y1="83.82" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
