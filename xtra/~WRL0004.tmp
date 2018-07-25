@@ -65,7 +65,7 @@ VIII) mimic_1567 Amplifier X
       (B) +5  volts
       (C) -15 volts
       (D) GND
-      (E) -15 volts
+      (E) +15 volts
 
       (7)  D0
       (8)  D1
@@ -81,8 +81,8 @@ VIII) mimic_1567 Amplifier X
       (18) Y_MSB
       (19) Y_LSB
 
-      (X) X_POS
-      (X) Y_POS
+      (J) X_POS
+      (K) Y_POS
 
    IV) mimic_1575 Follow Hold Gate X
     V) mimic_1575 Follow Hold Gate Y

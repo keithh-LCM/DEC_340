@@ -881,7 +881,7 @@ negative.  INTENSITY high enables a pulse.</text>
 <instance part="SUPPLY11" gate="GND" x="314.96" y="271.78"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0"/>
-<instance part="P5" gate="G$1" x="91.44" y="251.46"/>
+<instance part="P5" gate="G$1" x="93.98" y="251.46"/>
 <instance part="U1" gate="G$1" x="330.2" y="220.98"/>
 <instance part="U2" gate="G$1" x="330.2" y="149.86"/>
 <instance part="SUPPLY1" gate="GND" x="317.5" y="200.66"/>
@@ -980,8 +980,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="269.24" y="340.36"/>
 </segment>
 <segment>
-<label x="88.9" y="314.96" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="88.9" y1="314.96" x2="93.98" y2="314.96" width="0.1524" layer="91"/>
+<label x="76.2" y="264.16" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="76.2" y1="264.16" x2="83.82" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -996,8 +997,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="266.7" y="337.82"/>
 </segment>
 <segment>
-<label x="81.28" y="312.42" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="81.28" y1="312.42" x2="93.98" y2="312.42" width="0.1524" layer="91"/>
+<label x="68.58" y="261.62" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="68.58" y1="261.62" x2="83.82" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -1012,8 +1014,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="264.16" y="335.28"/>
 </segment>
 <segment>
-<label x="88.9" y="309.88" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="88.9" y1="309.88" x2="93.98" y2="309.88" width="0.1524" layer="91"/>
+<label x="76.2" y="259.08" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="76.2" y1="259.08" x2="83.82" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -1028,8 +1031,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="261.62" y="332.74"/>
 </segment>
 <segment>
-<label x="81.28" y="307.34" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="93.98" y1="307.34" x2="81.28" y2="307.34" width="0.1524" layer="91"/>
+<label x="68.58" y="256.54" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="83.82" y1="256.54" x2="68.58" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -1044,8 +1048,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="259.08" y="330.2"/>
 </segment>
 <segment>
-<label x="88.9" y="304.8" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="93.98" y1="304.8" x2="88.9" y2="304.8" width="0.1524" layer="91"/>
+<label x="76.2" y="254" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="83.82" y1="254" x2="76.2" y2="254" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -1060,8 +1065,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="256.54" y="327.66"/>
 </segment>
 <segment>
-<label x="81.28" y="302.26" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="93.98" y1="302.26" x2="81.28" y2="302.26" width="0.1524" layer="91"/>
+<label x="68.58" y="251.46" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="83.82" y1="251.46" x2="68.58" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -1076,8 +1082,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="254" y="325.12"/>
 </segment>
 <segment>
-<label x="88.9" y="299.72" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="88.9" y1="299.72" x2="93.98" y2="299.72" width="0.1524" layer="91"/>
+<label x="76.2" y="248.92" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="76.2" y1="248.92" x2="83.82" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -1092,8 +1099,9 @@ negative.  INTENSITY high enables a pulse.</text>
 <junction x="251.46" y="322.58"/>
 </segment>
 <segment>
-<label x="81.28" y="297.18" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="93.98" y1="297.18" x2="81.28" y2="297.18" width="0.1524" layer="91"/>
+<label x="68.58" y="246.38" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="83.82" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="LE2" class="0">
