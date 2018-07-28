@@ -1,6 +1,6 @@
 Card List
 
-   I) Processor input, 8 bit data bus and register strobes.
+   I) System Input, 8 bit data bus and register strobes.
   II) Configuration Register, strobes and logic levels to other cards
  III) mimic_1568 D to A conversions X,Y
   IV) mimic_1575 Follow Hold Gate X
@@ -15,7 +15,7 @@ VIII) mimic_1567 Amplifier X
 
 
 
-    I) Processor Card
+    I) System Input
       (B) +5  volts
       (D) GND
 
@@ -33,7 +33,7 @@ VIII) mimic_1567 Amplifier X
       (12) X_LSB
       (13) Y_MSB
       (14) Y_LSB
-      (15) Light Pen
+      (15) Light Pen (input)
       (16)
 
 
@@ -51,7 +51,7 @@ VIII) mimic_1567 Amplifier X
       (14) D7
       (16) LE1
       (17) LE2
-      (18) LE2
+      (18) LE3
 
       Outputs:
       Feed forward pulses
@@ -62,6 +62,7 @@ VIII) mimic_1567 Amplifier X
 
   III) mimic_1568 D to A conversions
 
+      (A) +10 volts
       (B) +5  volts
       (C) -15 volts
       (D) GND
