@@ -391,7 +391,7 @@ type 0207, grid 10 mm</description>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.556" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="-3.175" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="44PINEDGE">
@@ -529,6 +529,18 @@ type 0207, grid 10 mm</description>
 <circle x="0" y="-1.27" radius="1.27" width="0.254" layer="94"/>
 <text x="-3.175" y="-4.699" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 <pin name="-15V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="C-NPOL">
+<wire x1="0" y1="-0.762" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="1.651" size="1.9304" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.54" y="-3.302" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="0" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.762" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -773,6 +785,26 @@ Monostable Multivibrator</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAP0.1UF100V" prefix="C">
+<description>0.1µF ±10% 100V Ceramic X8R TH</description>
+<gates>
+<gate name="G$1" symbol="C-NPOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="FA26X8R2A104KNU06" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -924,6 +956,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY27" library="keiths" deviceset="-15V" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="+10V" device=""/>
 <part name="SUPPLY29" library="keiths" deviceset="+5V" device=""/>
+<part name="C5" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="C6" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="SUPPLY30" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY31" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY32" library="keiths" deviceset="+5V" device=""/>
+<part name="SUPPLY33" library="keiths" deviceset="+5V" device=""/>
+<part name="C8" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="SUPPLY34" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY35" library="keiths" deviceset="+5V" device=""/>
+<part name="C7" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="C9" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="SUPPLY36" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY37" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY38" library="keiths" deviceset="+5V" device=""/>
+<part name="SUPPLY39" library="keiths" deviceset="+5V" device=""/>
+<part name="C10" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="SUPPLY40" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY41" library="keiths" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -932,7 +982,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="363.728" y="240.284" size="2.1844" layer="91">1 uS</text>
 <text x="361.188" y="169.164" size="2.1844" layer="91">500 nS</text>
 <text x="361.188" y="184.404" size="2.1844" layer="91">400 nS</text>
-<text x="226.06" y="81.28" size="2.1844" layer="91" font="vector" ratio="10">* The original DEC 4218 System Design Module 
+<text x="330.2" y="15.24" size="2.1844" layer="91" font="vector" ratio="10">* The original DEC 4218 System Design Module 
 was a data latch.  It was used to capture some 
 of the original DEC 340 configuration bits shown 
 on this page.  This resulted in the name for this card.</text>
@@ -1069,6 +1119,36 @@ is the last position byte written.</text>
 </instance>
 <instance part="SUPPLY29" gate="+5V" x="297.18" y="167.64" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="293.751" y="166.497" size="1.9304" layer="96" font="vector" ratio="10" rot="MR0"/>
+</instance>
+<instance part="C5" gate="G$1" x="139.7" y="78.74"/>
+<instance part="C6" gate="G$1" x="160.02" y="78.74"/>
+<instance part="SUPPLY30" gate="GND" x="139.7" y="68.58"/>
+<instance part="SUPPLY31" gate="GND" x="160.02" y="68.58"/>
+<instance part="SUPPLY32" gate="+5V" x="139.7" y="88.9" smashed="yes">
+<attribute name="VALUE" x="138.303" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY33" gate="+5V" x="160.02" y="88.9" smashed="yes">
+<attribute name="VALUE" x="158.623" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="C8" gate="G$1" x="180.34" y="78.74"/>
+<instance part="SUPPLY34" gate="GND" x="180.34" y="68.58"/>
+<instance part="SUPPLY35" gate="+5V" x="180.34" y="88.9" smashed="yes">
+<attribute name="VALUE" x="178.943" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="C7" gate="G$1" x="203.2" y="78.74"/>
+<instance part="C9" gate="G$1" x="223.52" y="78.74"/>
+<instance part="SUPPLY36" gate="GND" x="203.2" y="68.58"/>
+<instance part="SUPPLY37" gate="GND" x="223.52" y="68.58"/>
+<instance part="SUPPLY38" gate="+5V" x="203.2" y="88.9" smashed="yes">
+<attribute name="VALUE" x="201.803" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY39" gate="+5V" x="223.52" y="88.9" smashed="yes">
+<attribute name="VALUE" x="222.123" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="C10" gate="G$1" x="243.84" y="78.74"/>
+<instance part="SUPPLY40" gate="GND" x="243.84" y="68.58"/>
+<instance part="SUPPLY41" gate="+5V" x="243.84" y="88.9" smashed="yes">
+<attribute name="VALUE" x="242.443" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 </instances>
 <busses>
@@ -1340,6 +1420,36 @@ is the last position byte written.</text>
 <pinref part="SUPPLY29" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="167.64" x2="299.72" y2="167.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="SUPPLY32" gate="+5V" pin="+5V"/>
+<wire x1="139.7" y1="86.36" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="SUPPLY33" gate="+5V" pin="+5V"/>
+<wire x1="160.02" y1="86.36" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY35" gate="+5V" pin="+5V"/>
+<wire x1="180.34" y1="86.36" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="SUPPLY38" gate="+5V" pin="+5V"/>
+<wire x1="203.2" y1="86.36" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="SUPPLY39" gate="+5V" pin="+5V"/>
+<wire x1="223.52" y1="86.36" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="SUPPLY41" gate="+5V" pin="+5V"/>
+<wire x1="243.84" y1="86.36" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -1398,6 +1508,36 @@ is the last position byte written.</text>
 <pinref part="P3" gate="G$1" pin="D"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 <wire x1="157.48" y1="292.1" x2="132.08" y2="292.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="SUPPLY30" gate="GND" pin="GND"/>
+<wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="SUPPLY31" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="71.12" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="SUPPLY34" gate="GND" pin="GND"/>
+<wire x1="180.34" y1="71.12" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+<wire x1="203.2" y1="71.12" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
+<wire x1="223.52" y1="71.12" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="SUPPLY40" gate="GND" pin="GND"/>
+<wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_INTEN" class="0">
