@@ -165,15 +165,19 @@
 <packages>
 <package name="44PINEDGE">
 <description>44 Pin Edge Connector for PCB</description>
-<wire x1="-45.466" y1="0" x2="45.466" y2="0" width="0.127" layer="21"/>
-<wire x1="45.466" y1="0" x2="45.466" y2="8.128" width="0.127" layer="21"/>
-<wire x1="-45.466" y1="0" x2="-45.466" y2="8.128" width="0.127" layer="21"/>
+<wire x1="-42.926" y1="0" x2="42.926" y2="0" width="0.127" layer="21"/>
+<wire x1="42.926" y1="0" x2="45.466" y2="2.54" width="0.127" layer="21"/>
+<wire x1="45.466" y1="2.54" x2="45.466" y2="8.128" width="0.127" layer="21"/>
+<wire x1="-42.926" y1="0" x2="-45.466" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-45.466" y1="2.54" x2="-45.466" y2="8.128" width="0.127" layer="21"/>
 <wire x1="-45.466" y1="8.128" x2="-45.72" y2="8.128" width="0.127" layer="25"/>
 <wire x1="45.466" y1="8.128" x2="45.72" y2="8.128" width="0.127" layer="21"/>
 <wire x1="-45.72" y1="8.128" x2="-45.466" y2="8.128" width="0.127" layer="22"/>
-<wire x1="-45.466" y1="8.128" x2="-45.466" y2="0" width="0.127" layer="22"/>
-<wire x1="-45.466" y1="0" x2="45.466" y2="0" width="0.127" layer="22"/>
-<wire x1="45.466" y1="0" x2="45.466" y2="8.128" width="0.127" layer="22"/>
+<wire x1="-45.466" y1="8.128" x2="-45.466" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-45.466" y1="2.54" x2="-42.926" y2="0" width="0.127" layer="22"/>
+<wire x1="-42.926" y1="0" x2="42.926" y2="0" width="0.127" layer="22"/>
+<wire x1="42.926" y1="0" x2="45.466" y2="2.54" width="0.127" layer="22"/>
+<wire x1="45.466" y1="2.54" x2="45.466" y2="8.128" width="0.127" layer="22"/>
 <wire x1="45.466" y1="8.128" x2="45.72" y2="8.128" width="0.127" layer="22"/>
 <smd name="11" x="-1.9812" y="4.826" dx="1.905" dy="8.255" layer="1"/>
 <smd name="10" x="-5.9436" y="4.826" dx="1.905" dy="8.255" layer="1"/>
@@ -251,8 +255,8 @@ type 0207, grid 10 mm</description>
 <pad name="2" x="5.08" y="0" drill="0.9" diameter="2.1844"/>
 <text x="-4.953" y="2.159" size="1.9304" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-5.4356" y="-3.81" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
-<rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
+<rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="51"/>
+<rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 </package>
 <package name="5MM_TH">
 <pad name="1" x="-2.5" y="0" drill="0.7" diameter="2.54"/>
@@ -283,8 +287,8 @@ type 0207, grid 10 mm</description>
 <text x="-3.81" y="2.54" size="1.9304" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-3.81" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.81" y2="0.381" layer="21"/>
+<rectangle x1="-3.81" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
 </package>
 <package name="AXIAL10X26">
 <pad name="P$1" x="16.51" y="0" drill="0.8" diameter="2.1844"/>
@@ -305,8 +309,8 @@ type 0207, grid 10 mm</description>
 <package name="0309/12">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0309, grid 12.5 mm</description>
-<wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
-<wire x1="-6.35" y1="0" x2="-5.08" y2="0" width="0.6096" layer="51"/>
+<wire x1="6.35" y1="0" x2="4.572" y2="0" width="0.6096" layer="51"/>
+<wire x1="-6.35" y1="0" x2="-4.572" y2="0" width="0.6096" layer="51"/>
 <wire x1="-4.318" y1="1.27" x2="-4.064" y2="1.524" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-4.318" y1="-1.27" x2="-4.064" y2="-1.524" width="0.1524" layer="21" curve="90"/>
 <wire x1="4.064" y1="-1.524" x2="4.318" y2="-1.27" width="0.1524" layer="21" curve="90"/>
@@ -327,8 +331,8 @@ type 0309, grid 12.5 mm</description>
 <pad name="2" x="6.35" y="0" drill="0.8128" diameter="2.1844"/>
 <text x="-4.191" y="3.175" size="1.9304" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-4.445" y="-4.4958" size="1.9304" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="4.318" y1="-0.3048" x2="5.1816" y2="0.3048" layer="21"/>
-<rectangle x1="-5.1816" y1="-0.3048" x2="-4.318" y2="0.3048" layer="21"/>
+<rectangle x1="4.318" y1="-0.3048" x2="4.826" y2="0.3048" layer="21"/>
+<rectangle x1="-4.826" y1="-0.3048" x2="-4.318" y2="0.3048" layer="21"/>
 </package>
 <package name="VHR-3N">
 <pad name="P$1" x="-9" y="-3.96875" drill="2"/>
@@ -913,7 +917,7 @@ Illinois Capacitor  107TTA100M</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_C_L" device=""/>
-<part name="P1" library="keiths" deviceset="44PINEDGE" device=""/>
+<part name="P20" library="keiths" deviceset="44PINEDGE" device=""/>
 <part name="R4" library="keiths" deviceset="RES-V" device="" value="220K"/>
 <part name="SUPPLY1" library="keiths" deviceset="GND" device=""/>
 <part name="C1" library="keiths" deviceset="CAP_5MM" device="" value="0.01UF"/>
@@ -942,7 +946,7 @@ Illinois Capacitor  107TTA100M</description>
 <part name="J5" library="keiths" deviceset="JST-VH-3" device=""/>
 <part name="J3" library="keiths" deviceset="JST-VH-3" device=""/>
 <part name="J1" library="keiths" deviceset="JST-VH-2" device=""/>
-<part name="P2" library="keiths" deviceset="POT-3006P" device="" value="1 M"/>
+<part name="P2" library="keiths" deviceset="POT-3006P" device="" value="1M"/>
 <part name="J2" library="keiths" deviceset="JST-VH-5" device=""/>
 <part name="D1" library="keiths" deviceset="1N4764A" device="" value="1N4764"/>
 <part name="D4" library="keiths" deviceset="1N4764A" device="" value="1N4764"/>
@@ -970,7 +974,7 @@ Zeners</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="452.12" y="0"/>
-<instance part="P1" gate="G$1" x="271.78" y="345.44"/>
+<instance part="P20" gate="G$1" x="271.78" y="345.44"/>
 <instance part="R4" gate="G$1" x="299.72" y="106.68"/>
 <instance part="SUPPLY1" gate="GND" x="299.72" y="60.96"/>
 <instance part="C1" gate="G$1" x="325.12" y="76.2"/>
@@ -1067,7 +1071,7 @@ Zeners</text>
 <segment>
 <wire x1="281.94" y1="363.22" x2="289.56" y2="363.22" width="0.1524" layer="91"/>
 <label x="289.56" y="363.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P1" gate="G$1" pin="D"/>
+<pinref part="P20" gate="G$1" pin="D"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
