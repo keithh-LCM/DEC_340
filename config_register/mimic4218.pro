@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/KeithH/eagle/DEC340/config_register/mimic4218.brd
 
-Start at      : 11:51:51 (8/6/2018)
-End at        : 11:52:22 (8/6/2018)
-Elapsed time  : 00:00:30
+Start at      : 17:07:03 (8/10/2018)
+End at        : 16:00:00 (12/31/1969)
+Elapsed time  : 00:00:00
 
-Signals       :    50   RoutingGrid: 20 mil  Layers: 2
-Connections   :   109   predefined:  103 ( 13 Vias )
+Signals       :    50   RoutingGrid: 12.5 mil  Layers: 2
+Connections   :   107   predefined:  105 ( 14 Vias )
 
-Router memory :   312220
+Router memory :   781632
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          : TopRouter
 
-Time per pass     :  00:00:29  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:00
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
 
-Routed            :         4         6         5         5         5         5         5         5         5         5         5         5         5         5
-Vias              :         0         0         1         1         1         1         1         1         1         1         1         1         1         1
-Resolution        :    98.2 %   100.0 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %    99.1 %
+Routed            :         0
+Vias              :         0
+Resolution        :    98.1 %
 
-Final             : 100.0% finished
+Final             : 98.1% finished
