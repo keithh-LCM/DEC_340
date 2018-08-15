@@ -911,6 +911,46 @@ Illinois Capacitor  107TTA100M</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -958,6 +998,8 @@ Illinois Capacitor  107TTA100M</description>
 <part name="D2" library="keiths" deviceset="1N4764A" device="" value="1N4764"/>
 <part name="D1" library="keiths" deviceset="BZV85-C56,113" device="" value="BZV85-C56,113"/>
 <part name="D4" library="keiths" deviceset="BZV85-C56,113" device="" value="BZV85-C56,113"/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1037,6 +1079,8 @@ Zeners</text>
 <attribute name="NAME" x="322.58" y="231.14" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="322.58" y="226.06" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
+<instance part="U$1" gate="G$1" x="477.52" y="398.78"/>
+<instance part="U$2" gate="G$1" x="497.84" y="398.78"/>
 </instances>
 <busses>
 </busses>

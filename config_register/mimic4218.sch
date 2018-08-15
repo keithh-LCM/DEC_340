@@ -897,6 +897,46 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -907,8 +947,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U3" library="keiths" deviceset="CD74HC573E" device=""/>
 <part name="U4" library="keiths" deviceset="CD74HC573E" device=""/>
+<part name="U3" library="keiths" deviceset="CD74HC573E" device=""/>
 <part name="SUPPLY3" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY2" library="keiths" deviceset="GND" device=""/>
@@ -916,40 +956,40 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY10" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="keiths" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
-<part name="U1" library="keiths" deviceset="CD74HCT123" device=""/>
 <part name="U2" library="keiths" deviceset="CD74HCT123" device=""/>
+<part name="U6" library="keiths" deviceset="CD74HCT123" device=""/>
 <part name="SUPPLY1" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY8" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="keiths" deviceset="+5V" device=""/>
-<part name="C1" library="keiths" deviceset="CAP_5MM" device="" value=".033 uF"/>
+<part name="C3" library="keiths" deviceset="CAP_5MM" device="" value=".033 uF"/>
 <part name="R1" library="keiths" deviceset="R-1/4WATT" device="" value="5.36 K"/>
 <part name="R2" library="keiths" deviceset="R-1/4WATT" device="" value="6.98 K"/>
 <part name="SUPPLY13" library="keiths" deviceset="+5V" device=""/>
-<part name="C2" library="keiths" deviceset="CAP_5MM" device="" value=".001 uF"/>
+<part name="C4" library="keiths" deviceset="CAP_5MM" device="" value=".001 uF"/>
 <part name="R3" library="keiths" deviceset="R-1/4WATT" device="" value="4.12 K"/>
 <part name="R4" library="keiths" deviceset="R-1/4WATT" device="" value="9.31 K"/>
 <part name="SUPPLY12" library="keiths" deviceset="+5V" device=""/>
-<part name="C3" library="keiths" deviceset="CAP_5MM" device="" value="470 pF"/>
+<part name="C10" library="keiths" deviceset="CAP_5MM" device="" value="470 pF"/>
 <part name="R5" library="keiths" deviceset="R-1/4WATT" device="" value="3.32 K"/>
 <part name="R6" library="keiths" deviceset="R-1/4WATT" device="" value="9.09 K"/>
 <part name="SUPPLY14" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY15" library="keiths" deviceset="+5V" device=""/>
-<part name="C4" library="keiths" deviceset="CAP_5MM" device="" value="470 pF"/>
+<part name="C9" library="keiths" deviceset="CAP_5MM" device="" value="470 pF"/>
 <part name="R7" library="keiths" deviceset="R-1/4WATT" device="" value="5.49 K"/>
 <part name="R8" library="keiths" deviceset="R-1/4WATT" device="" value="6.81 K"/>
 <part name="SUPPLY16" library="keiths" deviceset="+5V" device=""/>
-<part name="U5" library="keiths" deviceset="CD74HC00" device="" value="CD74HC00"/>
+<part name="U1" library="keiths" deviceset="CD74HC00" device="" value="CD74HC00"/>
 <part name="SUPPLY17" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY18" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY19" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY20" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY21" library="keiths" deviceset="+5V" device=""/>
-<part name="U6" library="keiths" deviceset="CD74HC00" device="" value="CD74HC00"/>
+<part name="U5" library="keiths" deviceset="CD74HC00" device="" value="CD74HC00"/>
 <part name="SUPPLY23" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY24" library="keiths" deviceset="GND" device=""/>
-<part name="P3" library="keiths" deviceset="44PINEDGE" device=""/>
+<part name="P1" library="keiths" deviceset="44PINEDGE" device=""/>
 <part name="SUPPLY22" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY25" library="keiths" deviceset="+15V" device=""/>
 <part name="SUPPLY26" library="keiths" deviceset="GND" device=""/>
@@ -957,23 +997,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY28" library="supply2" deviceset="+10V" device=""/>
 <part name="SUPPLY29" library="keiths" deviceset="+5V" device=""/>
 <part name="C5" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
-<part name="C6" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="C8" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
 <part name="SUPPLY30" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY33" library="keiths" deviceset="+5V" device=""/>
-<part name="C8" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="C1" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
 <part name="SUPPLY34" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="keiths" deviceset="+5V" device=""/>
 <part name="C7" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
-<part name="C9" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="C6" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
 <part name="SUPPLY36" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="keiths" deviceset="+5V" device=""/>
 <part name="SUPPLY39" library="keiths" deviceset="+5V" device=""/>
-<part name="C10" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
+<part name="C2" library="keiths" deviceset="CAP0.1UF100V" device="" value="0.1uF"/>
 <part name="SUPPLY40" library="keiths" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="keiths" deviceset="+5V" device=""/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1016,8 +1058,8 @@ to start an intensification if X_MSB
 is the last position byte written.</text>
 </plain>
 <instances>
-<instance part="U3" gate="G$1" x="281.94" y="317.5"/>
-<instance part="U4" gate="G$1" x="281.94" y="358.14"/>
+<instance part="U4" gate="G$1" x="281.94" y="317.5"/>
+<instance part="U3" gate="G$1" x="281.94" y="358.14"/>
 <instance part="SUPPLY3" gate="+5V" x="297.18" y="370.84" smashed="yes" rot="R270">
 <attribute name="VALUE" x="300.609" y="369.697" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1030,8 +1072,8 @@ is the last position byte written.</text>
 <instance part="SUPPLY11" gate="GND" x="294.64" y="297.18"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="452.12" y="0"/>
-<instance part="U1" gate="G$1" x="317.5" y="246.38"/>
-<instance part="U2" gate="G$1" x="317.5" y="175.26"/>
+<instance part="U2" gate="G$1" x="317.5" y="246.38"/>
+<instance part="U6" gate="G$1" x="317.5" y="175.26"/>
 <instance part="SUPPLY1" gate="GND" x="304.8" y="226.06"/>
 <instance part="SUPPLY6" gate="+5V" x="332.74" y="261.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="336.169" y="260.477" size="1.9304" layer="96" font="vector" ratio="10"/>
@@ -1040,7 +1082,7 @@ is the last position byte written.</text>
 <instance part="SUPPLY9" gate="+5V" x="297.18" y="175.26" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="293.751" y="174.117" size="1.9304" layer="96" font="vector" ratio="10" rot="MR0"/>
 </instance>
-<instance part="C1" gate="G$1" x="353.06" y="259.08" smashed="yes" rot="R90">
+<instance part="C3" gate="G$1" x="353.06" y="259.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="347.599" y="260.604" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="355.219" y="260.604" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1049,7 +1091,7 @@ is the last position byte written.</text>
 <instance part="SUPPLY13" gate="+5V" x="408.94" y="254" smashed="yes" rot="R270">
 <attribute name="VALUE" x="412.369" y="252.857" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="C2" gate="G$1" x="353.06" y="243.84" smashed="yes" rot="R90">
+<instance part="C4" gate="G$1" x="353.06" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="347.599" y="245.364" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="355.219" y="245.364" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1058,7 +1100,7 @@ is the last position byte written.</text>
 <instance part="SUPPLY12" gate="+5V" x="408.94" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="412.369" y="237.617" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="C3" gate="G$1" x="353.06" y="172.72" smashed="yes" rot="R90">
+<instance part="C10" gate="G$1" x="353.06" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="347.599" y="174.244" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="355.219" y="174.244" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1070,7 +1112,7 @@ is the last position byte written.</text>
 <instance part="SUPPLY15" gate="+5V" x="332.74" y="190.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="336.169" y="189.357" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="C4" gate="G$1" x="353.06" y="187.96" smashed="yes" rot="R90">
+<instance part="C9" gate="G$1" x="353.06" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="347.599" y="189.484" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="355.219" y="189.484" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1079,7 +1121,7 @@ is the last position byte written.</text>
 <instance part="SUPPLY16" gate="+5V" x="408.94" y="167.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="412.369" y="166.497" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="U5" gate="G$1" x="243.84" y="254"/>
+<instance part="U1" gate="G$1" x="243.84" y="254"/>
 <instance part="SUPPLY17" gate="+5V" x="276.86" y="261.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="280.289" y="260.477" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1096,12 +1138,12 @@ is the last position byte written.</text>
 <instance part="SUPPLY21" gate="+5V" x="297.18" y="233.68" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="293.751" y="232.537" size="1.9304" layer="96" font="vector" ratio="10" rot="MR0"/>
 </instance>
-<instance part="U6" gate="G$1" x="363.22" y="134.62"/>
+<instance part="U5" gate="G$1" x="363.22" y="134.62"/>
 <instance part="SUPPLY23" gate="+5V" x="378.46" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="381.889" y="141.097" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="350.52" y="121.92"/>
-<instance part="P3" gate="G$1" x="121.92" y="274.32"/>
+<instance part="P1" gate="G$1" x="121.92" y="274.32"/>
 <instance part="SUPPLY22" gate="+5V" x="160.02" y="297.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="163.449" y="296.037" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
@@ -1121,7 +1163,7 @@ is the last position byte written.</text>
 <attribute name="VALUE" x="293.751" y="166.497" size="1.9304" layer="96" font="vector" ratio="10" rot="MR0"/>
 </instance>
 <instance part="C5" gate="G$1" x="139.7" y="78.74"/>
-<instance part="C6" gate="G$1" x="160.02" y="78.74"/>
+<instance part="C8" gate="G$1" x="160.02" y="78.74"/>
 <instance part="SUPPLY30" gate="GND" x="139.7" y="68.58"/>
 <instance part="SUPPLY31" gate="GND" x="160.02" y="68.58"/>
 <instance part="SUPPLY32" gate="+5V" x="139.7" y="88.9" smashed="yes">
@@ -1130,13 +1172,13 @@ is the last position byte written.</text>
 <instance part="SUPPLY33" gate="+5V" x="160.02" y="88.9" smashed="yes">
 <attribute name="VALUE" x="158.623" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="C8" gate="G$1" x="180.34" y="78.74"/>
+<instance part="C1" gate="G$1" x="180.34" y="78.74"/>
 <instance part="SUPPLY34" gate="GND" x="180.34" y="68.58"/>
 <instance part="SUPPLY35" gate="+5V" x="180.34" y="88.9" smashed="yes">
 <attribute name="VALUE" x="178.943" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="C7" gate="G$1" x="203.2" y="78.74"/>
-<instance part="C9" gate="G$1" x="223.52" y="78.74"/>
+<instance part="C6" gate="G$1" x="223.52" y="78.74"/>
 <instance part="SUPPLY36" gate="GND" x="203.2" y="68.58"/>
 <instance part="SUPPLY37" gate="GND" x="223.52" y="68.58"/>
 <instance part="SUPPLY38" gate="+5V" x="203.2" y="88.9" smashed="yes">
@@ -1145,33 +1187,35 @@ is the last position byte written.</text>
 <instance part="SUPPLY39" gate="+5V" x="223.52" y="88.9" smashed="yes">
 <attribute name="VALUE" x="222.123" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="C10" gate="G$1" x="243.84" y="78.74"/>
+<instance part="C2" gate="G$1" x="243.84" y="78.74"/>
 <instance part="SUPPLY40" gate="GND" x="243.84" y="68.58"/>
 <instance part="SUPPLY41" gate="+5V" x="243.84" y="88.9" smashed="yes">
 <attribute name="VALUE" x="242.443" y="92.329" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
+<instance part="U$1" gate="G$1" x="474.98" y="403.86"/>
+<instance part="U$2" gate="G$1" x="495.3" y="403.86"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="LE1" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="LE"/>
+<pinref part="U4" gate="G$1" pin="LE"/>
 <wire x1="200.66" y1="330.2" x2="274.32" y2="330.2" width="0.1524" layer="91"/>
 <label x="200.66" y="330.2" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="261.62" x2="111.76" y2="261.62" width="0.1524" layer="91"/>
 <label x="96.52" y="261.62" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="16"/>
+<pinref part="P1" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="D0" class="0">
 <segment>
 <label x="208.28" y="365.76" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="208.28" y1="365.76" x2="248.92" y2="365.76" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="D0"/>
 <pinref part="U3" gate="G$1" pin="D0"/>
+<pinref part="U4" gate="G$1" pin="D0"/>
 <wire x1="248.92" y1="365.76" x2="274.32" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="325.12" x2="248.92" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="325.12" x2="248.92" y2="365.76" width="0.1524" layer="91"/>
@@ -1180,15 +1224,15 @@ is the last position byte written.</text>
 <segment>
 <label x="78.74" y="284.48" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="78.74" y1="284.48" x2="111.76" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="7"/>
+<pinref part="P1" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="D1" class="0">
 <segment>
 <label x="200.66" y="363.22" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="200.66" y1="363.22" x2="246.38" y2="363.22" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="D1"/>
 <pinref part="U3" gate="G$1" pin="D1"/>
+<pinref part="U4" gate="G$1" pin="D1"/>
 <wire x1="246.38" y1="363.22" x2="274.32" y2="363.22" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="322.58" x2="246.38" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="322.58" x2="246.38" y2="363.22" width="0.1524" layer="91"/>
@@ -1197,15 +1241,15 @@ is the last position byte written.</text>
 <segment>
 <label x="96.52" y="281.94" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="96.52" y1="281.94" x2="111.76" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="8"/>
+<pinref part="P1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="D2" class="0">
 <segment>
 <label x="208.28" y="360.68" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="208.28" y1="360.68" x2="243.84" y2="360.68" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="D2"/>
 <pinref part="U3" gate="G$1" pin="D2"/>
+<pinref part="U4" gate="G$1" pin="D2"/>
 <wire x1="243.84" y1="360.68" x2="274.32" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="320.04" x2="243.84" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="320.04" x2="243.84" y2="360.68" width="0.1524" layer="91"/>
@@ -1214,15 +1258,15 @@ is the last position byte written.</text>
 <segment>
 <label x="78.74" y="279.4" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="78.74" y1="279.4" x2="111.76" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="9"/>
+<pinref part="P1" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="D3" class="0">
 <segment>
 <label x="200.66" y="358.14" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="D3"/>
-<wire x1="274.32" y1="358.14" x2="241.3" y2="358.14" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="D3"/>
+<wire x1="274.32" y1="358.14" x2="241.3" y2="358.14" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="D3"/>
 <wire x1="241.3" y1="358.14" x2="200.66" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="317.5" x2="241.3" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="317.5" x2="241.3" y2="358.14" width="0.1524" layer="91"/>
@@ -1231,15 +1275,15 @@ is the last position byte written.</text>
 <segment>
 <label x="96.52" y="276.86" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="96.52" y1="276.86" x2="111.76" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="10"/>
+<pinref part="P1" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="D4" class="0">
 <segment>
 <label x="208.28" y="355.6" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="274.32" y1="355.6" x2="238.76" y2="355.6" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="D4"/>
 <pinref part="U3" gate="G$1" pin="D4"/>
+<pinref part="U4" gate="G$1" pin="D4"/>
 <wire x1="238.76" y1="355.6" x2="208.28" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="314.96" x2="238.76" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="314.96" x2="238.76" y2="355.6" width="0.1524" layer="91"/>
@@ -1248,15 +1292,15 @@ is the last position byte written.</text>
 <segment>
 <wire x1="111.76" y1="274.32" x2="78.74" y2="274.32" width="0.1524" layer="91"/>
 <label x="78.74" y="274.32" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="11"/>
+<pinref part="P1" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="D5" class="0">
 <segment>
 <label x="200.66" y="353.06" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="D5"/>
-<wire x1="274.32" y1="353.06" x2="236.22" y2="353.06" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="D5"/>
+<wire x1="274.32" y1="353.06" x2="236.22" y2="353.06" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="D5"/>
 <wire x1="236.22" y1="353.06" x2="200.66" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="312.42" x2="236.22" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="312.42" x2="236.22" y2="353.06" width="0.1524" layer="91"/>
@@ -1265,15 +1309,15 @@ is the last position byte written.</text>
 <segment>
 <wire x1="96.52" y1="271.78" x2="111.76" y2="271.78" width="0.1524" layer="91"/>
 <label x="96.52" y="271.78" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="12"/>
+<pinref part="P1" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="D6" class="0">
 <segment>
 <label x="208.28" y="350.52" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="D6"/>
-<wire x1="208.28" y1="350.52" x2="233.68" y2="350.52" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="D6"/>
+<wire x1="208.28" y1="350.52" x2="233.68" y2="350.52" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="D6"/>
 <wire x1="233.68" y1="350.52" x2="274.32" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="309.88" x2="233.68" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="309.88" x2="233.68" y2="350.52" width="0.1524" layer="91"/>
@@ -1282,16 +1326,16 @@ is the last position byte written.</text>
 <segment>
 <wire x1="78.74" y1="269.24" x2="111.76" y2="269.24" width="0.1524" layer="91"/>
 <label x="78.74" y="269.24" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="13"/>
+<pinref part="P1" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="D7" class="0">
 <segment>
 <label x="200.66" y="347.98" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="D7"/>
+<pinref part="U3" gate="G$1" pin="D7"/>
 <wire x1="274.32" y1="347.98" x2="231.14" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="347.98" x2="200.66" y2="347.98" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D7"/>
+<pinref part="U4" gate="G$1" pin="D7"/>
 <wire x1="274.32" y1="307.34" x2="231.14" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="307.34" x2="231.14" y2="347.98" width="0.1524" layer="91"/>
 <junction x="231.14" y="347.98"/>
@@ -1299,35 +1343,35 @@ is the last position byte written.</text>
 <segment>
 <label x="96.52" y="266.7" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <wire x1="96.52" y1="266.7" x2="111.76" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="14"/>
+<pinref part="P1" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="LE2" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="LE"/>
+<pinref part="U3" gate="G$1" pin="LE"/>
 <wire x1="274.32" y1="370.84" x2="200.66" y2="370.84" width="0.1524" layer="91"/>
 <label x="200.66" y="370.84" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="259.08" x2="78.74" y2="259.08" width="0.1524" layer="91"/>
 <label x="78.74" y="259.08" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="17"/>
+<pinref part="P1" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="+5V"/>
+<pinref part="U3" gate="G$1" pin="+5V"/>
 <wire x1="292.1" y1="370.84" x2="294.64" y2="370.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="+5V" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="+5V"/>
+<pinref part="U4" gate="G$1" pin="+5V"/>
 <wire x1="292.1" y1="330.2" x2="294.64" y2="330.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="+5V" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
-<pinref part="U1" gate="G$1" pin="+5V"/>
+<pinref part="U2" gate="G$1" pin="+5V"/>
 <wire x1="330.2" y1="261.62" x2="327.66" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1361,7 +1405,7 @@ is the last position byte written.</text>
 <junction x="398.78" y="182.88"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="+5V"/>
+<pinref part="U6" gate="G$1" pin="+5V"/>
 <wire x1="327.66" y1="190.5" x2="330.2" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="+5V" pin="+5V"/>
 </segment>
@@ -1377,46 +1421,46 @@ is the last position byte written.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="+5V" pin="+5V"/>
-<pinref part="U5" gate="G$1" pin="+5V"/>
+<pinref part="U1" gate="G$1" pin="+5V"/>
 <wire x1="274.32" y1="261.62" x2="254" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="1B"/>
+<pinref part="U2" gate="G$1" pin="1B"/>
 <pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
 <wire x1="299.72" y1="251.46" x2="309.88" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="!2CLR"/>
+<pinref part="U2" gate="G$1" pin="!2CLR"/>
 <pinref part="SUPPLY21" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="233.68" x2="299.72" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="2B"/>
+<pinref part="U2" gate="G$1" pin="2B"/>
 <pinref part="SUPPLY20" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="238.76" x2="299.72" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="!1CLR"/>
+<pinref part="U2" gate="G$1" pin="!1CLR"/>
 <pinref part="SUPPLY19" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="246.38" x2="299.72" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="!1CLR"/>
+<pinref part="U6" gate="G$1" pin="!1CLR"/>
 <pinref part="SUPPLY9" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="175.26" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY23" gate="+5V" pin="+5V"/>
-<pinref part="U6" gate="G$1" pin="+5V"/>
+<pinref part="U5" gate="G$1" pin="+5V"/>
 <wire x1="375.92" y1="142.24" x2="373.38" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P3" gate="G$1" pin="B"/>
+<pinref part="P1" gate="G$1" pin="B"/>
 <pinref part="SUPPLY22" gate="+5V" pin="+5V"/>
 <wire x1="157.48" y1="297.18" x2="132.08" y2="297.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="2B"/>
+<pinref part="U6" gate="G$1" pin="2B"/>
 <pinref part="SUPPLY29" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="167.64" x2="299.72" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -1426,12 +1470,12 @@ is the last position byte written.</text>
 <wire x1="139.7" y1="86.36" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY33" gate="+5V" pin="+5V"/>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY35" gate="+5V" pin="+5V"/>
 <wire x1="180.34" y1="86.36" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -1441,37 +1485,37 @@ is the last position byte written.</text>
 <wire x1="203.2" y1="86.36" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="SUPPLY39" gate="+5V" pin="+5V"/>
 <wire x1="223.52" y1="86.36" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY41" gate="+5V" pin="+5V"/>
 <wire x1="243.84" y1="86.36" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="!OE"/>
+<pinref part="U3" gate="G$1" pin="!OE"/>
 <wire x1="292.1" y1="342.9" x2="294.64" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="342.9" x2="294.64" y2="340.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="269.24" y1="342.9" x2="274.32" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="342.9" x2="269.24" y2="340.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="274.32" y1="302.26" x2="269.24" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="302.26" x2="269.24" y2="299.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="!OE"/>
+<pinref part="U4" gate="G$1" pin="!OE"/>
 <wire x1="292.1" y1="302.26" x2="294.64" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="302.26" x2="294.64" y2="299.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
@@ -1480,20 +1524,20 @@ is the last position byte written.</text>
 <wire x1="304.8" y1="231.14" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="309.88" y1="231.14" x2="304.8" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="160.02" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="309.88" y1="160.02" x2="304.8" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <junction x="304.8" y="160.02"/>
-<pinref part="U2" gate="G$1" pin="!1A"/>
+<pinref part="U6" gate="G$1" pin="!1A"/>
 <wire x1="304.8" y1="160.02" x2="304.8" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="182.88" x2="309.88" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="236.22" y1="246.38" x2="233.68" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="246.38" x2="233.68" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
@@ -1501,11 +1545,11 @@ is the last position byte written.</text>
 <segment>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <wire x1="350.52" y1="124.46" x2="350.52" y2="127" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="350.52" y1="127" x2="355.6" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P3" gate="G$1" pin="D"/>
+<pinref part="P1" gate="G$1" pin="D"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 <wire x1="157.48" y1="292.1" x2="132.08" y2="292.1" width="0.1524" layer="91"/>
 </segment>
@@ -1515,12 +1559,12 @@ is the last position byte written.</text>
 <wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="SUPPLY31" gate="GND" pin="GND"/>
 <wire x1="160.02" y1="71.12" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY34" gate="GND" pin="GND"/>
 <wire x1="180.34" y1="71.12" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -1530,12 +1574,12 @@ is the last position byte written.</text>
 <wire x1="203.2" y1="71.12" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <wire x1="223.52" y1="71.12" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
 <wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -1544,41 +1588,41 @@ is the last position byte written.</text>
 <segment>
 <label x="317.5" y="365.76" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="292.1" y1="365.76" x2="317.5" y2="365.76" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="Q0"/>
+<pinref part="U3" gate="G$1" pin="Q0"/>
 </segment>
 <segment>
 <label x="144.78" y="259.08" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="144.78" y1="259.08" x2="132.08" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="U"/>
+<pinref part="P1" gate="G$1" pin="U"/>
 </segment>
 </net>
 <net name="U_INTEN" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Q1"/>
+<pinref part="U3" gate="G$1" pin="Q1"/>
 <wire x1="292.1" y1="363.22" x2="342.9" y2="363.22" width="0.1524" layer="91"/>
 <label x="342.9" y="363.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <label x="144.78" y="254" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="132.08" y1="254" x2="144.78" y2="254" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="W"/>
+<pinref part="P1" gate="G$1" pin="W"/>
 </segment>
 </net>
 <net name="J_INTEN" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Q2"/>
+<pinref part="U3" gate="G$1" pin="Q2"/>
 <wire x1="292.1" y1="360.68" x2="317.5" y2="360.68" width="0.1524" layer="91"/>
 <label x="317.5" y="360.68" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <label x="160.02" y="256.54" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="132.08" y1="256.54" x2="160.02" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="V"/>
+<pinref part="P1" gate="G$1" pin="V"/>
 </segment>
 </net>
 <net name="DELAY_SELECT" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="1B"/>
+<pinref part="U1" gate="G$1" pin="1B"/>
 <wire x1="233.68" y1="261.62" x2="236.22" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="259.08" x2="233.68" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="259.08" x2="233.68" y2="261.62" width="0.1524" layer="91"/>
@@ -1586,10 +1630,10 @@ is the last position byte written.</text>
 <wire x1="233.68" y1="261.62" x2="233.68" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="269.24" x2="259.08" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="269.24" x2="259.08" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="4A"/>
+<pinref part="U1" gate="G$1" pin="4A"/>
 <wire x1="259.08" y1="259.08" x2="254" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="1A"/>
-<pinref part="U4" gate="G$1" pin="Q3"/>
+<pinref part="U1" gate="G$1" pin="1A"/>
+<pinref part="U3" gate="G$1" pin="Q3"/>
 <wire x1="292.1" y1="358.14" x2="307.34" y2="358.14" width="0.1524" layer="91"/>
 <label x="342.9" y="358.14" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <label x="342.9" y="358.14" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -1602,124 +1646,124 @@ is the last position byte written.</text>
 </net>
 <net name="J_JUMP" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Q5"/>
+<pinref part="U3" gate="G$1" pin="Q5"/>
 <wire x1="292.1" y1="353.06" x2="342.9" y2="353.06" width="0.1524" layer="91"/>
 <label x="342.9" y="353.06" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <label x="160.02" y="281.94" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="132.08" y1="281.94" x2="160.02" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="J"/>
+<pinref part="P1" gate="G$1" pin="J"/>
 </segment>
 </net>
 <net name="K_JUMP" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Q6"/>
+<pinref part="U3" gate="G$1" pin="Q6"/>
 <wire x1="292.1" y1="350.52" x2="317.5" y2="350.52" width="0.1524" layer="91"/>
 <label x="317.5" y="350.52" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="279.4" x2="144.78" y2="279.4" width="0.1524" layer="91"/>
 <label x="144.78" y="279.4" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="K"/>
+<pinref part="P1" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="L_JUMP" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Q7"/>
+<pinref part="U3" gate="G$1" pin="Q7"/>
 <wire x1="292.1" y1="347.98" x2="342.9" y2="347.98" width="0.1524" layer="91"/>
 <label x="342.9" y="347.98" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="276.86" x2="160.02" y2="276.86" width="0.1524" layer="91"/>
 <label x="160.02" y="276.86" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="L"/>
+<pinref part="P1" gate="G$1" pin="L"/>
 </segment>
 </net>
 <net name="JUMP_UP" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="Q0"/>
+<pinref part="U4" gate="G$1" pin="Q0"/>
 <wire x1="292.1" y1="325.12" x2="317.5" y2="325.12" width="0.1524" layer="91"/>
 <label x="317.5" y="325.12" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="355.6" y1="139.7" x2="314.96" y2="139.7" width="0.1524" layer="91"/>
 <label x="314.96" y="139.7" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="1B"/>
+<pinref part="U5" gate="G$1" pin="1B"/>
 </segment>
 </net>
 <net name="JUMP_DOWN" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="Q1"/>
+<pinref part="U4" gate="G$1" pin="Q1"/>
 <wire x1="292.1" y1="322.58" x2="342.9" y2="322.58" width="0.1524" layer="91"/>
 <label x="342.9" y="322.58" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="355.6" y1="132.08" x2="314.96" y2="132.08" width="0.1524" layer="91"/>
 <label x="314.96" y="132.08" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="2B"/>
+<pinref part="U5" gate="G$1" pin="2B"/>
 </segment>
 </net>
 <net name="JUMP_RIGHT" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="Q2"/>
+<pinref part="U4" gate="G$1" pin="Q2"/>
 <wire x1="292.1" y1="320.04" x2="317.5" y2="320.04" width="0.1524" layer="91"/>
 <label x="317.5" y="320.04" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="373.38" y1="137.16" x2="419.1" y2="137.16" width="0.1524" layer="91"/>
 <label x="419.1" y="137.16" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="4B"/>
+<pinref part="U5" gate="G$1" pin="4B"/>
 </segment>
 </net>
 <net name="JUMP_LEFT" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="Q3"/>
+<pinref part="U4" gate="G$1" pin="Q3"/>
 <wire x1="292.1" y1="317.5" x2="342.9" y2="317.5" width="0.1524" layer="91"/>
 <label x="342.9" y="317.5" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="373.38" y1="129.54" x2="419.1" y2="129.54" width="0.1524" layer="91"/>
 <label x="419.1" y="129.54" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="3B"/>
+<pinref part="U5" gate="G$1" pin="3B"/>
 </segment>
 </net>
 <net name="LE3" class="0">
 <segment>
 <label x="215.9" y="251.46" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U5" gate="G$1" pin="2B"/>
+<pinref part="U1" gate="G$1" pin="2B"/>
 <wire x1="215.9" y1="251.46" x2="228.6" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="251.46" x2="236.22" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="251.46" x2="228.6" y2="274.32" width="0.1524" layer="91"/>
 <junction x="228.6" y="251.46"/>
 <wire x1="228.6" y1="274.32" x2="266.7" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="274.32" x2="266.7" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="4B"/>
+<pinref part="U1" gate="G$1" pin="4B"/>
 <wire x1="266.7" y1="256.54" x2="254" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="256.54" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
 <junction x="266.7" y="256.54"/>
-<pinref part="U2" gate="G$1" pin="1B"/>
+<pinref part="U6" gate="G$1" pin="1B"/>
 <wire x1="309.88" y1="180.34" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P3" gate="G$1" pin="18"/>
+<pinref part="P1" gate="G$1" pin="18"/>
 <wire x1="111.76" y1="256.54" x2="96.52" y2="256.54" width="0.1524" layer="91"/>
 <label x="96.52" y="256.54" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="1C"/>
+<pinref part="U2" gate="G$1" pin="1C"/>
 <wire x1="327.66" y1="259.08" x2="347.98" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="1R/C"/>
+<pinref part="U2" gate="G$1" pin="1R/C"/>
 <wire x1="327.66" y1="254" x2="373.38" y2="254" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="254" x2="373.38" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="259.08" x2="355.6" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="R1" gate="&gt;NAME" pin="P$2"/>
 <wire x1="381" y1="254" x2="373.38" y2="254" width="0.1524" layer="91"/>
@@ -1732,15 +1776,15 @@ is the last position byte written.</text>
 <net name="N$3" class="0">
 <segment>
 <wire x1="327.66" y1="243.84" x2="347.98" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="2C"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="2C"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <wire x1="327.66" y1="238.76" x2="373.38" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="238.76" x2="373.38" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="243.84" x2="355.6" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="R3" gate="&gt;NAME" pin="P$2"/>
 <wire x1="381" y1="238.76" x2="373.38" y2="238.76" width="0.1524" layer="91"/>
@@ -1748,17 +1792,17 @@ is the last position byte written.</text>
 <pinref part="R4" gate="&gt;NAME" pin="P$2"/>
 <wire x1="381" y1="231.14" x2="373.38" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="231.14" x2="373.38" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="2R/C"/>
+<pinref part="U2" gate="G$1" pin="2R/C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <wire x1="373.38" y1="167.64" x2="373.38" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="172.72" x2="355.6" y2="172.72" width="0.1524" layer="91"/>
 <junction x="373.38" y="167.64"/>
 <wire x1="373.38" y1="160.02" x2="373.38" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="2R/C"/>
+<pinref part="U6" gate="G$1" pin="2R/C"/>
 <wire x1="373.38" y1="167.64" x2="327.66" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R7" gate="&gt;NAME" pin="P$2"/>
 <wire x1="381" y1="167.64" x2="373.38" y2="167.64" width="0.1524" layer="91"/>
@@ -1769,11 +1813,11 @@ is the last position byte written.</text>
 <net name="N$8" class="0">
 <segment>
 <wire x1="373.38" y1="182.88" x2="373.38" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="187.96" x2="355.6" y2="187.96" width="0.1524" layer="91"/>
 <junction x="373.38" y="182.88"/>
 <wire x1="373.38" y1="175.26" x2="373.38" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="1R/C"/>
+<pinref part="U6" gate="G$1" pin="1R/C"/>
 <wire x1="327.66" y1="182.88" x2="373.38" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R6" gate="&gt;NAME" pin="P$2"/>
 <wire x1="381" y1="175.26" x2="373.38" y2="175.26" width="0.1524" layer="91"/>
@@ -1783,85 +1827,85 @@ is the last position byte written.</text>
 </net>
 <net name="INTENSIFY" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Q4"/>
+<pinref part="U3" gate="G$1" pin="Q4"/>
 <wire x1="292.1" y1="355.6" x2="317.5" y2="355.6" width="0.1524" layer="91"/>
 <label x="317.5" y="355.6" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="309.88" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
 <label x="220.98" y="162.56" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="U2" gate="G$1" pin="!2CLR"/>
+<pinref part="U6" gate="G$1" pin="!2CLR"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="1Y"/>
+<pinref part="U1" gate="G$1" pin="1Y"/>
 <wire x1="236.22" y1="256.54" x2="233.68" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="256.54" x2="233.68" y2="254" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="2A"/>
+<pinref part="U1" gate="G$1" pin="2A"/>
 <wire x1="233.68" y1="254" x2="236.22" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="4Y"/>
+<pinref part="U1" gate="G$1" pin="4Y"/>
 <wire x1="254" y1="254" x2="309.88" y2="254" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="!1A"/>
+<pinref part="U2" gate="G$1" pin="!1A"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="2Y"/>
+<pinref part="U1" gate="G$1" pin="2Y"/>
 <wire x1="236.22" y1="248.92" x2="228.6" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="248.92" x2="228.6" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="233.68" x2="281.94" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="!2A"/>
+<pinref part="U2" gate="G$1" pin="!2A"/>
 <wire x1="281.94" y1="241.3" x2="309.88" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="!1Q"/>
+<pinref part="U2" gate="G$1" pin="!1Q"/>
 <wire x1="327.66" y1="251.46" x2="335.28" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="251.46" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="218.44" x2="276.86" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="218.44" x2="276.86" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="3A"/>
+<pinref part="U1" gate="G$1" pin="3A"/>
 <wire x1="276.86" y1="251.46" x2="254" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="3B"/>
+<pinref part="U1" gate="G$1" pin="3B"/>
 <wire x1="254" y1="248.92" x2="271.78" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="248.92" x2="271.78" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="213.36" x2="340.36" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="213.36" x2="340.36" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="!2Q"/>
+<pinref part="U2" gate="G$1" pin="!2Q"/>
 <wire x1="340.36" y1="236.22" x2="327.66" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="3Y"/>
+<pinref part="U1" gate="G$1" pin="3Y"/>
 <wire x1="254" y1="246.38" x2="261.62" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="246.38" x2="261.62" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="!2A"/>
+<pinref part="U6" gate="G$1" pin="!2A"/>
 <wire x1="309.88" y1="170.18" x2="261.62" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="1C"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="U6" gate="G$1" pin="1C"/>
 <wire x1="347.98" y1="187.96" x2="327.66" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="2C"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="U6" gate="G$1" pin="2C"/>
 <wire x1="347.98" y1="172.72" x2="327.66" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1870,19 +1914,19 @@ is the last position byte written.</text>
 <wire x1="342.9" y1="177.8" x2="342.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="149.86" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="142.24" x2="355.6" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="1Q"/>
+<pinref part="U6" gate="G$1" pin="1Q"/>
 <wire x1="327.66" y1="177.8" x2="342.9" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="1A"/>
-<pinref part="U6" gate="G$1" pin="4A"/>
+<pinref part="U5" gate="G$1" pin="1A"/>
+<pinref part="U5" gate="G$1" pin="4A"/>
 <wire x1="373.38" y1="139.7" x2="391.16" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="139.7" x2="391.16" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="149.86" x2="342.9" y2="149.86" width="0.1524" layer="91"/>
 <junction x="342.9" y="149.86"/>
-<pinref part="U6" gate="G$1" pin="3A"/>
+<pinref part="U5" gate="G$1" pin="3A"/>
 <wire x1="373.38" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="132.08" x2="391.16" y2="139.7" width="0.1524" layer="91"/>
 <junction x="391.16" y="139.7"/>
-<pinref part="U6" gate="G$1" pin="2A"/>
+<pinref part="U5" gate="G$1" pin="2A"/>
 <wire x1="355.6" y1="134.62" x2="342.9" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="134.62" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
 <junction x="342.9" y="142.24"/>
@@ -1890,55 +1934,55 @@ is the last position byte written.</text>
 </net>
 <net name="HORIZ_U" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="3Y"/>
+<pinref part="U5" gate="G$1" pin="3Y"/>
 <wire x1="373.38" y1="127" x2="398.78" y2="127" width="0.1524" layer="91"/>
 <label x="398.78" y="127" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <label x="144.78" y="264.16" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="132.08" y1="264.16" x2="144.78" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="S"/>
+<pinref part="P1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="HORIZ_F" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="4Y"/>
+<pinref part="U5" gate="G$1" pin="4Y"/>
 <wire x1="373.38" y1="134.62" x2="398.78" y2="134.62" width="0.1524" layer="91"/>
 <label x="398.78" y="134.62" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <label x="160.02" y="266.7" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="132.08" y1="266.7" x2="160.02" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="R"/>
+<pinref part="P1" gate="G$1" pin="R"/>
 </segment>
 </net>
 <net name="VERT_F" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="1Y"/>
+<pinref part="U5" gate="G$1" pin="1Y"/>
 <wire x1="355.6" y1="137.16" x2="335.28" y2="137.16" width="0.1524" layer="91"/>
 <label x="335.28" y="137.16" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <label x="160.02" y="271.78" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="132.08" y1="271.78" x2="160.02" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="N"/>
+<pinref part="P1" gate="G$1" pin="N"/>
 </segment>
 </net>
 <net name="VERT_U" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="2Y"/>
+<pinref part="U5" gate="G$1" pin="2Y"/>
 <wire x1="335.28" y1="129.54" x2="355.6" y2="129.54" width="0.1524" layer="91"/>
 <label x="335.28" y="129.54" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="269.24" x2="132.08" y2="269.24" width="0.1524" layer="91"/>
 <label x="144.78" y="269.24" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="P"/>
+<pinref part="P1" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="INTENSIFY_P" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="!2Q"/>
+<pinref part="U6" gate="G$1" pin="!2Q"/>
 <wire x1="327.66" y1="165.1" x2="335.28" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="165.1" x2="335.28" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
@@ -1947,26 +1991,26 @@ is the last position byte written.</text>
 <segment>
 <wire x1="160.02" y1="251.46" x2="132.08" y2="251.46" width="0.1524" layer="91"/>
 <label x="160.02" y="251.46" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="X"/>
+<pinref part="P1" gate="G$1" pin="X"/>
 </segment>
 </net>
 <net name="+15V" class="0">
 <segment>
 <pinref part="SUPPLY25" gate="+15V" pin="+15V"/>
-<pinref part="P3" gate="G$1" pin="E"/>
+<pinref part="P1" gate="G$1" pin="E"/>
 <wire x1="144.78" y1="289.56" x2="132.08" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-15V" class="0">
 <segment>
-<pinref part="P3" gate="G$1" pin="C"/>
+<pinref part="P1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY27" gate="G$1" pin="-15V"/>
 <wire x1="144.78" y1="294.64" x2="132.08" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+10V" class="0">
 <segment>
-<pinref part="P3" gate="G$1" pin="A"/>
+<pinref part="P1" gate="G$1" pin="A"/>
 <pinref part="SUPPLY28" gate="G$1" pin="+10V"/>
 <wire x1="144.78" y1="299.72" x2="132.08" y2="299.72" width="0.1524" layer="91"/>
 </segment>
