@@ -9,7 +9,7 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="VCC" color="40" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="GND" color="14" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -110,7 +110,7 @@
 <layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="134" name="logo" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="logo" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -1470,28 +1470,28 @@ design rules under a new name.</description>
 <approved hash="4,1,b06a924f6bbf4fbe"/>
 <approved hash="4,1,98f3897b9f6c6a2e"/>
 <approved hash="4,1,6299dfc4eebdbdbe"/>
-<approved hash="4,16,e7873be0c0db19dc"/>
-<approved hash="4,16,0aa23ff7c307f4f6"/>
-<approved hash="4,16,3a9928f2d250c4ab"/>
-<approved hash="4,16,cbf1eec414300b21"/>
-<approved hash="4,16,6c50b7bb4df99462"/>
 <approved hash="4,16,c4f4fddf050d3a16"/>
-<approved hash="4,16,6f3b5a9ea0ce974f"/>
-<approved hash="4,16,8fe7729644d58c6c"/>
-<approved hash="4,16,ade294cd6e375128"/>
-<approved hash="4,16,783e6a8990a38614"/>
-<approved hash="4,16,50ab7104894eaef1"/>
-<approved hash="4,16,dc01856a7e682153"/>
-<approved hash="4,16,25b41e19e645dbc4"/>
-<approved hash="4,16,cd7cf5510c9d328c"/>
 <approved hash="4,16,d9df89b272e226e3"/>
-<approved hash="4,16,78790cb4f750b06d"/>
-<approved hash="4,16,b06a924f6bbf4fbe"/>
-<approved hash="4,16,becd9b205f6c401d"/>
-<approved hash="4,16,876fbcb846927885"/>
+<approved hash="4,16,ade294cd6e375128"/>
+<approved hash="4,16,cbf1eec414300b21"/>
 <approved hash="4,16,4146622b981bbe8a"/>
+<approved hash="4,16,e7873be0c0db19dc"/>
+<approved hash="4,16,50ab7104894eaef1"/>
+<approved hash="4,16,3a9928f2d250c4ab"/>
+<approved hash="4,16,0aa23ff7c307f4f6"/>
 <approved hash="4,16,96d8433db7696f68"/>
+<approved hash="4,16,6c50b7bb4df99462"/>
+<approved hash="4,16,8fe7729644d58c6c"/>
+<approved hash="4,16,becd9b205f6c401d"/>
+<approved hash="4,16,cd7cf5510c9d328c"/>
+<approved hash="4,16,25b41e19e645dbc4"/>
+<approved hash="4,16,78790cb4f750b06d"/>
+<approved hash="4,16,783e6a8990a38614"/>
 <approved hash="4,16,63bd5016a4449dbf"/>
+<approved hash="4,16,6f3b5a9ea0ce974f"/>
+<approved hash="4,16,876fbcb846927885"/>
+<approved hash="4,16,dc01856a7e682153"/>
+<approved hash="4,16,b06a924f6bbf4fbe"/>
 <approved hash="4,16,98f3897b9f6c6a2e"/>
 <approved hash="4,16,6299dfc4eebdbdbe"/>
 </errors>

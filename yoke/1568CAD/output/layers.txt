@@ -1,0 +1,9 @@
+cmp -> top copper
+dim -> board outline
+drd -> drill
+gnd -> inner layer above bottom copper
+plc -> silk screen
+sol -> bottom copper
+stc -> top soldermask
+sts -> bottom soldermask
+vcc -> inner layer below top copper

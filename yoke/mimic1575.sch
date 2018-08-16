@@ -1511,8 +1511,8 @@ Current Amplifier</text>
 <attribute name="NAME" x="214.63" y="164.1856" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="214.63" y="159.1056" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="U$1" gate="G$1" x="25.4" y="411.48"/>
-<instance part="U$2" gate="G$1" x="40.64" y="411.48"/>
+<instance part="U$1" gate="G$1" x="502.92" y="411.48"/>
+<instance part="U$2" gate="G$1" x="523.24" y="411.48"/>
 </instances>
 <busses>
 </busses>

@@ -1,0 +1,7 @@
+cmp -> top copper
+dim -> board outline
+drd -> drill
+plc -> silk screen
+sol -> bottom copper
+stc -> top soldermask
+sts -> bottom soldermask

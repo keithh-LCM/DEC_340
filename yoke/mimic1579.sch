@@ -1164,8 +1164,8 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <attribute name="NAME" x="324.612" y="222.758" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="324.612" y="212.852" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="U$2" gate="G$1" x="30.48" y="408.94"/>
-<instance part="U$1" gate="G$1" x="48.26" y="408.94"/>
+<instance part="U$2" gate="G$1" x="497.84" y="408.94"/>
+<instance part="U$1" gate="G$1" x="515.62" y="408.94"/>
 <instance part="C1" gate="G$1" x="215.9" y="365.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="209.804" y="368.681" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="217.424" y="368.681" size="1.9304" layer="96" font="vector" ratio="10"/>
