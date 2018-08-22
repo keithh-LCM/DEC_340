@@ -1,0 +1,32 @@
+BZX79-C56,133           60 V Zener Diode        10
+107TTA100M              100uF 100V              10
+TVX2C220MCD             22uF 160V                5
+ECQ-E2335JF             3.3uF 250V              10
+ECQ-E2223JFB            0.022uF 250V            20
+MFR-25FBF52-4K64        4.64 K 1/4 W            10
+RNF14FTD2K94            2.94 K 1/4 W            10
+RNF14FTD46K4            46.4 K 1/4 W            10
+RNF14FTD29K4            29.4 K 1/4 W            10
+MJ15016G                PNP TO-3                 5
+3006p-1-502LF           5K trim Pot              5
+SPR2CT521R333J          33 K 2 W                10
+MCF 2W 33K              33 K 2 W                10
+MCF 2W 100              100 ohm 2 W             10
+1N5271B-TP              100 V Zener Diode       10
+CRF-50JB-52-8K2         8.2K 1/2 W              10
+3006-7-105LF            1M trim Pot              5
+FG26X7R2j103KNT06       .01uF                   10
+MJ10007                 Darlington              10
+PRO2000201004JR500      1 M 2 W                 10
+1N754A                  6.8 V Zener Diode       10
+XXXXXXXX                0.33ohm 1/2 W           40
+ON3935E-R58             39K 2 W                 25
+RV4NAYSD102A            1K 2W Pot                4
+S-3302-AB               Jones Plug               1
+VHR-5N                  CONN HOUSING 5 POS      10
+VHR-3N                  CONN HOUSING 3 POS      10
+VHR-2N                  CONN HOUSING 2 POS      10
+B5PS-VH                 CONN HEADER 5 POS       10
+B3PS-VH                 CONN HEADER 3 POS       10
+B2PS-VH                 CONN HEADER 2 POS       10
+XXXXXXXX                TO-66 MOUNTING KIT      10

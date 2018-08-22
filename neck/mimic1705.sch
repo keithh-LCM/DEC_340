@@ -601,65 +601,6 @@ type 0309, grid 12.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="44PINEDGE" prefix="P">
-<description>44 PIN EDGE CONNECTOR FOR PCB</description>
-<gates>
-<gate name="G$1" symbol="44PINEDGE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="44PINEDGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="F" pad="F"/>
-<connect gate="G$1" pin="H" pad="H"/>
-<connect gate="G$1" pin="J" pad="J"/>
-<connect gate="G$1" pin="K" pad="K"/>
-<connect gate="G$1" pin="L" pad="L"/>
-<connect gate="G$1" pin="M" pad="M"/>
-<connect gate="G$1" pin="N" pad="N"/>
-<connect gate="G$1" pin="P" pad="P"/>
-<connect gate="G$1" pin="R" pad="R"/>
-<connect gate="G$1" pin="S" pad="S"/>
-<connect gate="G$1" pin="T" pad="T"/>
-<connect gate="G$1" pin="U" pad="U"/>
-<connect gate="G$1" pin="V" pad="V"/>
-<connect gate="G$1" pin="W" pad="W"/>
-<connect gate="G$1" pin="X" pad="X"/>
-<connect gate="G$1" pin="Y" pad="Y"/>
-<connect gate="G$1" pin="Z" pad="Z"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RES-V" prefix="R" uservalue="yes">
 <description>1/4 watt through hole size</description>
 <gates>
@@ -854,6 +795,65 @@ Illinois Capacitor  107TTA100M</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="44PINEDGE-M" prefix="P">
+<description>44 PIN EDGE CONNECTOR FOR PCB</description>
+<gates>
+<gate name="G$1" symbol="44PINEDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="44PINEDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="F" pad="F"/>
+<connect gate="G$1" pin="H" pad="H"/>
+<connect gate="G$1" pin="J" pad="J"/>
+<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="G$1" pin="L" pad="L"/>
+<connect gate="G$1" pin="M" pad="M"/>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="T" pad="T"/>
+<connect gate="G$1" pin="U" pad="U"/>
+<connect gate="G$1" pin="V" pad="V"/>
+<connect gate="G$1" pin="W" pad="W"/>
+<connect gate="G$1" pin="X" pad="X"/>
+<connect gate="G$1" pin="Y" pad="Y"/>
+<connect gate="G$1" pin="Z" pad="Z"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -915,18 +915,16 @@ Illinois Capacitor  107TTA100M</description>
 <packages>
 <package name="FIDUCIAL_1MM">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.127" layer="29">
-<vertex x="-1" y="0" curve="90"/>
-<vertex x="0" y="-1" curve="90"/>
-<vertex x="1" y="0" curve="90"/>
-<vertex x="0" y="1" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-1" y="0" curve="90"/>
-<vertex x="0" y="-1" curve="90"/>
-<vertex x="1" y="0" curve="90"/>
-<vertex x="0" y="1" curve="90"/>
-</polygon>
+<circle x="0" y="0" radius="0.635" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="1.143" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="0.762" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="0.889" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="1.016" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="1.143" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="1.016" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="0.889" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="0.762" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="0.635" width="0.127" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -963,7 +961,6 @@ Illinois Capacitor  107TTA100M</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_C_L" device=""/>
-<part name="P2" library="keiths" deviceset="44PINEDGE" device=""/>
 <part name="R2" library="keiths" deviceset="RES-V" device="" value="220K"/>
 <part name="SUPPLY1" library="keiths" deviceset="GND" device=""/>
 <part name="C2" library="keiths" deviceset="CAP_5MM" device="" value="0.01UF"/>
@@ -998,8 +995,11 @@ Illinois Capacitor  107TTA100M</description>
 <part name="D2" library="keiths" deviceset="1N4764A" device="" value="1N4764"/>
 <part name="D1" library="keiths" deviceset="BZV85-C56,113" device="" value="BZV85-C56,113"/>
 <part name="D4" library="keiths" deviceset="BZV85-C56,113" device="" value="BZV85-C56,113"/>
-<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="P2" library="keiths" deviceset="44PINEDGE-M" device=""/>
+<part name="SUPPLY40" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY45" library="keiths" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1018,11 +1018,11 @@ increase filliment current.</text>
 Zeners</text>
 <text x="292.1" y="233.68" size="3.81" layer="91" font="vector" ratio="10">60 Volt 
 Zeners</text>
+<text x="271.78" y="307.34" size="2.1844" layer="91" font="vector" ratio="10">Bias and Focus</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="452.12" y="0"/>
-<instance part="P2" gate="G$1" x="271.78" y="345.44"/>
 <instance part="R2" gate="G$1" x="299.72" y="106.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="301.752" y="107.95" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="301.752" y="105.41" size="1.6764" layer="96" font="vector" ratio="10"/>
@@ -1079,8 +1079,15 @@ Zeners</text>
 <attribute name="NAME" x="322.58" y="231.14" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="322.58" y="226.06" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="U$1" gate="G$1" x="477.52" y="398.78"/>
-<instance part="U$2" gate="G$1" x="497.84" y="398.78"/>
+<instance part="U$2" gate="G$1" x="510.54" y="53.34"/>
+<instance part="U$1" gate="G$1" x="530.86" y="53.34"/>
+<instance part="P2" gate="G$1" x="284.48" y="345.44"/>
+<instance part="SUPPLY40" gate="GND" x="248.92" y="363.22" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="245.491" y="362.585" size="1.9304" layer="96" font="vector" ratio="10" rot="MR0"/>
+</instance>
+<instance part="SUPPLY45" gate="GND" x="320.04" y="363.22" smashed="yes" rot="R90">
+<attribute name="VALUE" x="323.469" y="362.585" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1122,11 +1129,6 @@ Zeners</text>
 <pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<wire x1="281.94" y1="363.22" x2="289.56" y2="363.22" width="0.1524" layer="91"/>
-<label x="289.56" y="363.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P2" gate="G$1" pin="D"/>
-</segment>
-<segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="137.16" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
 <label x="175.26" y="177.8" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -1138,6 +1140,16 @@ Zeners</text>
 <junction x="157.48" y="152.4"/>
 <wire x1="157.48" y1="142.24" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="294.64" y1="363.22" x2="317.5" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY45" gate="GND" pin="GND"/>
+<pinref part="P2" gate="G$1" pin="D"/>
+</segment>
+<segment>
+<pinref part="SUPPLY40" gate="GND" pin="GND"/>
+<wire x1="251.46" y1="363.22" x2="274.32" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="P2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="GRID2" class="0">

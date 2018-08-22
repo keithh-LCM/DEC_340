@@ -473,7 +473,7 @@ rotated 45 deg.</description>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="PNP">
-<description>The 2N2907 is a commonly available PNP bipolar junction transistor used for general purpose low-power amplifying or switching applications. 
+<description>The 2N2907 is a commonly available PNP bipolar junction transistor used for general purpose low-power amplifying or switching applications.
 It is designed for low to medium current, low power, medium voltage, and can operate at moderately high speeds.</description>
 <wire x1="1.7812" y1="1.3732" x2="1.2732" y2="2.2892" width="0.1524" layer="94"/>
 <wire x1="1.2732" y1="2.2892" x2="0.2112" y2="1.1732" width="0.1524" layer="94"/>
@@ -518,6 +518,12 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 <text x="-5.08" y="6.096" size="1.9304" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 <pin name="3" x="-7.62" y="-2.54" length="short"/>
+</symbol>
+<symbol name="-15V">
+<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+<circle x="0" y="-1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-3.175" y="-4.699" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<pin name="-15V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -580,65 +586,6 @@ It is designed for low to medium current, low power, medium voltage, and can ope
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="44PINEDGE" prefix="P">
-<description>44 PIN EDGE CONNECTOR FOR PCB</description>
-<gates>
-<gate name="G$1" symbol="44PINEDGE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="44PINEDGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="F" pad="F"/>
-<connect gate="G$1" pin="H" pad="H"/>
-<connect gate="G$1" pin="J" pad="J"/>
-<connect gate="G$1" pin="K" pad="K"/>
-<connect gate="G$1" pin="L" pad="L"/>
-<connect gate="G$1" pin="M" pad="M"/>
-<connect gate="G$1" pin="N" pad="N"/>
-<connect gate="G$1" pin="P" pad="P"/>
-<connect gate="G$1" pin="R" pad="R"/>
-<connect gate="G$1" pin="S" pad="S"/>
-<connect gate="G$1" pin="T" pad="T"/>
-<connect gate="G$1" pin="U" pad="U"/>
-<connect gate="G$1" pin="V" pad="V"/>
-<connect gate="G$1" pin="W" pad="W"/>
-<connect gate="G$1" pin="X" pad="X"/>
-<connect gate="G$1" pin="Y" pad="Y"/>
-<connect gate="G$1" pin="Z" pad="Z"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -717,6 +664,78 @@ TE Connectivity RR02J33KTB</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="-15V" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="-15V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="44PINEDGE-M" prefix="P">
+<description>44 PIN EDGE CONNECTOR FOR PCB</description>
+<gates>
+<gate name="G$1" symbol="44PINEDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="44PINEDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="F" pad="F"/>
+<connect gate="G$1" pin="H" pad="H"/>
+<connect gate="G$1" pin="J" pad="J"/>
+<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="G$1" pin="L" pad="L"/>
+<connect gate="G$1" pin="M" pad="M"/>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="T" pad="T"/>
+<connect gate="G$1" pin="U" pad="U"/>
+<connect gate="G$1" pin="V" pad="V"/>
+<connect gate="G$1" pin="W" pad="W"/>
+<connect gate="G$1" pin="X" pad="X"/>
+<connect gate="G$1" pin="Y" pad="Y"/>
+<connect gate="G$1" pin="Z" pad="Z"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -778,18 +797,16 @@ TE Connectivity RR02J33KTB</description>
 <packages>
 <package name="FIDUCIAL_1MM">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.127" layer="29">
-<vertex x="-1" y="0" curve="90"/>
-<vertex x="0" y="-1" curve="90"/>
-<vertex x="1" y="0" curve="90"/>
-<vertex x="0" y="1" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-1" y="0" curve="90"/>
-<vertex x="0" y="-1" curve="90"/>
-<vertex x="1" y="0" curve="90"/>
-<vertex x="0" y="1" curve="90"/>
-</polygon>
+<circle x="0" y="0" radius="0.635" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="1.143" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="0.762" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="0.889" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="1.016" width="0.127" layer="29"/>
+<circle x="0" y="0" radius="1.143" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="1.016" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="0.889" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="0.762" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="0.635" width="0.127" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -814,6 +831,41 @@ TE Connectivity RR02J33KTB</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="+10V">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="3.175" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<pin name="+10V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="+10V" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+10V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -826,7 +878,6 @@ TE Connectivity RR02J33KTB</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_C_L" device=""/>
-<part name="P1" library="keiths" deviceset="44PINEDGE" device=""/>
 <part name="SUPPLY1" library="keiths" deviceset="GND" device=""/>
 <part name="R28" library="keiths" deviceset="R-1/4WATT" device="" value="11.3K"/>
 <part name="R21" library="keiths" deviceset="R-1/4WATT" device="" value="10K"/>
@@ -884,8 +935,13 @@ TE Connectivity RR02J33KTB</description>
 <part name="R15" library="keiths" deviceset="R-1/4WATT" device="" value="12.7K"/>
 <part name="R16" library="keiths" deviceset="R-1/4WATT" device="" value="23.7K"/>
 <part name="D5" library="keiths" deviceset="1N4148" device="" value="1N4148"/>
-<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="P1" library="keiths" deviceset="44PINEDGE-M" device=""/>
+<part name="SUPPLY40" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY45" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY46" library="keiths" deviceset="-15V" device=""/>
+<part name="SUPPLY47" library="supply2" deviceset="+10V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -906,11 +962,11 @@ enable emission.</text>
 <text x="322.58" y="111.76" size="3.81" layer="91" font="vector" ratio="10"> +5V       +5V       +5V        GND        -26.1 Volts</text>
 <text x="459.74" y="195.58" size="3.81" layer="91" font="vector" ratio="10">Connector to 
 mimic1705 bias.</text>
+<text x="73.66" y="180.34" size="2.1844" layer="91" font="vector" ratio="10">Variable Intensifier</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="452.12" y="0"/>
-<instance part="P1" gate="G$1" x="66.04" y="215.9"/>
 <instance part="SUPPLY1" gate="GND" x="368.3" y="358.14" rot="MR180"/>
 <instance part="R28" gate="&gt;NAME" x="226.06" y="96.52" smashed="yes" rot="MR90">
 <attribute name="NAME" x="227.584" y="98.298" size="1.9304" layer="95" font="vector" ratio="10"/>
@@ -1103,8 +1159,21 @@ mimic1705 bias.</text>
 <attribute name="NAME" x="313.69" y="226.06" size="1.9304" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="320.04" y="226.06" size="1.9304" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="U$1" gate="G$1" x="485.14" y="398.78"/>
-<instance part="U$2" gate="G$1" x="500.38" y="398.78"/>
+<instance part="U$2" gate="G$1" x="485.14" y="398.78"/>
+<instance part="U$1" gate="G$1" x="500.38" y="398.78"/>
+<instance part="P1" gate="G$1" x="88.9" y="218.44"/>
+<instance part="SUPPLY40" gate="GND" x="55.88" y="236.22" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="52.451" y="235.585" size="1.9304" layer="96" font="vector" ratio="10" rot="MR0"/>
+</instance>
+<instance part="SUPPLY45" gate="GND" x="127" y="236.22" smashed="yes" rot="R90">
+<attribute name="VALUE" x="130.429" y="235.585" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY46" gate="G$1" x="111.76" y="238.76" smashed="yes" rot="R90">
+<attribute name="VALUE" x="115.697" y="237.871" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY47" gate="G$1" x="111.76" y="243.84" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="115.824" y="244.729" size="1.9304" layer="96" font="vector" ratio="10" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1137,11 +1206,6 @@ mimic1705 bias.</text>
 <junction x="393.7" y="309.88"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="D"/>
-<wire x1="76.2" y1="233.68" x2="83.82" y2="233.68" width="0.1524" layer="91"/>
-<label x="83.82" y="233.68" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-<segment>
 <wire x1="436.88" y1="200.66" x2="429.26" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="429.26" y1="200.66" x2="429.26" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
@@ -1152,6 +1216,16 @@ mimic1705 bias.</text>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="210.82" y1="274.32" x2="210.82" y2="281.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="99.06" y1="236.22" x2="124.46" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY45" gate="GND" pin="GND"/>
+<pinref part="P1" gate="G$1" pin="D"/>
+</segment>
+<segment>
+<pinref part="SUPPLY40" gate="GND" pin="GND"/>
+<wire x1="58.42" y1="236.22" x2="78.74" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="4"/>
+</segment>
 </net>
 <net name="J_IN" class="0">
 <segment>
@@ -1160,9 +1234,9 @@ mimic1705 bias.</text>
 <wire x1="198.12" y1="180.34" x2="185.42" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<label x="109.22" y="226.06" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="J"/>
-<wire x1="76.2" y1="223.52" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
-<label x="83.82" y="223.52" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="99.06" y1="226.06" x2="109.22" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -1191,11 +1265,6 @@ mimic1705 bias.</text>
 <wire x1="261.62" y1="269.24" x2="261.62" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="C"/>
-<wire x1="76.2" y1="236.22" x2="111.76" y2="236.22" width="0.1524" layer="91"/>
-<label x="111.76" y="236.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-<segment>
 <label x="185.42" y="114.3" size="1.9304" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <pinref part="Q9" gate="G$1" pin="C"/>
 <wire x1="241.3" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
@@ -1214,6 +1283,11 @@ mimic1705 bias.</text>
 <pinref part="R17" gate="&gt;NAME" pin="P$2"/>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
 <junction x="226.06" y="160.02"/>
+</segment>
+<segment>
+<pinref part="SUPPLY46" gate="G$1" pin="-15V"/>
+<pinref part="P1" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="238.76" x2="109.22" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1236,9 +1310,9 @@ mimic1705 bias.</text>
 <pinref part="Q6" gate="G1" pin="B"/>
 </segment>
 <segment>
+<label x="124.46" y="203.2" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="U"/>
-<wire x1="76.2" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
-<label x="111.76" y="200.66" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="99.06" y1="203.2" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_IN" class="0">
@@ -1248,9 +1322,9 @@ mimic1705 bias.</text>
 <pinref part="Q7" gate="G1" pin="B"/>
 </segment>
 <segment>
+<label x="109.22" y="195.58" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="X"/>
-<wire x1="76.2" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
-<label x="83.82" y="193.04" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="99.06" y1="195.58" x2="109.22" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="U_IN1" class="0">
@@ -1313,9 +1387,9 @@ mimic1705 bias.</text>
 <wire x1="218.44" y1="292.1" x2="210.82" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<label x="124.46" y="213.36" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="P"/>
-<wire x1="76.2" y1="210.82" x2="111.76" y2="210.82" width="0.1524" layer="91"/>
-<label x="111.76" y="210.82" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="99.06" y1="213.36" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -1413,11 +1487,6 @@ mimic1705 bias.</text>
 </net>
 <net name="+10V" class="0">
 <segment>
-<pinref part="P1" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="241.3" x2="111.76" y2="241.3" width="0.1524" layer="91"/>
-<label x="111.76" y="241.3" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R28" gate="&gt;NAME" pin="P$1"/>
 <wire x1="226.06" y1="106.68" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R30" gate="&gt;NAME" pin="P$1"/>
@@ -1480,6 +1549,11 @@ mimic1705 bias.</text>
 <junction x="241.3" y="218.44"/>
 <pinref part="R16" gate="&gt;NAME" pin="P$1"/>
 <wire x1="264.16" y1="205.74" x2="241.3" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY47" gate="G$1" pin="+10V"/>
+<pinref part="P1" gate="G$1" pin="A"/>
+<wire x1="99.06" y1="243.84" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1556,8 +1630,8 @@ mimic1705 bias.</text>
 <wire x1="419.1" y1="289.56" x2="419.1" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="187.96" x2="111.76" y2="187.96" width="0.1524" layer="91"/>
-<label x="111.76" y="187.96" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="99.06" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
+<label x="124.46" y="190.5" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="Z"/>
 </segment>
 </net>
