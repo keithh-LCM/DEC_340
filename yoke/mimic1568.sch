@@ -1742,6 +1742,11 @@ latches that drove this network</text>
 <label x="406.4" y="284.48" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="R2" gate="&gt;NAME" pin="P$1"/>
 </segment>
+<segment>
+<label x="314.96" y="365.76" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="314.96" y1="365.76" x2="292.1" y2="365.76" width="0.1524" layer="91"/>
+<pinref part="P3" gate="G$1" pin="J"/>
+</segment>
 </net>
 <net name="N$44" class="0">
 <segment>
@@ -1792,6 +1797,11 @@ latches that drove this network</text>
 <label x="406.4" y="175.26" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
 <wire x1="398.78" y1="175.26" x2="406.4" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R3" gate="&gt;NAME" pin="P$1"/>
+</segment>
+<segment>
+<label x="299.72" y="363.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="292.1" y1="363.22" x2="299.72" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="P3" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1860,20 +1870,6 @@ latches that drove this network</text>
 <pinref part="U5" gate="G$1" pin="RFB"/>
 <pinref part="R4" gate="&gt;NAME" pin="P$2"/>
 <wire x1="312.42" y1="187.96" x2="327.66" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="X_DAC" class="0">
-<segment>
-<label x="314.96" y="365.76" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<wire x1="314.96" y1="365.76" x2="292.1" y2="365.76" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="J"/>
-</segment>
-</net>
-<net name="Y_DAC" class="0">
-<segment>
-<label x="299.72" y="363.22" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<wire x1="292.1" y1="363.22" x2="299.72" y2="363.22" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="K"/>
 </segment>
 </net>
 </nets>

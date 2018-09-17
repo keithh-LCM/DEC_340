@@ -277,6 +277,27 @@
 <wire x1="48.0054" y1="4.826" x2="48.0054" y2="-4.826" width="0.127" layer="21"/>
 <wire x1="-48.0054" y1="4.826" x2="-48.0054" y2="-4.826" width="0.127" layer="21"/>
 </package>
+<package name="PASSTHROUGH">
+<pad name="P$1" x="-41.6052" y="1.78" drill="1.7018"/>
+<pad name="P$3" x="-33.6804" y="1.78" drill="1.7018"/>
+<pad name="P$5" x="-25.7556" y="1.78" drill="1.7018"/>
+<pad name="P$7" x="5.9436" y="1.78" drill="1.7018"/>
+<pad name="P$2" x="-37.6428" y="-1.78" drill="1.7018"/>
+<pad name="P$4" x="-29.718" y="-1.78" drill="1.7018"/>
+<pad name="P$6" x="-21.7932" y="-1.78" drill="1.7018"/>
+<wire x1="-55.095" y1="4.826" x2="-55.095" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="-55.095" y1="-4.826" x2="-48.0054" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="-48.0054" y1="-4.826" x2="48.0054" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="48.0054" y1="-4.826" x2="55.095" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="55.095" y1="-4.826" x2="55.095" y2="4.826" width="0.127" layer="21"/>
+<wire x1="55.095" y1="4.826" x2="48.0054" y2="4.826" width="0.127" layer="21"/>
+<circle x="51.155" y="0" radius="1.78" width="0.127" layer="21"/>
+<circle x="-51.155" y="0" radius="1.78" width="0.127" layer="21"/>
+<wire x1="48.0054" y1="4.826" x2="-48.0054" y2="4.826" width="0.127" layer="21"/>
+<wire x1="-48.0054" y1="4.826" x2="-55.095" y2="4.826" width="0.127" layer="21"/>
+<wire x1="48.0054" y1="4.826" x2="48.0054" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="-48.0054" y1="4.826" x2="-48.0054" y2="-4.826" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="+05V">
@@ -290,7 +311,7 @@
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-1.905" y="-3.175" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="-3.556" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="44PINEDGE">
@@ -357,6 +378,28 @@
 <circle x="0" y="-1.27" radius="1.27" width="0.254" layer="94"/>
 <text x="-3.175" y="-4.699" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 <pin name="-15V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="+50V">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.905" y="3.175" size="1.9304" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<pin name="+50V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="PASSTHROUGH">
+<wire x1="-5.08" y1="26.67" x2="5.08" y2="26.67" width="0.254" layer="94"/>
+<wire x1="5.08" y1="26.67" x2="5.08" y2="-29.21" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-29.21" x2="-5.08" y2="-29.21" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-29.21" x2="-5.08" y2="26.67" width="0.254" layer="94"/>
+<text x="-3.81" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-31.75" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="10.16" y="25.4" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="10.16" y="22.86" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="10.16" y="20.32" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="17.78" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="10.16" y="15.24" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="12.7" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="0" visible="pin" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -530,6 +573,41 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="+50V" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="+50V" symbol="+50V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PASSTHROUGH" prefix="P">
+<description>Custom card slot power passthrough.</description>
+<gates>
+<gate name="G$1" symbol="PASSTHROUGH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PASSTHROUGH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply2">
@@ -614,7 +692,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P7" library="keiths" deviceset="44PINEDGE" device="CONNECTOR"/>
 <part name="P8" library="keiths" deviceset="44PINEDGE" device="CONNECTOR"/>
 <part name="P9" library="keiths" deviceset="44PINEDGE-F" device="CONNECTOR"/>
-<part name="P10" library="keiths" deviceset="44PINEDGE" device="CONNECTOR"/>
 <part name="P11" library="keiths" deviceset="44PINEDGE" device="CONNECTOR"/>
 <part name="P12" library="keiths" deviceset="44PINEDGE" device="CONNECTOR"/>
 <part name="SUPPLY7" library="keiths" deviceset="-15V" device=""/>
@@ -657,6 +734,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY49" library="keiths" deviceset="-15V" device=""/>
 <part name="SUPPLY50" library="keiths" deviceset="-15V" device=""/>
 <part name="SUPPLY51" library="keiths" deviceset="+15V" device=""/>
+<part name="SUPPLY3" library="keiths" deviceset="+50V" device=""/>
+<part name="SUPPLY25" library="keiths" deviceset="+50V" device=""/>
+<part name="SUPPLY27" library="keiths" deviceset="+50V" device=""/>
+<part name="SUPPLY28" library="keiths" deviceset="+5V" device=""/>
+<part name="SUPPLY45" library="keiths" deviceset="GND" device=""/>
+<part name="SUPPLY52" library="supply2" deviceset="+10V" device=""/>
+<part name="SUPPLY53" library="keiths" deviceset="-15V" device=""/>
+<part name="SUPPLY56" library="keiths" deviceset="+15V" device=""/>
+<part name="SUPPLY57" library="supply2" deviceset="-10V" device=""/>
+<part name="P13" library="keiths" deviceset="PASSTHROUGH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -672,6 +759,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="198.12" y="149.86" size="2.1844" layer="91" font="vector" ratio="10">Y Preamplifier</text>
 <text x="325.12" y="149.86" size="2.1844" layer="91" font="vector" ratio="10">Variable Intensifier</text>
 <text x="457.2" y="149.86" size="2.1844" layer="91" font="vector" ratio="10">Bias and Focus</text>
+<text x="73.66" y="322.58" size="2.1844" layer="91" font="vector" ratio="10">Power</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -741,10 +829,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P9" gate="G$1" x="210.82" y="101.6" smashed="yes">
 <attribute name="NAME" x="207.01" y="129.54" size="1.778" layer="95"/>
 <attribute name="VALUE" x="205.74" y="69.85" size="1.778" layer="96"/>
-</instance>
-<instance part="P10" gate="G$1" x="78.74" y="360.68" smashed="yes">
-<attribute name="NAME" x="74.93" y="388.62" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.66" y="328.93" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P11" gate="G$1" x="469.9" y="187.96" smashed="yes">
 <attribute name="NAME" x="466.09" y="215.9" size="1.778" layer="95"/>
@@ -873,6 +957,37 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="SUPPLY51" gate="+15V" x="449.58" y="375.92" smashed="yes" rot="R90">
 <attribute name="VALUE" x="445.516" y="376.809" size="1.9304" layer="96" font="vector" ratio="10" rot="R180"/>
+</instance>
+<instance part="SUPPLY3" gate="+50V" x="114.3" y="360.68" smashed="yes" rot="R270">
+<attribute name="VALUE" x="117.729" y="359.791" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY25" gate="+50V" x="114.3" y="187.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="117.729" y="187.071" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY27" gate="+50V" x="246.38" y="187.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="249.809" y="187.071" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY28" gate="+5V" x="99.06" y="383.54" smashed="yes" rot="R270">
+<attribute name="VALUE" x="102.489" y="382.397" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY45" gate="GND" x="99.06" y="378.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="102.489" y="377.825" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY52" gate="G$1" x="114.3" y="386.08" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="118.364" y="386.969" size="1.9304" layer="96" font="vector" ratio="10" rot="MR180"/>
+</instance>
+<instance part="SUPPLY53" gate="G$1" x="114.3" y="381" smashed="yes" rot="R90">
+<attribute name="VALUE" x="118.237" y="380.111" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY56" gate="+15V" x="99.06" y="373.38" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="103.124" y="374.269" size="1.9304" layer="96" font="vector" ratio="10" rot="MR180"/>
+</instance>
+<instance part="SUPPLY57" gate="G$1" x="114.3" y="375.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="118.237" y="374.777" size="1.9304" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="P13" gate="G$1" x="78.74" y="360.68" smashed="yes">
+<attribute name="NAME" x="74.93" y="388.62" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="328.93" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -1054,6 +1169,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="243.84" y1="383.54" x2="220.98" y2="383.54" width="0.1524" layer="91"/>
 <pinref part="P2" gate="G$1" pin="B"/>
 </segment>
+<segment>
+<pinref part="P13" gate="G$1" pin="2"/>
+<pinref part="SUPPLY28" gate="+5V" pin="+5V"/>
+<wire x1="96.52" y1="383.54" x2="88.9" y2="383.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -1165,6 +1285,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <pinref part="P6" gate="G$1" pin="4"/>
 <wire x1="45.72" y1="205.74" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P13" gate="G$1" pin="4"/>
+<pinref part="SUPPLY45" gate="GND" pin="GND"/>
+<wire x1="96.52" y1="378.46" x2="88.9" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_INTEN" class="0">
@@ -1332,6 +1457,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="P3" gate="G$1" pin="5"/>
 <wire x1="452.12" y1="375.92" x2="459.74" y2="375.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P13" gate="G$1" pin="6"/>
+<pinref part="SUPPLY56" gate="+15V" pin="+15V"/>
+<wire x1="96.52" y1="373.38" x2="88.9" y2="373.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="-15V" class="0">
 <segment>
@@ -1394,6 +1524,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="P4" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="294.64" x2="68.58" y2="294.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P13" gate="G$1" pin="3"/>
+<pinref part="SUPPLY53" gate="G$1" pin="-15V"/>
+<wire x1="111.76" y1="381" x2="88.9" y2="381" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+10V" class="0">
 <segment>
@@ -1415,6 +1550,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="P12" gate="G$1" pin="A"/>
 <wire x1="353.06" y1="213.36" x2="360.68" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY44" gate="G$1" pin="+10V"/>
+</segment>
+<segment>
+<pinref part="P13" gate="G$1" pin="1"/>
+<pinref part="SUPPLY52" gate="G$1" pin="+10V"/>
+<wire x1="111.76" y1="386.08" x2="88.9" y2="386.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Y_LSB" class="0">
@@ -1556,17 +1696,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY9" gate="G$1" pin="-10V"/>
 <wire x1="353.06" y1="289.56" x2="360.68" y2="289.56" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="+50V" class="0">
 <segment>
-<label x="111.76" y="187.96" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P6" gate="G$1" pin="M"/>
-<wire x1="88.9" y1="187.96" x2="111.76" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="243.84" y="187.96" size="1.9304" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="P7" gate="G$1" pin="M"/>
-<wire x1="220.98" y1="187.96" x2="243.84" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="P13" gate="G$1" pin="5"/>
+<pinref part="SUPPLY57" gate="G$1" pin="-10V"/>
+<wire x1="111.76" y1="375.92" x2="88.9" y2="375.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CATHODE" class="0">
@@ -1616,6 +1749,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="P1" gate="G$1" pin="C"/>
 <wire x1="360.68" y1="381" x2="353.06" y2="381" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+50V" class="0">
+<segment>
+<pinref part="SUPPLY27" gate="+50V" pin="+50V"/>
+<pinref part="P7" gate="G$1" pin="M"/>
+<wire x1="220.98" y1="187.96" x2="243.84" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P6" gate="G$1" pin="M"/>
+<pinref part="SUPPLY25" gate="+50V" pin="+50V"/>
+<wire x1="111.76" y1="187.96" x2="88.9" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P13" gate="G$1" pin="7"/>
+<pinref part="SUPPLY3" gate="+50V" pin="+50V"/>
+<wire x1="111.76" y1="360.68" x2="88.9" y2="360.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

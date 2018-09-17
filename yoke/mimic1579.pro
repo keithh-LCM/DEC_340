@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/KeithH/eagle/DEC340/yoke/mimic1579.brd
 
-Start at      : 16:39:00 (7/19/2018)
-End at        : 16:39:02 (7/19/2018)
-Elapsed time  : 00:00:01
+Start at      : 16:34:10 (8/31/2018)
+End at        : 16:00:00 (12/31/1969)
+Elapsed time  : 00:00:00
 
-Signals       :    43   RoutingGrid: 9 mil  Layers: 2
-Connections   :   130   predefined:  130 ( 7 Vias )
+Signals       :    44   RoutingGrid: 9 mil  Layers: 2
+Connections   :   132   predefined:  131 ( 11 Vias )
 
 Router memory :   1491488
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:00
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
 
-Routed            :         0         0         0         0         0         0
-Vias              :         0         0         0         0         0         0
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0
+Vias              :         0
+Resolution        :    99.2 %
 
-Final             : 100.0% finished
+Final             : 99.2% finished
